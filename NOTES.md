@@ -9,7 +9,6 @@ Powerbank with Tracker
 * Light (in weight)
 * Thermistor (stop on overheat)
 
-
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
 * 1200 mAh @ Rp 5.738 https://www.tokopedia.com/lbagstore/baterai-recharge-18650-3-7v-flat-top-button-datar-senter-kipas-lampu
