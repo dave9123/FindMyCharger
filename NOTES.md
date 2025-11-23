@@ -1,11 +1,11 @@
 Powerbank with Tracker
 * BLE (for https://github.com/dchristl/macless-haystack and https://github.com/leonboe1/GoogleFindMyTools)
-* Power Delivery and Quick Charge (for high speed charging): STUSB4700 (?)
+* Power Delivery and Quick Charge (for high speed charging): MAX77958EWV+T (EWV is lead free, T is sealed (?))
 * Built-in USB C cable for output
 * Battery indicator (LED or screen)
 * 3x 18650 Li-on batteries
 * nRF54L15 SoC
-* Battery Management System (BMS): Maxim MAX17320X20+T https://www.mouser.co.id/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17320X20+T or TI BQ41Z50 https://www.ti.com/product/BQ41Z50
+* Battery Management System (BMS): Maxim MAX17320X20+T https://www.mouser.co.id/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17320X20+T
 * Light (in weight)
 * Thermistor (stop on overheat)
 
