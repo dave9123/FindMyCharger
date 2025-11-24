@@ -5,9 +5,10 @@ Powerbank with Tracker
 * Battery indicator (LED or screen)
 * 3x 18650 Li-on batteries
 * nRF54L15 SoC
-* Battery Management System (BMS): Maxim MAX17320X20+T https://www.mouser.co.id/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17320X20+T
+* Battery Management System (BMS): Maxim MAX17320X20+T https://www.mouser.co.id/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17320X20%2bT?qs=W%2FMpXkg%252BdQ5Qm9hX2ztghQ%3D%3D
 * Light (in weight)
 * Thermistor (stop on overheat)
+* BOM https://docs.google.com/spreadsheets/d/1hIzFk7VpzFUyE0Nlcrc1xWnVTtqv2BH0UQ99vOO1Ge8/view
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
@@ -17,5 +18,10 @@ Battery (18650)
 * 2600 mAh @ Rp 23.300 https://www.tokopedia.com/ebikejakartacom/li-ion-18650-dmegc-inr18650-26e-2600mah-discharg-5c-15a-3-7v-flat-head
 * 2900 mAh @ Rp 32.050 https://www.tokopedia.com/ebikejakartacom/li-ion-18650-dmegc-inr18650-29-2900mah-discharg-3c-10a-3-7v-flat-head
 
-Places to source
-- Mouser Indonesia, DigiKey Indonesia, RS Components, Future Electronics, Arrow Electronics, TTI Asia, Chipdistribution Indonesia
+Great place to find symbols and footprints
+- https://www.ultralibrarian.com/
+- https://www.snapeda.com/
+- https://componentsearchengine.com/
+
+Places to source things
+- Mouser Indonesia, DigiKey Indonesia, RS Components, Future Electronics, Arrow Electronics, TTI Asia, Chipdistribution Indonesia, Tokopedia

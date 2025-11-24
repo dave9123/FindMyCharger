@@ -2,3 +2,4 @@
 .obsidian
 ~*.lck
 *-backups
+fp-info-cache

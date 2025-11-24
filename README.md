@@ -2,6 +2,9 @@
 
 A smart powerbank with locating capabilities-ish ;p
 
+## Libraries
+- NRF54L15-QFAA-R7 from https://github.com/hlord2000/nordic-lib-kicad
+
 ## To Do
 - Find appropriate thermistor
 - Find KiCad symbol and footprints or make them
