@@ -16,3 +16,6 @@ Battery (18650)
 * !! (REPORTED 800 mAh) 3000 mAh 3.7V @ Rp 8.800 https://www.tokopedia.com/harry-howard/baterai-18650-3000mah-3-7v-grade-a-rechargeable-lithium-li-ion-ori-datar-cac90
 * 2600 mAh @ Rp 23.300 https://www.tokopedia.com/ebikejakartacom/li-ion-18650-dmegc-inr18650-26e-2600mah-discharg-5c-15a-3-7v-flat-head
 * 2900 mAh @ Rp 32.050 https://www.tokopedia.com/ebikejakartacom/li-ion-18650-dmegc-inr18650-29-2900mah-discharg-3c-10a-3-7v-flat-head
+
+Places to source
+- Mouser Indonesia, DigiKey Indonesia, RS Components, Future Electronics, Arrow Electronics, TTI Asia, Chipdistribution Indonesia
