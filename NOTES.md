@@ -12,6 +12,7 @@ Powerbank with Tracker
 * Maybe opt for WLCSP (ultra small) version of components for production (?) going to be harder to hand solder for sure
 * Breakout programming pins to flash and debug
 * Wouldn't opt for 20V because of the inefficiency, set it to MAX77958's non-volatile memory (PDO list) to make it persistent
+* Reference schematic design https://www.analog.com/en/resources/reference-designs/maxrefdes179.html#rd-overview
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
