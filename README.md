@@ -8,6 +8,7 @@ A smart powerbank with locating capabilities-ish ;p
 - MAX17320G20+T from https://app.ultralibrarian.com/details/026893ae-c091-11ea-b5d0-0aebb021a1ea/Analog-Devices-Maxim-Integrated/MAX17320G20-T?uid=130057371
 
 ## To Do
+- Figure out step down for PD
 - Research for best wiring
 - Design PCB
 - Write firmware
