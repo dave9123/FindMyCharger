@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP81599MNTXG
+D I2C interface; Switching frequency from 150 kHz to 1200 kHz; Slew rate control during transition; Supports USB-PD requirements; Overvoltage and overcurrent protection; 4.5 V to 28 V operating range
+K
+F https://www.onsemi.com/pub/Collateral/NCV81599-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -2399,7 +2399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0139I_T2444-4_MXM"
+		(property "Footprint" "footprints:21-0139I_T2444-4_MXM"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -2538,7 +2538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-100339_W302B3+1_ADI"
+		(property "Footprint" "footprints:21-100339_W302B3&plus_1_ADI"
 			(at 99.06 87.63 0)
 			(effects
 				(font
