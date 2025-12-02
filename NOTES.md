@@ -13,6 +13,8 @@ Powerbank with Tracker
 * Breakout programming pins to flash and debug
 * Wouldn't opt for 20V because of the inefficiency, set it to MAX77958's non-volatile memory (PDO list) to make it persistent
 * Reference schematic design https://www.analog.com/en/resources/reference-designs/maxrefdes179.html#rd-overview
+* Based on [MAX17320 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max17320.pdf) on page 22, R-BAL is 3-20 Ohm, 9 Ohm being typical
+* Make certain traces thicker
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
