@@ -9,7 +9,12 @@ A smart powerbank with locating capabilities-ish ;p
 - NCP81599MNTXG from Component Search Engine on https://www.mouser.co.id/ProductDetail/onsemi/NCP81599MNTXG?qs=GedFDFLaBXFswcxUQ6RZzA%3D%3D
 
 ## To Do
-- Figure out step down for PD
+- Figure out how to do PFAIL and put three terminal fuse... maybe https://www.reddit.com/r/AskElectronics/comments/1ac7jp2/questions_about_chemical_fuses_threeterminal/?
+- Connect schematics
+	- PD
+	- Battery management
+	- nRF54 (main brain)
+	- Step down (NCP81599)
 - Research for best wiring
 - Design PCB
 - Write firmware

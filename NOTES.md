@@ -27,7 +27,7 @@ Battery (18650)
 Great place to find symbols and footprints
 - https://www.ultralibrarian.com/
 - https://www.snapeda.com/
-- https://componentsearchengine.com/
+- https://componentsearchengine.com/ through Mouser
 
 Places to source things
 - Mouser Indonesia, DigiKey Indonesia, RS Components, Future Electronics, Arrow Electronics, TTI Asia, Chipdistribution Indonesia, Tokopedia
