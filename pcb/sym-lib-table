@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MAX77961BEFV12+")(type "KiCad")(uri "${KIPRJMOD}/libraries/MAX77961BEFV12+.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX77958EWV-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/MAX77958EWV-T.kicad_sym")(options "")(descr ""))
+)

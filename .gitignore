@@ -2,8 +2,5 @@
 .obsidian
 ~*.lck
 *-backups
-fp-info-cache
-fp-lib-table
-sym-lib-table
 _autosave*
 \#auto_saved_files#
