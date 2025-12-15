@@ -1,3 +1,4 @@
+
 Powerbank with Tracker
 * BLE (for https://github.com/dchristl/macless-haystack and https://github.com/leonboe1/GoogleFindMyTools)
 * Power Delivery and Quick Charge (for high speed charging): MAX77958EWV+T (EWV is lead free, T is sealed (?))
@@ -15,6 +16,9 @@ Powerbank with Tracker
 * Reference schematic design https://www.analog.com/en/resources/reference-designs/maxrefdes179.html#rd-overview
 * Based on [MAX17320 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max17320.pdf) on page 22, R-BAL is 3-20 Ohm, 9 Ohm being typical
 * Make certain traces thicker
+* If I'm going for a small approach, might as well do 1.2 MHz, although I believe that more battery would be worth it but having the tracker approach, make it as small as possible, maybe?
+* Should I go simple and use IP5328P?
+* https://github.com/Infineon/pdstack https://github.com/MicrochipTech/usb-pd-software-framework https://github.com/pdsink/pdsink PD DRP handlers
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
