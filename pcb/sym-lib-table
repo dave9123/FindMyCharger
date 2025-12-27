@@ -1,5 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MAX77961BEFV12+")(type "KiCad")(uri "${KIPRJMOD}/libraries/MAX77961BEFV12+.kicad_sym")(options "")(descr ""))
-  (lib (name "MAX77958EWV-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/MAX77958EWV-T.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ4050RSMR")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ4050RSMR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25713BRSNR")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ25713BRSNR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS25730DREFR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25730DREFR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS25762CQRQLRQ1")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25762CQRQLRQ1.kicad_sym")(options "")(descr ""))
 )
