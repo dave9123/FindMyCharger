@@ -12321,28 +12321,6 @@
 			)
 		)
 	)
-	(global_label "BMS_FUSE"
-		(shape input)
-		(at 443.23 330.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9737843d-1e00-4240-9ff7-b5576174b219")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 455.8913 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BMS_DSG"
 		(shape input)
 		(at 443.23 322.58 0)
@@ -13126,28 +13104,6 @@
 		(uuid "dc817fa3-b6cd-46b3-b9ef-f258377629e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.76 148.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BMS_FUSE"
-		(shape input)
-		(at 549.91 205.74 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddd0bb59-5ed6-4bdf-8b4c-2e215443076c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 549.91 218.4013 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16400,74 +16356,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 541.02 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cf471b7-1895-4f63-b2fd-75d937d0f54e")
-		(property "Reference" "R46"
-			(at 541.02 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 541.02 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 541.02 203.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 541.02 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 541.02 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0619d927-78ce-4637-8bd2-1120eb2f1524")
-		)
-		(pin "2"
-			(uuid "edff3080-1c66-4472-bd76-055875157e69")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 304.8 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17416,74 +17304,6 @@
 			(project ""
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 529.59 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53aaf006-cbd5-4ed6-8875-edacb47984d5")
-		(property "Reference" "R45"
-			(at 529.59 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 529.59 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 529.59 203.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 529.59 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 529.59 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c4d05bc-ff89-4174-8cd9-e5269124b714")
-		)
-		(pin "2"
-			(uuid "1711d366-422b-4667-8082-85483a919ba0")
-		)
-		(instances
-			(project ""
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -22459,7 +22279,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 570.23 198.12 0)
+		(at 556.26 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22468,7 +22288,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f99b7e4-d390-4d11-9bf5-d9fb293e677f")
 		(property "Reference" "R47"
-			(at 572.77 196.8499 0)
+			(at 558.8 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22477,7 +22297,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 572.77 199.3899 0)
+			(at 558.8 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22486,7 +22306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 568.452 198.12 90)
+			(at 554.482 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22495,7 +22315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 570.23 198.12 0)
+			(at 556.26 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22504,7 +22324,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 570.23 198.12 0)
+			(at 556.26 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27328,6 +27148,76 @@
 			(project ""
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 565.15 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5b90f0d-0c4a-49e8-abc4-197e56cf96e7")
+		(property "Reference" "R45"
+			(at 567.69 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 567.69 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 563.372 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 565.15 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 565.15 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e5ad248-28bc-41b4-8f9c-0ef50d923afd")
+		)
+		(pin "1"
+			(uuid "4ee58342-79ea-4f19-8385-4c552fbbbfdc")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "R45")
 					(unit 1)
 				)
 			)
