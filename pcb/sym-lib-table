@@ -4,4 +4,5 @@
   (lib (name "BQ25713BRSNR")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ25713BRSNR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS25730DREFR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25730DREFR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS25762CQRQLRQ1")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25762CQRQLRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ294700DSGR")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ294700DSGR.kicad_sym")(options "")(descr ""))
 )
