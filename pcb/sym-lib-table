@@ -5,4 +5,6 @@
   (lib (name "TPS25730DREFR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25730DREFR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS25762CQRQLRQ1")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25762CQRQLRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "BQ294700DSGR")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ294700DSGR.kicad_sym")(options "")(descr ""))
+  (lib (name "CAV24C256WE-GT3")(type "KiCad")(uri "${KIPRJMOD}/libraries/CAV24C256WE-GT3.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS25772-Q1")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25772-Q1.kicad_sym")(options "")(descr ""))
 )
