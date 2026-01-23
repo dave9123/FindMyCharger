@@ -1745,6 +1745,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CAV24C256WE-GT3:CAV24C256WE-GT3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CAV24C256WE-GT3"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/CAV24C256-D.PDF"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Automotive Temperature Grade 1 (-40C to +125C) ; Supports Standard, Fast and Fast-Plus I2C Protocol; 64-Byte Page Write Buffer; Hardware Write Protection for Entire Memory; Schmitt Triggers and Noise Suppression Filters on I2C Bus Inputs (SCL and SDA); Low Power CMOS Technology; 1,000,000 Program/Erase Cycles; 100 Year Data Retention; 8-lead SOIC and TSSOP Packages; This Device is Pb-Free, Halogen Free/BFR Free and RoHS Compliant"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-CAV24C256WE-GT3"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/CAV24C256WE-GT3?qs=xGcJQ%252BnsJwuxLppcr2EU%2FQ%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CAV24C256WE-GT3"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CAV24C256WE-GT3_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -6510,7 +6770,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS25762CQRQLRQ1:TPS25762CQRQLRQ1"
+		(symbol "TPS25772-Q1:PTP25772A0QWRQLTQ1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -6525,7 +6785,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS25762CQRQLRQ1"
+			(property "Value" "PTP25772A0QWRQLTQ1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6543,7 +6803,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tps25762-q1"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tps25772-q1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6570,7 +6830,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TPS25762CQRQLRQ1"
+			(property "ki_keywords" "PTP25772A0QWRQLTQ1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6588,7 +6848,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS25762CQRQLRQ1_0_1"
+			(symbol "PTP25772A0QWRQLTQ1_0_1"
 				(polyline
 					(pts
 						(xy 5.08 5.08) (xy 5.08 -50.8)
@@ -6784,7 +7044,7 @@
 				(pin bidirectional line
 					(at 0 -27.94 0)
 					(length 5.08)
-					(name "GPIO0_HPD"
+					(name "GPIO0_PB_CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6802,7 +7062,7 @@
 				(pin bidirectional line
 					(at 0 -30.48 0)
 					(length 5.08)
-					(name "GPIO1_IRQ2(o)"
+					(name "GPIO1_PB_CC2_IRQ2_o"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6820,7 +7080,7 @@
 				(pin bidirectional line
 					(at 0 -33.02 0)
 					(length 5.08)
-					(name "GPIO3_I2C_SDA2"
+					(name "GPIO3_I2C_SDA2_PB_DM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6838,7 +7098,7 @@
 				(pin bidirectional line
 					(at 0 -35.56 0)
 					(length 5.08)
-					(name "GPIO2_I2C_SCL2"
+					(name "GPIO2_I2C_SCL2_PB_DP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7090,7 +7350,7 @@
 				(pin bidirectional line
 					(at 86.36 -38.1 180)
 					(length 5.08)
-					(name "GPIO9_IRQ_N"
+					(name "GPIO9_IRQ"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7105,10 +7365,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 86.36 -40.64 180)
 					(length 5.08)
-					(name "PA_LSGD"
+					(name "PB_VBUS_GPIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12035,6 +12295,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_IRQ"
+		(shape input)
+		(at 227.33 355.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08aa1a1a-3734-4d6f-97fc-91d7050297ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.6848 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS_OUT"
 		(shape input)
 		(at 66.04 248.92 0)
@@ -12783,6 +13065,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_SCL1"
+		(shape input)
+		(at 227.33 353.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cfdee44-d842-4d3f-a11a-aed71a62d899")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.1966 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BMS_VC1"
 		(shape input)
 		(at 444.5 121.92 0)
@@ -13245,6 +13549,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_SCL1"
+		(shape input)
+		(at 185.42 308.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "681ba27b-4be3-488f-aaa3-62a23653b8d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.2866 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BMS_CHG"
 		(shape input)
 		(at 481.33 68.58 270)
@@ -13676,6 +14002,28 @@
 		(uuid "85219fd4-ae87-417f-8c70-0a138eae98d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.7609 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTPUT_IRQ"
+		(shape input)
+		(at 185.42 311.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85b8ae5f-d689-46af-8717-bbb04f3cdbe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7748 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14187,6 +14535,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTPUT_SDA1"
+		(shape input)
+		(at 227.33 350.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b702d11a-ab4b-4bec-8864-d3b1ab010fac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.2571 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14763,6 +15133,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_SDA1"
+		(shape input)
+		(at 185.42 306.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb1453b4-3365-4ab6-b087-631fbd323bfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.3471 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "INPUT_HIDRV1"
 		(shape input)
 		(at 181.61 181.61 0)
@@ -14869,6 +15261,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTPUT_LDO_3V3"
+		(shape input)
+		(at 224.79 345.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f71da903-1f6d-49d2-b7a2-a38d992bb7a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.0433 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15812,6 +16226,72 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 353.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1627b8c7-fe7f-4ef8-89bc-2c3c65fbbd56")
+		(property "Reference" "#PWR066"
+			(at 166.37 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c16517d-8013-410d-8ca3-f644c41e17aa")
+		)
+		(instances
+			(project ""
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -16979,6 +17459,76 @@
 			(project ""
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 335.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25592546-0cd7-4ea3-9950-c735deaa950c")
+		(property "Reference" "R66"
+			(at 215.9 334.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 215.9 336.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.582 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed15bd91-35d9-488d-94e4-0c11958bc817")
+		)
+		(pin "2"
+			(uuid "a9680f4a-f8aa-4124-a1ee-eef7971231ea")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -23530,6 +24080,157 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS25772-Q1:PTP25772A0QWRQLTQ1")
+		(at 99.06 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "871373a8-fefb-4e49-9a38-94c31f7f6354")
+		(property "Reference" "U7"
+			(at 142.24 262.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PTP25772A0QWRQLTQ1"
+			(at 142.24 265.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RQL0029A-MFG"
+			(at 99.06 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps25772-q1"
+			(at 99.06 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "850940a6-0488-46de-a20f-7f212e6b3b7e")
+		)
+		(pin "5"
+			(uuid "073581b0-089b-4639-9705-52251c301d42")
+		)
+		(pin "9"
+			(uuid "7c16c898-c2b5-49e2-853e-c783b60abda2")
+		)
+		(pin "11"
+			(uuid "82efb223-86a6-46e2-b2b0-a9fdf21d7983")
+		)
+		(pin "3"
+			(uuid "198268f6-5388-4d20-a4f5-aeaef94ef3dc")
+		)
+		(pin "15"
+			(uuid "45ef6991-6ed1-498d-b183-9ca0d9d65915")
+		)
+		(pin "10"
+			(uuid "7fdf4cf1-7275-49c9-80b8-c03a1625685a")
+		)
+		(pin "18"
+			(uuid "c4dac6b3-8577-4daf-a43b-ff73f1d0c685")
+		)
+		(pin "27"
+			(uuid "0e2ca6b0-8e2f-4b60-a156-4fe23053d6df")
+		)
+		(pin "14"
+			(uuid "3b805223-6193-4433-8d10-3c00dc7225b0")
+		)
+		(pin "13"
+			(uuid "4dfad2a3-b001-4b6f-b2db-b473b3159af3")
+		)
+		(pin "28"
+			(uuid "44c31702-20e6-4078-bbad-1558a0f3902d")
+		)
+		(pin "29"
+			(uuid "a6fd05bb-2967-44ba-a106-159a1b211d05")
+		)
+		(pin "16"
+			(uuid "6b715914-ddea-44dd-99bf-823365b91236")
+		)
+		(pin "8"
+			(uuid "668d4bc7-51bb-4e7d-990d-c7d9f9f2b3c3")
+		)
+		(pin "6"
+			(uuid "988810bd-6f33-40f2-ad54-573b018ff1f9")
+		)
+		(pin "22"
+			(uuid "db01f4dd-4372-44df-a1cc-dbf01ec1bb9d")
+		)
+		(pin "12"
+			(uuid "63a4b693-8628-47c6-88e7-c60734077f33")
+		)
+		(pin "25"
+			(uuid "fe3639cf-6445-4b16-8946-c054a8851e5c")
+		)
+		(pin "24"
+			(uuid "201eb1fb-60b6-43fa-ad66-140728c61702")
+		)
+		(pin "20"
+			(uuid "f6b471c0-fecc-43ff-8576-7134a042b695")
+		)
+		(pin "21"
+			(uuid "0fed8cfb-166b-4110-8ff4-f291aca4d237")
+		)
+		(pin "1"
+			(uuid "c75dcc62-0886-4c02-beda-ef7e36554925")
+		)
+		(pin "17"
+			(uuid "1eaa5697-62bc-4621-870a-2f2720b94f29")
+		)
+		(pin "19"
+			(uuid "77b98c6d-dea8-47c8-a395-3ab011f611db")
+		)
+		(pin "23"
+			(uuid "e9e2ffe1-d351-4a77-b189-a0e5f0fd64c3")
+		)
+		(pin "26"
+			(uuid "517d58d8-5896-419d-a7d2-be7cad934ba5")
+		)
+		(pin "4"
+			(uuid "96091f4f-a31e-43e4-ba2f-74377d6c59b4")
+		)
+		(pin "7"
+			(uuid "0fc77db3-efb8-48b0-a162-9bb9ef37cf89")
+		)
+		(instances
+			(project ""
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 220.98 284.48 0)
 		(unit 1)
@@ -24001,6 +24702,144 @@
 			(project ""
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAV24C256WE-GT3:CAV24C256WE-GT3")
+		(at 166.37 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e33ecb5-79f5-4d82-a972-7cc5898c7a61")
+		(property "Reference" "IC1"
+			(at 179.07 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAV24C256WE-GT3"
+			(at 179.07 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 187.96 440.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/CAV24C256-D.PDF"
+			(at 187.96 540.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive Temperature Grade 1 (-40C to +125C) ; Supports Standard, Fast and Fast-Plus I2C Protocol; 64-Byte Page Write Buffer; Hardware Write Protection for Entire Memory; Schmitt Triggers and Noise Suppression Filters on I2C Bus Inputs (SCL and SDA); Low Power CMOS Technology; 1,000,000 Program/Erase Cycles; 100 Year Data Retention; 8-lead SOIC and TSSOP Packages; This Device is Pb-Free, Halogen Free/BFR Free and RoHS Compliant"
+			(at 166.37 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 187.96 740.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-CAV24C256WE-GT3"
+			(at 187.96 840.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/CAV24C256WE-GT3?qs=xGcJQ%252BnsJwuxLppcr2EU%2FQ%3D%3D"
+			(at 187.96 940.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 187.96 1040.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CAV24C256WE-GT3"
+			(at 187.96 1140.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37680cf5-6b8e-4cb8-aef7-34f0ebdb3152")
+		)
+		(pin "3"
+			(uuid "a32812e0-b518-4109-ad0d-6030454f83be")
+		)
+		(pin "2"
+			(uuid "93ae3610-9d02-4454-b948-b0ab30c3eea1")
+		)
+		(pin "7"
+			(uuid "9575556d-a95b-429f-a9d1-e0623254dc3d")
+		)
+		(pin "6"
+			(uuid "2e9c646d-9a52-45c8-9dcb-ef1ba10634a6")
+		)
+		(pin "5"
+			(uuid "ddf95ddb-5015-4adf-8d2c-de3648bbf650")
+		)
+		(pin "4"
+			(uuid "24a36c22-f778-4f0d-8b17-f744842234e0")
+		)
+		(pin "8"
+			(uuid "df2371c1-27a6-42e3-837f-75b1c71d8918")
+		)
+		(instances
+			(project ""
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -26707,6 +27546,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 335.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58ce56e-000c-444c-a5cb-46546697f570")
+		(property "Reference" "R65"
+			(at 207.01 334.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 207.01 336.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "798ccf67-de61-4b32-9fa4-64dac6df9175")
+		)
+		(pin "2"
+			(uuid "3da6fe3e-75a2-4d72-9f0d-1ac3b7568f64")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 246.38 328.93 0)
 		(unit 1)
@@ -27327,157 +28236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS25762CQRQLRQ1:TPS25762CQRQLRQ1")
-		(at 99.06 273.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2d1d8e2-753c-4077-86ef-099f49348ecd")
-		(property "Reference" "U3"
-			(at 142.24 262.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS25762CQRQLRQ1"
-			(at 142.24 265.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "RQL0029A-MFG"
-			(at 99.06 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps25762-q1"
-			(at 99.06 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "16"
-			(uuid "31aa05f0-c795-4d46-b8c0-5503e81ad32d")
-		)
-		(pin "15"
-			(uuid "5df8ce95-daf2-44d0-82e3-20efd1bf3f90")
-		)
-		(pin "14"
-			(uuid "cae474c7-236c-4ba6-9e62-7d5ab703be43")
-		)
-		(pin "6"
-			(uuid "2ee511f8-0439-4277-a700-36fb1b544f71")
-		)
-		(pin "18"
-			(uuid "4b7bb208-efd8-4f0d-b3bc-012e88fb1285")
-		)
-		(pin "17"
-			(uuid "34d00bdd-666c-4020-a38d-c1a12af0280d")
-		)
-		(pin "19"
-			(uuid "099aecb1-ecdd-4b99-8b86-4bc43351dcdc")
-		)
-		(pin "20"
-			(uuid "fda98e53-8530-4c57-91c3-dd9f5dcdf105")
-		)
-		(pin "23"
-			(uuid "12aa2093-a900-4e03-a5f8-8fd6670db37e")
-		)
-		(pin "24"
-			(uuid "e4fee352-ed7d-469b-bb57-b874078d56b2")
-		)
-		(pin "26"
-			(uuid "4a22c62b-e966-491c-93f5-3d6cb96ae31e")
-		)
-		(pin "25"
-			(uuid "43d4c16a-dc57-477b-9da7-075a23bd3d26")
-		)
-		(pin "5"
-			(uuid "4bbf2ee2-863c-4a8a-af13-fcd3b05ada6c")
-		)
-		(pin "2"
-			(uuid "2e05ee89-28a7-425f-95c3-fb9d35b9bfc7")
-		)
-		(pin "28"
-			(uuid "54cda301-133b-4624-850e-1ad92f485e3a")
-		)
-		(pin "8"
-			(uuid "9d7afd82-9169-4f52-93bc-79e6d76f07c6")
-		)
-		(pin "12"
-			(uuid "c5144640-3696-45af-8d02-af77744c4008")
-		)
-		(pin "21"
-			(uuid "5eb1a384-d261-4f5b-8dd2-dd4b4a334084")
-		)
-		(pin "9"
-			(uuid "976eec2e-914c-49ac-8c0d-9ab5ccf20a35")
-		)
-		(pin "4"
-			(uuid "9d1a8038-761e-4080-ae5e-e24fec98cbcf")
-		)
-		(pin "13"
-			(uuid "3f73349c-d85d-4bf6-a9a7-2d60cb588224")
-		)
-		(pin "11"
-			(uuid "6cac3f16-6666-4d16-84be-a23ca47c3764")
-		)
-		(pin "1"
-			(uuid "49e1674a-3ede-49bd-90ef-29e141686d25")
-		)
-		(pin "22"
-			(uuid "becff63f-0d22-4a1d-bd93-1b06169657f1")
-		)
-		(pin "10"
-			(uuid "6cf08fc4-a363-4d9c-9ee6-04fd4cf4c8a5")
-		)
-		(pin "29"
-			(uuid "3e0d71ab-f84d-4efa-9356-82dc2c5b28dc")
-		)
-		(pin "27"
-			(uuid "fa317d87-3e26-48c5-9b8a-47aba3a83ad4")
-		)
-		(pin "3"
-			(uuid "45b2edab-bfaa-4198-b686-6774d85403ed")
-		)
-		(pin "7"
-			(uuid "fde29014-bbe4-4469-a4f3-6e5162fec0c0")
-		)
-		(instances
-			(project ""
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 105.41 0)
 		(unit 1)
@@ -27814,6 +28572,76 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 335.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d53720b8-878f-490e-ac8c-dbfdbb878682")
+		(property "Reference" "R64"
+			(at 198.12 334.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 198.12 336.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.802 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac2ac04d-d310-4aab-85e0-7893db8e3743")
+		)
+		(pin "2"
+			(uuid "9fc5b7fd-2d09-455b-9a3e-4eb7772783bb")
+		)
+		(instances
+			(project ""
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "R64")
 					(unit 1)
 				)
 			)
