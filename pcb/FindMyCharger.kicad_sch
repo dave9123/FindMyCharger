@@ -5954,6 +5954,390 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LQP03HQ2N7B02D:LQP03HQ2N7B02D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L8"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LQP03HQ2N7B02D"
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LQP03HQ0N5B02D"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LQP03HQ_02 Series Inductor 2.7nH +/-0.1nH 0201 (0603)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.42"
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-LQP03HQ2N7B02D"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQP03HQ2N7B02D?qs=Ey7%2FXF42M3c4mqXFWTJuBA%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LQP03HQ2N7B02D"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LQP03HQ2N7B02D_0_1"
+				(arc
+					(start 9.525 0.635)
+					(mid 8.89 0.0027)
+					(end 8.255 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.795 0.635)
+					(mid 10.16 0.0027)
+					(end 9.525 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.065 0.635)
+					(mid 11.43 0.0027)
+					(end 10.795 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 13.335 0.635)
+					(mid 12.7 0.0027)
+					(end 12.065 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LQP03HQ2N7B02D_1_1"
+				(pin passive line
+					(at 6.985 0.635 0)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.605 0.635 180)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LQP03HQ3N5B02D:LQP03HQ3N5B02D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L4"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LQP03HQ3N5B02D"
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LQP03HQ0N5B02D"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LQP03HQ_02 Series Inductor 3.5nH +/-0.1nH 0201 (0603)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.42"
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-LQP03HQ3N5B02D"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQP03HQ3N5B02D?qs=Ey7%2FXF42M3czaOgYp0oGuw%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LQP03HQ3N5B02D"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LQP03HQ3N5B02D_0_1"
+				(arc
+					(start 8.255 0.635)
+					(mid 8.89 1.2673)
+					(end 9.525 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 9.525 0.635)
+					(mid 10.16 1.2673)
+					(end 10.795 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.795 0.635)
+					(mid 11.43 1.2673)
+					(end 12.065 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.065 0.635)
+					(mid 12.7 1.2673)
+					(end 13.335 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LQP03HQ3N5B02D_1_1"
+				(pin passive line
+					(at 6.985 0.635 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.605 0.635 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_nordic-lib-kicad-nrf54l:nRF54L10-QFXX"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9133,12 +9517,6 @@
 		(uuid "1f017708-df71-42bf-8025-2c170359a72f")
 	)
 	(junction
-		(at 440.69 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22ebcd94-418c-4639-b3b1-dc1c176d9253")
-	)
-	(junction
 		(at 195.58 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9313,6 +9691,12 @@
 		(uuid "499ec00e-258c-4a35-92f0-a7c08c149252")
 	)
 	(junction
+		(at 444.5 331.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b30cc60-e293-4bf8-b634-88984c5c0999")
+	)
+	(junction
 		(at 294.64 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9379,7 +9763,7 @@
 		(uuid "57bdda65-f1a6-40bf-8496-6bf67a99caad")
 	)
 	(junction
-		(at 453.39 323.85)
+		(at 463.55 323.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "586be48f-0c40-477e-8a0e-127ad3a24a28")
@@ -9637,6 +10021,12 @@
 		(uuid "a1e20d3d-bdd5-4e91-91b5-d6fa6f571fdf")
 	)
 	(junction
+		(at 444.5 323.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3134c89-d2ed-4e96-bdb2-626c4265dbe6")
+	)
+	(junction
 		(at 88.9 316.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9859,12 +10249,6 @@
 		(uuid "da5b9862-dae3-457f-8c15-6e75f65f08ba")
 	)
 	(junction
-		(at 440.69 323.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc10e5d5-b9ba-4b81-9036-168ca1b134e5")
-	)
-	(junction
 		(at 469.9 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9955,7 +10339,7 @@
 		(uuid "f4149351-6460-40ac-a66d-cda17e040a22")
 	)
 	(junction
-		(at 453.39 331.47)
+		(at 463.55 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f50375b9-5dbd-4ca0-8714-16da99196eae")
@@ -9973,7 +10357,7 @@
 		(uuid "fbdd6cbd-2f86-4e90-8962-4b4888c04a8c")
 	)
 	(junction
-		(at 466.09 323.85)
+		(at 476.25 323.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd05bc62-2865-431f-9dc1-3f7ef283ab3d")
@@ -10250,7 +10634,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 323.85) (xy 455.93 323.85)
+			(xy 463.55 323.85) (xy 466.09 323.85)
 		)
 		(stroke
 			(width 0)
@@ -10530,16 +10914,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 323.85) (xy 453.39 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2125a807-eae4-43c1-ae59-6dfc9b97e91d")
-	)
-	(wire
-		(pts
 			(xy 215.9 295.91) (xy 218.44 295.91)
 		)
 		(stroke
@@ -10707,16 +11081,6 @@
 			(type default)
 		)
 		(uuid "2bcb8e94-1c4a-42e5-9a89-515c22761837")
-	)
-	(wire
-		(pts
-			(xy 440.69 323.85) (xy 443.23 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2fb7f4-9ba9-4296-8b54-8ba9847dc383")
 	)
 	(wire
 		(pts
@@ -11080,6 +11444,16 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 331.47) (xy 463.55 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4382b2f8-8fdd-48ff-92f7-56e5cdc1e5cc")
+	)
+	(wire
+		(pts
 			(xy 252.73 132.08) (xy 260.35 132.08)
 		)
 		(stroke
@@ -11200,7 +11574,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 323.85) (xy 466.09 323.85)
+			(xy 473.71 323.85) (xy 476.25 323.85)
 		)
 		(stroke
 			(width 0)
@@ -11827,6 +12201,16 @@
 			(type default)
 		)
 		(uuid "6bd1e2f6-054d-42e7-bb44-19176873b418")
+	)
+	(wire
+		(pts
+			(xy 444.5 323.85) (xy 449.58 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1047b3-cae2-4392-95ad-5dd4eae02823")
 	)
 	(wire
 		(pts
@@ -12930,7 +13314,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 323.85) (xy 440.69 323.85)
+			(xy 438.15 323.85) (xy 444.5 323.85)
 		)
 		(stroke
 			(width 0)
@@ -13180,7 +13564,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 331.47) (xy 440.69 331.47)
+			(xy 435.61 331.47) (xy 444.5 331.47)
 		)
 		(stroke
 			(width 0)
@@ -13460,7 +13844,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 331.47) (xy 466.09 331.47)
+			(xy 463.55 331.47) (xy 476.25 331.47)
 		)
 		(stroke
 			(width 0)
@@ -13680,7 +14064,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 323.85) (xy 468.63 323.85)
+			(xy 476.25 323.85) (xy 478.79 323.85)
 		)
 		(stroke
 			(width 0)
@@ -13830,6 +14214,16 @@
 	)
 	(wire
 		(pts
+			(xy 457.2 323.85) (xy 463.55 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf9363e-8cc2-4466-83e9-3acad6092f7f")
+	)
+	(wire
+		(pts
 			(xy 439.42 68.58) (xy 439.42 80.01)
 		)
 		(stroke
@@ -13937,16 +14331,6 @@
 			(type default)
 		)
 		(uuid "e32c8b44-4bf3-4e64-82df-5e5287b350e4")
-	)
-	(wire
-		(pts
-			(xy 440.69 331.47) (xy 453.39 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a72c05-7337-42f5-ba08-b38d30a73626")
 	)
 	(wire
 		(pts
@@ -20653,7 +21037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 482.2952 288.29 0)
 			(effects
 				(font
@@ -22072,16 +22456,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 440.69 327.66 0)
+		(at 444.5 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40161947-e69c-41e2-84be-a62e7006ca31")
 		(property "Reference" "C49"
-			(at 444.5 326.3899 0)
+			(at 448.31 326.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22090,7 +22473,7 @@
 			)
 		)
 		(property "Value" "1.5pF"
-			(at 444.5 328.9299 0)
+			(at 448.31 328.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,7 +22482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 441.6552 331.47 0)
+			(at 445.4652 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22108,7 +22491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 440.69 327.66 0)
+			(at 444.5 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22117,7 +22500,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 440.69 327.66 0)
+			(at 444.5 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22345,74 +22728,6 @@
 			(project ""
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 434.34 323.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43d81f6f-9b35-4c00-a416-28afb08116eb")
-		(property "Reference" "L4"
-			(at 434.34 318.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.7nH"
-			(at 434.34 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 434.34 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 434.34 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f12e735-9f6e-413a-91fb-ca8b7047e6ad")
-		)
-		(pin "2"
-			(uuid "d26bef69-de6f-4221-8565-430226b706c0")
-		)
-		(instances
-			(project ""
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -24099,7 +24414,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 453.39 327.66 0)
+		(at 463.55 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24108,7 +24423,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f609008-3e41-4293-982e-a586594bb7a0")
 		(property "Reference" "C53"
-			(at 457.2 326.3899 0)
+			(at 467.36 326.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24117,7 +24432,7 @@
 			)
 		)
 		(property "Value" "2pF"
-			(at 457.2 328.9299 0)
+			(at 467.36 328.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24126,7 +24441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 454.3552 331.47 0)
+			(at 464.5152 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24135,7 +24450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 453.39 327.66 0)
+			(at 463.55 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24144,7 +24459,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 453.39 327.66 0)
+			(at 463.55 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24606,7 +24921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 444.1952 297.18 0)
 			(effects
 				(font
@@ -25472,7 +25787,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 473.71 323.85 270)
+		(at 483.87 323.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25481,7 +25796,7 @@
 		(fields_autoplaced yes)
 		(uuid "72614c4c-e817-44b6-98a7-02e64ffab585")
 		(property "Reference" "AE1"
-			(at 477.52 322.5799 90)
+			(at 487.68 322.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25490,7 +25805,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 477.52 325.1199 90)
+			(at 487.68 325.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25499,7 +25814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 473.71 323.85 0)
+			(at 483.87 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25508,7 +25823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 473.71 323.85 0)
+			(at 483.87 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25517,7 +25832,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 473.71 323.85 0)
+			(at 483.87 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25979,7 +26294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 469.5952 288.29 0)
 			(effects
 				(font
@@ -26420,6 +26735,126 @@
 			(project ""
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LQP03HQ2N7B02D:LQP03HQ2N7B02D")
+		(at 445.135 323.215 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9b23d2-0bf1-40c7-9421-cad1d87c308f")
+		(property "Reference" "L8"
+			(at 434.34 318.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LQP03HQ2N7B02D"
+			(at 434.34 320.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 428.625 227.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
+			(at 428.625 127.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LQP03HQ_02 Series Inductor 2.7nH +/-0.1nH 0201 (0603)"
+			(at 445.135 323.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.42"
+			(at 428.625 -72.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-LQP03HQ2N7B02D"
+			(at 428.625 -172.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQP03HQ2N7B02D?qs=Ey7%2FXF42M3c4mqXFWTJuBA%3D%3D"
+			(at 428.625 -272.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 428.625 -372.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQP03HQ2N7B02D"
+			(at 428.625 -472.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98ad477c-214f-4779-9b4f-6b6d18ad69a0")
+		)
+		(pin "2"
+			(uuid "8b4bdd2c-32aa-4f3c-9b17-0f8d6b23af15")
+		)
+		(instances
+			(project ""
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -26889,7 +27324,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 466.09 327.66 0)
+		(at 476.25 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26897,7 +27332,7 @@
 		(dnp no)
 		(uuid "8258b598-ac2a-4030-a87b-6e1abecd918b")
 		(property "Reference" "C56"
-			(at 469.9 326.3899 0)
+			(at 480.06 326.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26906,7 +27341,7 @@
 			)
 		)
 		(property "Value" "0.3pF"
-			(at 469.9 328.9299 0)
+			(at 480.06 328.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26915,7 +27350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 467.0552 331.47 0)
+			(at 477.2152 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26924,7 +27359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 466.09 327.66 0)
+			(at 476.25 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26933,7 +27368,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 466.09 327.66 0)
+			(at 476.25 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27589,7 +28024,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 459.74 323.85 90)
+		(at 469.9 323.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27598,7 +28033,7 @@
 		(fields_autoplaced yes)
 		(uuid "8be5352c-5f52-4c79-8547-131d4ba0a6f8")
 		(property "Reference" "L7"
-			(at 459.74 318.77 90)
+			(at 469.9 318.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27606,7 +28041,7 @@
 			)
 		)
 		(property "Value" "3.5nH"
-			(at 459.74 321.31 90)
+			(at 469.9 321.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27614,7 +28049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 459.74 323.85 0)
+			(at 469.9 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27623,7 +28058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 459.74 323.85 0)
+			(at 469.9 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27632,7 +28067,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 459.74 323.85 0)
+			(at 469.9 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27951,7 +28386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" ""
 			(at 156.21 469.57 0)
 			(effects
 				(font
@@ -28757,7 +29192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 456.8952 288.29 0)
 			(effects
 				(font
@@ -30937,25 +31372,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 447.04 323.85 90)
+		(lib_id "LQP03HQ3N5B02D:LQP03HQ3N5B02D")
+		(at 442.595 324.485 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b7837166-3b3f-426d-bfc2-4ef4b66be311")
-		(property "Reference" "L6"
-			(at 447.04 318.77 90)
+		(uuid "b6f038f9-e0d2-4c16-9cab-7c023fe8880c")
+		(property "Reference" "L4"
+			(at 452.755 318.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.5nH"
-			(at 447.04 321.31 90)
+		(property "Value" "LQP03HQ3N5B02D"
+			(at 452.755 320.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30963,7 +31398,27 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 447.04 323.85 0)
+			(at 459.105 420.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
+			(at 459.105 520.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LQP03HQ_02 Series Inductor 3.5nH +/-0.1nH 0201 (0603)"
+			(at 442.595 324.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30971,34 +31426,66 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 447.04 323.85 0)
+		(property "Height" "0.42"
+			(at 459.105 720.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 447.04 323.85 0)
+		(property "Mouser Part Number" "81-LQP03HQ3N5B02D"
+			(at 459.105 820.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQP03HQ3N5B02D?qs=Ey7%2FXF42M3czaOgYp0oGuw%3D%3D"
+			(at 459.105 920.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 459.105 1020.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQP03HQ3N5B02D"
+			(at 459.105 1120.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f71b3cac-28e8-489a-ab14-639e464bb25f")
+			(uuid "82eb0044-0942-4ec3-8578-d00d66fd5491")
 		)
 		(pin "2"
-			(uuid "739a6193-798e-4fc1-9c9b-4046e5e80a32")
+			(uuid "bba48880-883e-41bc-b96a-df10188ed6c8")
 		)
 		(instances
-			(project "FindMyCharger"
+			(project ""
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "L6")
+					(reference "L4")
 					(unit 1)
 				)
 			)
