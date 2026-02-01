@@ -25813,7 +25813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
 			(at 483.87 323.85 0)
 			(effects
 				(font
