@@ -1,24 +1,21 @@
 
 Powerbank with Tracker
 * BLE (for https://github.com/dchristl/macless-haystack and https://github.com/leonboe1/GoogleFindMyTools)
-* Power Delivery and Quick Charge (for high speed charging): MAX77958EWV+T (EWV is lead free, T is sealed (?))
 * Built-in USB C cable for output
 * Battery indicator (LED or screen)
 * 3x 18650 Li-on batteries
 * nRF54L15 SoC -- overkill, could pick lower memory version from https://www.rutronik.com/electronic-components/nordic-semiconductor/nordic-nrf54-series or even the very small version (WLCSP)
-* Battery Management System (BMS): Maxim MAX17320G20+T (replace with H20 for smaller version)
-* Light (in weight)
-* Thermistor (stop on overheat) 10k/100k (supported as stated on https://www.analog.com/media/en/technical-documentation/data-sheets/max17320.pdf page 79 on "THType" as long as it is specified)
 * BOM https://docs.google.com/spreadsheets/d/1hIzFk7VpzFUyE0Nlcrc1xWnVTtqv2BH0UQ99vOO1Ge8/view
-* Maybe opt for WLCSP (ultra small) version of components for production (?) going to be harder to hand solder for sure
 * Breakout programming pins to flash and debug
-* Wouldn't opt for 20V because of the inefficiency, set it to MAX77958's non-volatile memory (PDO list) to make it persistent
-* Reference schematic design https://www.analog.com/en/resources/reference-designs/maxrefdes179.html#rd-overview
-* Based on [MAX17320 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max17320.pdf) on page 22, R-BAL is 3-20 Ohm, 9 Ohm being typical
 * Make certain traces thicker
 * If I'm going for a small approach, might as well do 1.2 MHz, although I believe that more battery would be worth it but having the tracker approach, make it as small as possible, maybe?
-* Should I go simple and use IP5328P?
+
+Future considerations
 * https://github.com/Infineon/pdstack https://github.com/MicrochipTech/usb-pd-software-framework https://github.com/pdsink/pdsink PD DRP handlers
+* IP2738U supporting PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)
+* Opt for WLCSP (ultra small) version
+
+![[Pasted image 20260324112012.png]]
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 

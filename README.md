@@ -7,11 +7,9 @@ A smart powerbank with locating capabilities-ish ;p
 - TI ICs from Ultra Librarian from TI's website
 
 ## To Do
-- Connect schematics
-- Research for best wiring
-- Design PCB
-- Write firmware
-- Go shopping for components
-- Pick desired battery capacity
-- Make casing design
+- Figure out PD ADCIN
 - Figure out UWB for precise finding
+- Design PCB
+- Go shopping for components
+- Make casing design
+- Write firmware
