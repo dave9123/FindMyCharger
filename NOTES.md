@@ -9,10 +9,25 @@ Powerbank with Tracker
 * Breakout programming pins to flash and debug
 * Make certain traces thicker
 * If I'm going for a small approach, might as well do 1.2 MHz, although I believe that more battery would be worth it but having the tracker approach, make it as small as possible, maybe?
+* Include battery level transmission onto Macless Haystack
+
+To do
+- Design PCB
+	- Assign footprints
+	- Figure out PD in's ADCIN
+	- Double check schematics
+	- Double check footprints
+	- Route component traces
+	- Double check PCB
+- Casing
+- Firmware
+	- Macless Haystack port
+	- Google Find Hub port
 
 Future considerations
-* https://github.com/Infineon/pdstack https://github.com/MicrochipTech/usb-pd-software-framework https://github.com/pdsink/pdsink PD DRP handlers
-* IP2738U supporting PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)
+* Handle communications without external IC (https://github.com/Infineon/pdstack https://github.com/MicrochipTech/usb-pd-software-framework https://github.com/pdsink/pdsink PD DRP handlers)
+* Ultra Wide Band (UWB) for precise finding
+* Support PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)
 * Opt for WLCSP (ultra small) version
 
 ![[Pasted image 20260324112012.png]]
@@ -29,6 +44,7 @@ Great place to find symbols and footprints
 - https://www.ultralibrarian.com/
 - https://www.snapeda.com/
 - https://componentsearchengine.com/ through Mouser
+- https://github.com/uPesy/easyeda2kicad.py
 
 Places to source things
 - Mouser Indonesia, DigiKey Indonesia, RS Components, Future Electronics, Arrow Electronics, TTI Asia, Chipdistribution Indonesia, Tokopedia

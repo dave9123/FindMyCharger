@@ -1,4 +1,4 @@
-27445299008460048
+27443524938384373
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108730,13 +108730,6 @@ Inductor
 0
 2
 2
-footprints
-QFN40P600X600X95-49N-D
-QFN48 6 x 6 mm
-Integrated Circuit
-0
-49
-49
 footprints
 REF0038A-MFG
 
