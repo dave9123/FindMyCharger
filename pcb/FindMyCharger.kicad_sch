@@ -17684,7 +17684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "0.1W 50V"
 			(at 295.91 308.61 0)
 			(effects
 				(font
@@ -19093,6 +19093,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 205.74 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power_Rating" "50V"
+			(at 205.74 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03d21f54-c2fb-497a-b25c-b4faf286ad8a")
 		)
@@ -20128,6 +20146,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 289.56 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power_Rating" "6.3V"
+			(at 289.56 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59c1ca7f-4a32-4461-8acf-1cce7049a9de")
 		)
@@ -20375,7 +20411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "footprints:GJM033"
 			(at 515.3152 342.9 0)
 			(effects
 				(font
@@ -22313,7 +22349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "footprints:GJM033"
 			(at 543.2552 342.9 0)
 			(effects
 				(font
@@ -24258,7 +24294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:LQP03HQ0N5B02D"
 			(at 563.245 432.105 0)
 			(effects
 				(font
@@ -24448,7 +24484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:LQP03HQ0N5B02D"
 			(at 499.745 238.455 0)
 			(effects
 				(font
@@ -24589,6 +24625,24 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 250.19 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 250.19 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power_Rating" "6.3V"
 			(at 250.19 340.36 0)
 			(effects
 				(font
@@ -25507,7 +25561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_Rating" "40V"
+		(property "Power_Rating" "50V"
 			(at 210.82 312.42 0)
 			(effects
 				(font
@@ -26324,7 +26378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "0.1W 50V"
 			(at 295.91 318.77 0)
 			(effects
 				(font
@@ -28855,7 +28909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:LQP03HQ0N5B02D"
 			(at 534.035 432.105 0)
 			(effects
 				(font
@@ -29904,7 +29958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_Rating" "40V"
+		(property "Power_Rating" "50V"
 			(at 223.52 312.42 0)
 			(effects
 				(font
@@ -31201,6 +31255,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 289.56 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power_Rating" "6.3V"
+			(at 289.56 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03d8a2f2-7d81-48f4-8721-37eae77a04a7")
 		)
@@ -31468,6 +31540,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 205.74 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power_Rating" "50V"
 			(at 205.74 328.93 0)
 			(effects
 				(font
