@@ -10,5 +10,4 @@
   (lib (name "GJM0335C1E2R0WB01J")(type "KiCad")(uri "${KIPRJMOD}/libraries/GJM0335C1E2R0WB01J.kicad_sym")(options "")(descr ""))
   (lib (name "LQP03HQ2N7B02D")(type "KiCad")(uri "${KIPRJMOD}/libraries/LQP03HQ2N7B02D.kicad_sym")(options "")(descr ""))
   (lib (name "LQP03HQ3N5B02D")(type "KiCad")(uri "${KIPRJMOD}/libraries/LQP03HQ3N5B02D.kicad_sym")(options "")(descr ""))
-  (lib (name "IP2726")(type "KiCad")(uri "${KIPRJMOD}/libraries/IP2726.kicad_sym")(options "")(descr ""))
 )

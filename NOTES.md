@@ -11,9 +11,19 @@ Powerbank with Tracker
 * If I'm going for a small approach, might as well do 1.2 MHz, although I believe that more battery would be worth it but having the tracker approach, make it as small as possible, maybe?
 * Include battery level transmission onto Macless Haystack
 
+Goals
+- Able to stay alive for at least 3 months idle (while transmitting)
+
 To do
+- Resources
+	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
 - Design PCB
 	- Assign footprints
+	- Include power rating to components
+	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
+	- Include pad comms for ICs
+	- Calculate voltage divider on TPS25762-Q1 thermistor
+	- Figure out either to connect ICs comms nRF54 or debug pad
 	- Figure out PD in's ADCIN
 	- Double check schematics
 	- Double check footprints
