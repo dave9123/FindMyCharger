@@ -1,4 +1,3 @@
-
 Powerbank with Tracker
 * BLE (for https://github.com/dchristl/macless-haystack and https://github.com/leonboe1/GoogleFindMyTools)
 * Built-in USB C cable for output
@@ -18,21 +17,41 @@ To do
 - Resources
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
 - Design PCB
-	- Assign footprints
+	- Confirm LED strength to prevent it from being too bright	
 	- Include power rating to components
+	- Add more test pads
 	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
 	- Include pad comms for ICs
+	- Isolate GND for BQ4050
 	- Calculate voltage divider on TPS25762-Q1 thermistor
 	- Figure out either to connect ICs comms nRF54 or debug pad
 	- Figure out PD in's ADCIN
+	- Assign footprints
+		- Capacitors
+		- Resistors
+		- Inductors
+		- Others
 	- Double check schematics
 	- Double check footprints
+	- Figure out impedance, frequency and allat
 	- Route component traces
 	- Double check PCB
 - Casing
 - Firmware
 	- Macless Haystack port
 	- Google Find Hub port
+
+TPS25762-Q1 EN/UVLO setup
+(12.6-12)/(16.8-12) = 12.5% left before shutdown
+
+LED brightness
+VBAT = VLEDCNTLx + 2.5 V
+If battery 16.8, LEDCNTLx = 16.8-2.5 = 14.3V
+
+
+agnd and pgnd connected together even tho datasheet says to isolate them (?)
+
+nrf54 does internal pull up https://devzone.nordicsemi.com/f/nordic-q-a/31152/nrf52840-swdio-internal-pullup-and-swdclk-internal-pulldown-values
 
 Future considerations
 * Handle communications without external IC (https://github.com/Infineon/pdstack https://github.com/MicrochipTech/usb-pd-software-framework https://github.com/pdsink/pdsink PD DRP handlers)
