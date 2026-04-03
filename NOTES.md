@@ -19,7 +19,6 @@ To do
 - Design PCB
 	- Confirm LED strength to prevent it from being too bright	
 	- Include power rating to components
-	- Add more test pads
 	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
 	- Include pad comms for ICs
 	- Isolate GND for BQ4050
