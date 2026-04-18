@@ -17,19 +17,16 @@ To do
 - Resources
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
 - Design PCB
-	- Confirm LED strength to prevent it from being too bright	
 	- Include power rating to components
 	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
+	- Moisture detection for USB C receptacles https://www.infineon.com/assets/row/public/documents/24/42/infineon-liquid-corrosion-mitigation-on-usb-type-c-connector-using-ez-pd-pmg1-devices-applicationnotes-en.pdf
 	- Include pad comms for ICs
 	- Isolate GND for BQ4050
 	- Calculate voltage divider on TPS25762-Q1 thermistor
 	- Figure out either to connect ICs comms nRF54 or debug pad
 	- Figure out PD in's ADCIN
+	- Confirm LED strength to prevent it from being too bright
 	- Assign footprints
-		- Capacitors
-		- Resistors
-		- Inductors
-		- Others
 	- Double check schematics
 	- Double check footprints
 	- Figure out impedance, frequency and allat
