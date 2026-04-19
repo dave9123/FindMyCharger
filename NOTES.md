@@ -21,6 +21,7 @@ To do
 	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
 	- Calculate voltage divider on TPS25762-Q1 thermistor
 	- Figure out PD in's ADCIN
+	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
 	- Include power rating to components
 	- Assign footprints
 	- Double check schematics
@@ -60,6 +61,19 @@ ceramic capacitor weird by volt stuff https://www.analog.com/en/resources/techni
 >Finally, keep in mind that, as we continue to drive madly to smaller and smaller sizes, this is becoming more of an issue every day.
 
 human esd https://www.egr.msu.edu/classes/ece480/capstone/fall08/group03/appnotes/zener_shunt_regulator.html available up to 5W only
+> The best method of routing from the ESD Source to the TVS is
+using straight paths which are as short as possible. Beyond lowering the impedance in the path to ground for
+IESD, shortening the length of this path also reduces the EMI being radiated inside the system. If corners are
+necessary, they should be curved with the largest radii possible, with 45° corners being the maximum angle if the
+PCB technology does not allow curved traces.
+https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F (add curves to traces)
+
+short to vbus figure 8-3
+![[Pasted image 20260419185610.png]]
+https://www.ti.com/lit/an/slvaf82b/slvaf82b.pdf?ts=1776591067117
+
+> zener diode breakdown voltage when reverse-biased would connect it to gnd, but slow response times
+https://www.flywing-tech.com/blog/overvoltage-protection-using-zener-vs-tvs-diode/
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
