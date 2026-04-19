@@ -12,24 +12,19 @@ Powerbank with Tracker
 
 Goals
 - Able to stay alive for at least 3 months idle (while transmitting)
+- Moisture detection for USB C receptacles https://www.infineon.com/assets/row/public/documents/24/42/infineon-liquid-corrosion-mitigation-on-usb-type-c-connector-using-ez-pd-pmg1-devices-applicationnotes-en.pdf
 
 To do
 - Resources
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
 - Design PCB
-	- Include power rating to components
 	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
-	- Moisture detection for USB C receptacles https://www.infineon.com/assets/row/public/documents/24/42/infineon-liquid-corrosion-mitigation-on-usb-type-c-connector-using-ez-pd-pmg1-devices-applicationnotes-en.pdf
-	- Include pad comms for ICs
-	- Isolate GND for BQ4050
 	- Calculate voltage divider on TPS25762-Q1 thermistor
-	- Figure out either to connect ICs comms nRF54 or debug pad
 	- Figure out PD in's ADCIN
-	- Confirm LED strength to prevent it from being too bright
+	- Include power rating to components
 	- Assign footprints
 	- Double check schematics
 	- Double check footprints
-	- Figure out impedance, frequency and allat
 	- Route component traces
 	- Double check PCB
 - Casing
@@ -56,6 +51,15 @@ Future considerations
 * Opt for WLCSP (ultra small) version
 
 ![[Pasted image 20260324112012.png]]
+
+ceramic capacitor weird by volt stuff https://www.analog.com/en/resources/technical-articles/temperature-and-voltage-variation-ceramic-capacitor.html
+>As a result of this lesson, I no longer just specify an X7R or X5R capacitor to colleagues or customers. Instead, I specify specific parts from specific vendors whose data I have checked. I also warn customers to check data when considering alternative vendors in production to ensure that they do not run into these problems.
+>
+>The larger lesson here, as you may have surmised, is "read the data sheet," every time, no exceptions. Ask for detailed data when the data sheet does not contain sufficient information. Remember too that the ceramic capacitor type designations, such as X7R, X5R, and Y5V, imply nothing about voltage coefficients. Engineers must check the data to know, really know, how a specific capacitor will perform under voltage.
+>
+>Finally, keep in mind that, as we continue to drive madly to smaller and smaller sizes, this is becoming more of an issue every day.
+
+human esd https://www.egr.msu.edu/classes/ece480/capstone/fall08/group03/appnotes/zener_shunt_regulator.html available up to 5W only
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
