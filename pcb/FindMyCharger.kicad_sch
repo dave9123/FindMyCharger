@@ -10499,6 +10499,12 @@
 		(uuid "11208ade-7c55-49ae-8881-845dfd3fa518")
 	)
 	(junction
+		(at 24.13 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11ef392d-ef7b-4a44-8a27-2bf8b62f85ae")
+	)
+	(junction
 		(at 654.05 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11309,6 +11315,12 @@
 		(uuid "d2c2e810-774e-4792-b093-5061ca7f5851")
 	)
 	(junction
+		(at 36.83 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4a80d25-cc78-4ae5-903d-f1c502bdb12c")
+	)
+	(junction
 		(at 659.13 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11483,10 +11495,6 @@
 	(no_connect
 		(at 55.88 325.12)
 		(uuid "877f89aa-916d-4fac-9980-bf508fade73c")
-	)
-	(no_connect
-		(at 33.02 342.9)
-		(uuid "90ff0cc4-16a1-4a10-9f8e-f0d98378cd5d")
 	)
 	(no_connect
 		(at 55.88 320.04)
@@ -11908,6 +11916,16 @@
 			(type default)
 		)
 		(uuid "1d8fdc2d-18cd-4a9c-bade-fcc6032ce7db")
+	)
+	(wire
+		(pts
+			(xy 20.32 110.49) (xy 24.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e598cc1-8a5d-4448-9593-e6e98638ce98")
 	)
 	(wire
 		(pts
@@ -12768,6 +12786,16 @@
 			(type default)
 		)
 		(uuid "506889f8-87e0-4fbe-a8a2-6b87204668ac")
+	)
+	(wire
+		(pts
+			(xy 33.02 342.9) (xy 36.83 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50713969-bbf7-4505-9458-7fee1018b425")
 	)
 	(wire
 		(pts
@@ -15661,6 +15689,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 342.9) (xy 40.64 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28ed4bc-cdb2-478f-a018-6469dee78d67")
+	)
+	(wire
+		(pts
 			(xy 274.32 274.32) (xy 292.1 274.32)
 		)
 		(stroke
@@ -15718,6 +15756,16 @@
 			(type default)
 		)
 		(uuid "f7749c8a-c423-44e8-af27-b35b8c56cf79")
+	)
+	(wire
+		(pts
+			(xy 24.13 110.49) (xy 27.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8478019-76d9-4716-b5cc-f75aab750465")
 	)
 	(wire
 		(pts
@@ -23450,7 +23498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 342.9 0)
+		(at 36.83 342.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23461,7 +23509,7 @@
 		(fields_autoplaced yes)
 		(uuid "22bfd7ec-c863-422d-b8a4-a55284df2fa3")
 		(property "Reference" "#PWR03"
-			(at 40.64 349.25 0)
+			(at 36.83 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23472,7 +23520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 347.98 0)
+			(at 36.83 347.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23482,7 +23530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 342.9 0)
+			(at 36.83 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23493,7 +23541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 342.9 0)
+			(at 36.83 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23504,7 +23552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 342.9 0)
+			(at 36.83 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30456,7 +30504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 110.49 0)
+		(at 24.13 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30467,7 +30515,7 @@
 		(fields_autoplaced yes)
 		(uuid "78508ae7-19ee-4da5-aed1-5f87ce54c1ba")
 		(property "Reference" "#PWR0101"
-			(at 27.94 116.84 0)
+			(at 24.13 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30478,7 +30526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 115.57 0)
+			(at 24.13 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30488,7 +30536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 110.49 0)
+			(at 24.13 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30499,7 +30547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 110.49 0)
+			(at 24.13 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30510,7 +30558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 110.49 0)
+			(at 24.13 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
