@@ -20,7 +20,6 @@ To do
 - Design PCB
 	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
 	- Calculate voltage divider on TPS25762-Q1 thermistor
-	- Figure out PD in's ADCIN
 	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
 	- Include power rating to components
 	- Assign footprints
@@ -74,6 +73,11 @@ https://www.ti.com/lit/an/slvaf82b/slvaf82b.pdf?ts=1776591067117
 
 > zener diode breakdown voltage when reverse-biased would connect it to gnd, but slow response times
 https://www.flywing-tech.com/blog/overvoltage-protection-using-zener-vs-tvs-diode/
+
+![[Pasted image 20260529212459.png]]
+![[firefox_of7rFwYYZ2.jpg]]
+
+
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
