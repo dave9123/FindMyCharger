@@ -41409,7 +41409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 322.58 334.518 90)
 			(hide yes)
 			(show_name no)
