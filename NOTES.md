@@ -18,7 +18,6 @@ To do
 - Resources
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
 - Design PCB
-	- Setup firmware update pin out for TPS25762-Q1 (TVSP)
 	- Calculate voltage divider on TPS25762-Q1 thermistor
 	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
 	- Include power rating to components
@@ -60,11 +59,7 @@ ceramic capacitor weird by volt stuff https://www.analog.com/en/resources/techni
 >Finally, keep in mind that, as we continue to drive madly to smaller and smaller sizes, this is becoming more of an issue every day.
 
 human esd https://www.egr.msu.edu/classes/ece480/capstone/fall08/group03/appnotes/zener_shunt_regulator.html available up to 5W only
-> The best method of routing from the ESD Source to the TVS is
-using straight paths which are as short as possible. Beyond lowering the impedance in the path to ground for
-IESD, shortening the length of this path also reduces the EMI being radiated inside the system. If corners are
-necessary, they should be curved with the largest radii possible, with 45° corners being the maximum angle if the
-PCB technology does not allow curved traces.
+> The best method of routing from the ESD Source to the TVS is using straight paths which are as short as possible. Beyond lowering the impedance in the path to ground for IESD, shortening the length of this path also reduces the EMI being radiated inside the system. If corners are necessary, they should be curved with the largest radii possible, with 45° corners being the maximum angle if the PCB technology does not allow curved traces.
 https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F (add curves to traces)
 
 short to vbus figure 8-3
@@ -76,7 +71,7 @@ https://www.flywing-tech.com/blog/overvoltage-protection-using-zener-vs-tvs-diod
 
 ![[Pasted image 20260529212459.png]]
 ![[firefox_of7rFwYYZ2.jpg]]
-
+weird values for easier future changes instead of directly shoving it to GND and 3V3 and 1V5
 
 
 Battery (18650)
