@@ -254,6 +254,14 @@
         "power from regn"
       ],
       [
+        "power_pin_not_driven|1231900|5067300|ba352de5-e16d-484e-99b6-ed3d2baeda62|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "powered through circuit"
+      ],
+      [
+        "power_pin_not_driven|1231900|5219700|bae8cbbb-9b07-47b9-8fd1-cef6283c0057|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "resistor divider, powered from REGN (LDO 6V)"
+      ],
+      [
         "power_pin_not_driven|1435100|393700|3f78cb97-06aa-4455-86ff-c7b4d465d9d0|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
         "from usb c"
       ],
@@ -267,15 +275,51 @@
       ],
       [
         "power_pin_not_driven|1689100|1841500|e29b20b1-ee7c-4e5a-9861-c5d2caa44726|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
-        "pack+ circuit"
+        "powered through pack+ and charger vsys"
       ],
       [
         "power_pin_not_driven|1689100|1968500|f3cf5011-a134-446c-a968-5a45d310d15e|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
-        "pack+ circuit"
+        "verified with typical app, perhaps datasheet error?"
       ],
       [
         "power_pin_not_driven|1689100|2019300|b566dc5f-5752-44e3-8fcf-ec7d01cb2ebb|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
-        "pack+ circuit"
+        "buck-boost circuit"
+      ],
+      [
+        "power_pin_not_driven|1892300|5092700|861a0f3a-b316-4e0f-ae70-ec51a2e635a7|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "powered through circuit"
+      ],
+      [
+        "power_pin_not_driven|1892300|5143500|e29b20b1-ee7c-4e5a-9861-c5d2caa44726|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "unsure, but seems like powering capacitor GND, following circuit"
+      ],
+      [
+        "power_pin_not_driven|1892300|5270500|f3cf5011-a134-446c-a968-5a45d310d15e|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "unsure, but seems like powering capacitor GND, following circuit"
+      ],
+      [
+        "power_pin_not_driven|1892300|5321300|b566dc5f-5752-44e3-8fcf-ec7d01cb2ebb|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "powered through circuit"
+      ],
+      [
+        "power_pin_not_driven|3886200|2032000|98214b23-2451-45f8-90f6-ed179cde5681|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "gnd"
+      ],
+      [
+        "power_pin_not_driven|4546600|2006600|10028dc7-d207-4029-a90e-ba75732c18ca|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "powered trhough circuit"
+      ],
+      [
+        "power_pin_not_driven|5829300|419100|bfcaa09f-811e-4c80-a162-febf026102ec|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "testpoint"
+      ],
+      [
+        "power_pin_not_driven|5829300|584200|d628ed3b-9ce8-4853-9a26-9079c23dc84e|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "testpoint"
+      ],
+      [
+        "power_pin_not_driven|889000|3111500|d88c836b-84fd-46a5-a22c-cdba8fc87736|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "powered through pack+ and charger vsys"
       ]
     ],
     "meta": {
@@ -678,7 +722,7 @@
         "uuid": "263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
       }
     ],
-    "used_designators": "#PWR27,D2,D4-6,D10-11,D15,D19-21,R18,R67-71,J4,H11-14,C55,TH1",
+    "used_designators": "#PWR15,#PWR27,#PWR34,#PWR37,#PWR51,#PWR64,#PWR80,D2,D4-6,D10-11,D15,D19-21,R18,R67-71,J1-2,J4,H11-14,C55,C74-86,TH1",
     "variants": []
   },
   "sheets": [

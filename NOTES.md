@@ -19,6 +19,8 @@ To do
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
 	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
 - Design PCB
+	- Make TPS25730 support 0-3A (ADCIN3)
+	- Update thermistor to be able to be used by both BQ4050 and TPS25762-Q1
 	- Include power rating to components
 	- Assign footprints
 	- Double check schematics
@@ -78,7 +80,10 @@ charger voltage through battery detection
 
 normal sleep shutdown mode![[Pasted image 20260530214131.png]]
 
+![[Pasted image 20260531142250.png]]
+die at ~12.5%
 
+charge pump capacitor uses mosfets to charge for use in usage peak
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
