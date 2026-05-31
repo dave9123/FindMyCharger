@@ -17,9 +17,8 @@ Goals
 To do
 - Resources
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
-- Design PCB
-	- Calculate voltage divider on TPS25762-Q1 thermistor
 	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
+- Design PCB
 	- Include power rating to components
 	- Assign footprints
 	- Double check schematics
@@ -71,7 +70,14 @@ https://www.flywing-tech.com/blog/overvoltage-protection-using-zener-vs-tvs-diod
 
 ![[Pasted image 20260529212459.png]]
 ![[firefox_of7rFwYYZ2.jpg]]
+![[Pasted image 20260530112122.png]]
 weird values for easier future changes instead of directly shoving it to GND and 3V3 and 1V5
+
+![[Pasted image 20260530115305.png]]
+charger voltage through battery detection
+
+normal sleep shutdown mode![[Pasted image 20260530214131.png]]
+
 
 
 Battery (18650)

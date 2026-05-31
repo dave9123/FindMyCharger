@@ -244,7 +244,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1028700|1765300|ba352de5-e16d-484e-99b6-ed3d2baeda62|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "from circuit"
+      ],
+      [
+        "power_pin_not_driven|1028700|1917700|bae8cbbb-9b07-47b9-8fd1-cef6283c0057|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "power from regn"
+      ],
+      [
+        "power_pin_not_driven|1435100|393700|3f78cb97-06aa-4455-86ff-c7b4d465d9d0|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "from usb c"
+      ],
+      [
+        "power_pin_not_driven|1435100|495300|2d8c8768-8639-4aac-83c6-21c77115cede|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "from usb c"
+      ],
+      [
+        "power_pin_not_driven|1689100|1790700|861a0f3a-b316-4e0f-ae70-ec51a2e635a7|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "connected to VBUS to PACK+ circuit"
+      ],
+      [
+        "power_pin_not_driven|1689100|1841500|e29b20b1-ee7c-4e5a-9861-c5d2caa44726|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "pack+ circuit"
+      ],
+      [
+        "power_pin_not_driven|1689100|1968500|f3cf5011-a134-446c-a968-5a45d310d15e|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "pack+ circuit"
+      ],
+      [
+        "power_pin_not_driven|1689100|2019300|b566dc5f-5752-44e3-8fcf-ec7d01cb2ebb|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "pack+ circuit"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -430,7 +463,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
@@ -458,7 +491,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -645,7 +678,7 @@
         "uuid": "263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
       }
     ],
-    "used_designators": "#PWR27,D2,D4-6,D10-11,D15,D19-21,R18,R67-69,J4,H11-12,C55,TH1",
+    "used_designators": "#PWR27,D2,D4-6,D10-11,D15,D19-21,R18,R67-71,J4,H11-14,C55,TH1",
     "variants": []
   },
   "sheets": [
