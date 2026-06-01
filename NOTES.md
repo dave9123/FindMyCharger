@@ -20,7 +20,7 @@ To do
 	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
 - Design PCB
 	- Make TPS25730 support 0-3A (ADCIN3)
-	- Update thermistor to be able to be used by both BQ4050 and TPS25762-Q1
+	- Confirm on TPS25762-Q1 as SW's CSNB 50V, CBOOT 10V despite being side-by-side
 	- Include power rating to components
 	- Assign footprints
 	- Double check schematics
@@ -28,6 +28,7 @@ To do
 	- Route component traces
 	- Double check PCB
 - Casing
+	- through hole NTC beside battery
 - Firmware
 	- Macless Haystack port
 	- Google Find Hub port
@@ -45,6 +46,7 @@ agnd and pgnd connected together even tho datasheet says to isolate them (?)
 nrf54 does internal pull up https://devzone.nordicsemi.com/f/nordic-q-a/31152/nrf52840-swdio-internal-pullup-and-swdclk-internal-pulldown-values
 
 Future considerations
+* Update thermistor to be able to be used by both BQ4050 and TPS25762-Q1
 * Handle communications without external IC (https://github.com/Infineon/pdstack https://github.com/MicrochipTech/usb-pd-software-framework https://github.com/pdsink/pdsink PD DRP handlers)
 * Ultra Wide Band (UWB) for precise finding
 * Support PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)

@@ -3258,27 +3258,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
+			(property "Reference" "Y1"
+				(at 1.2701 -3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "32Mhz 8pF"
+				(at -1.2699 -3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3301,6 +3303,28 @@
 				)
 			)
 			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power_Rating" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10171,6 +10195,16 @@
 		)
 		(uuid "2610f282-c876-4b0f-9faa-1cac5e5e04bf")
 	)
+	(text "±40 ppm"
+		(exclude_from_sim no)
+		(at 428.498 296.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c715532-095a-4e3d-a23d-87a199868766")
+	)
 	(text "schottky 4 current surge protection, datasheet 8.5"
 		(exclude_from_sim no)
 		(at 105.664 30.734 0)
@@ -10200,6 +10234,16 @@
 			)
 		)
 		(uuid "bf2a0784-0abe-4b6d-b470-e8bbf1092a8e")
+	)
+	(text "NOTE: double check crystal pins"
+		(exclude_from_sim no)
+		(at 436.118 281.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c57f17f5-518e-4208-a9f8-3803ffb6b265")
 	)
 	(text_box "Debug Pads"
 		(exclude_from_sim no)
@@ -10750,6 +10794,12 @@
 		(uuid "4491f3df-761e-4172-a46b-e003b42a4889")
 	)
 	(junction
+		(at 535.94 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46923b94-2d93-4e95-9c72-a77c8d0b19dd")
+	)
+	(junction
 		(at 313.69 332.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10772,12 +10822,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a0578fb-fb3e-4381-b2c7-d9f321707a5d")
-	)
-	(junction
-		(at 514.35 342.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b30cc60-e293-4bf8-b634-88984c5c0999")
 	)
 	(junction
 		(at 311.15 467.36)
@@ -10852,12 +10896,6 @@
 		(uuid "57bdda65-f1a6-40bf-8496-6bf67a99caad")
 	)
 	(junction
-		(at 542.29 335.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "586be48f-0c40-477e-8a0e-127ad3a24a28")
-	)
-	(junction
 		(at 505.46 300.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10930,12 +10968,6 @@
 		(uuid "61d79a28-0daf-49e0-bee8-aebe745599fa")
 	)
 	(junction
-		(at 570.23 335.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64064eef-c6a3-4e00-81ce-0fe52c3b39b3")
-	)
-	(junction
 		(at 182.88 469.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10952,6 +10984,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64db99a3-939a-4d88-8308-6dcc1cfaff32")
+	)
+	(junction
+		(at 524.51 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65e6c01e-1bc4-41b8-9352-c1a2f482d60e")
 	)
 	(junction
 		(at 243.84 462.28)
@@ -11146,6 +11184,12 @@
 		(uuid "98ed0888-5061-4017-ac4c-3ba9c56933c4")
 	)
 	(junction
+		(at 511.81 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99f5bf6f-673b-42ea-9663-72ac7c3263ae")
+	)
+	(junction
 		(at 595.63 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11180,12 +11224,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e20d3d-bdd5-4e91-91b5-d6fa6f571fdf")
-	)
-	(junction
-		(at 514.35 335.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3134c89-d2ed-4e96-bdb2-626c4265dbe6")
 	)
 	(junction
 		(at 77.47 344.17)
@@ -11494,6 +11532,12 @@
 		(uuid "da5b9862-dae3-457f-8c15-6e75f65f08ba")
 	)
 	(junction
+		(at 511.81 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da943d2b-580b-434a-8427-b8757ead8003")
+	)
+	(junction
 		(at 594.36 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11554,6 +11598,12 @@
 		(uuid "e585c09c-9f46-4f3a-9f18-254d77b09f4f")
 	)
 	(junction
+		(at 524.51 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e591e168-40d9-4934-8140-b2e1bdbe7dc1")
+	)
+	(junction
 		(at 490.22 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11588,12 +11638,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2799fae-f330-4c94-80c7-f3196ce4b017")
-	)
-	(junction
-		(at 542.29 342.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f50375b9-5dbd-4ca0-8714-16da99196eae")
 	)
 	(junction
 		(at 537.21 290.83)
@@ -12175,16 +12219,6 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 335.28) (xy 553.72 335.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d47a44c-3cf1-4ec8-bc7e-aa50a298223e")
-	)
-	(wire
-		(pts
 			(xy 256.54 274.32) (xy 274.32 274.32)
 		)
 		(stroke
@@ -12262,6 +12296,16 @@
 			(type default)
 		)
 		(uuid "115dc389-13dc-4c77-acb1-89447f8345c6")
+	)
+	(wire
+		(pts
+			(xy 524.51 342.9) (xy 535.94 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122ba074-4c22-4050-a331-26d9f5187a3b")
 	)
 	(wire
 		(pts
@@ -13115,16 +13159,6 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 335.28) (xy 572.77 335.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de4e967-99c8-487a-bc2d-2b282f848a61")
-	)
-	(wire
-		(pts
 			(xy 87.63 480.06) (xy 86.36 480.06)
 		)
 		(stroke
@@ -13382,6 +13416,16 @@
 			(type default)
 		)
 		(uuid "47b0c1bc-84f0-4af6-97e9-16eb745c867a")
+	)
+	(wire
+		(pts
+			(xy 511.81 342.9) (xy 524.51 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f046ad-9690-46a0-877c-d521a8c45ff1")
 	)
 	(wire
 		(pts
@@ -14135,6 +14179,16 @@
 	)
 	(wire
 		(pts
+			(xy 535.94 335.28) (xy 537.21 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d1cb25-ee78-42b0-88ad-92dc5e76515c")
+	)
+	(wire
+		(pts
 			(xy 303.53 340.36) (xy 316.23 340.36)
 		)
 		(stroke
@@ -14222,16 +14276,6 @@
 			(type default)
 		)
 		(uuid "6bd1e2f6-054d-42e7-bb44-19176873b418")
-	)
-	(wire
-		(pts
-			(xy 514.35 335.28) (xy 524.51 335.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c1047b3-cae2-4392-95ad-5dd4eae02823")
 	)
 	(wire
 		(pts
@@ -14715,7 +14759,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 335.28) (xy 542.29 335.28)
+			(xy 521.97 335.28) (xy 524.51 335.28)
 		)
 		(stroke
 			(width 0)
@@ -14915,16 +14959,6 @@
 	)
 	(wire
 		(pts
-			(xy 514.35 342.9) (xy 542.29 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae26c71-6b3d-4b78-b88d-e672a864539e")
-	)
-	(wire
-		(pts
 			(xy 208.28 523.24) (xy 208.28 521.97)
 		)
 		(stroke
@@ -15012,6 +15046,16 @@
 			(type default)
 		)
 		(uuid "8d73a692-dea2-4a59-825d-dfc0059f660d")
+	)
+	(wire
+		(pts
+			(xy 511.81 335.28) (xy 514.35 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef9d1ce-9142-4a63-9570-523886c24fa8")
 	)
 	(wire
 		(pts
@@ -15555,7 +15599,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 335.28) (xy 514.35 335.28)
+			(xy 509.27 335.28) (xy 511.81 335.28)
 		)
 		(stroke
 			(width 0)
@@ -15825,7 +15869,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 342.9) (xy 514.35 342.9)
+			(xy 505.46 342.9) (xy 511.81 342.9)
 		)
 		(stroke
 			(width 0)
@@ -15972,16 +16016,6 @@
 			(type default)
 		)
 		(uuid "b4fd7ab7-9c82-4b92-904c-41d8a7b05037")
-	)
-	(wire
-		(pts
-			(xy 542.29 342.9) (xy 570.23 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b50f16a8-3849-4c18-a789-396541f79611")
 	)
 	(wire
 		(pts
@@ -16242,6 +16276,16 @@
 			(type default)
 		)
 		(uuid "c0e413aa-7cf0-42a7-86df-dcc48ab38617")
+	)
+	(wire
+		(pts
+			(xy 524.51 335.28) (xy 527.05 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12c5589-71ac-44d7-815f-32f0b7d01cca")
 	)
 	(wire
 		(pts
@@ -17145,7 +17189,7 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 335.28) (xy 570.23 335.28)
+			(xy 534.67 335.28) (xy 535.94 335.28)
 		)
 		(stroke
 			(width 0)
@@ -21800,7 +21844,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "XTAL_2016"
+		(property "Value" "32Mhz 8pF"
 			(at 429.26 292.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21811,7 +21855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 425.45 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -21834,6 +21878,28 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 425.45 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 425.45 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
 			(at 425.45 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -23739,7 +23805,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "50V"
+		(property "Power_Rating" "16V"
 			(at 189.23 558.8 0)
 			(hide yes)
 			(show_name no)
@@ -24645,6 +24711,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 74.93 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "0.1W"
 			(at 74.93 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -25703,7 +25791,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "50V"
+		(property "Power_Rating" "16V"
 			(at 193.04 554.99 0)
 			(hide yes)
 			(show_name no)
@@ -27692,6 +27780,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 62.23 511.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "6.3V"
+			(at 62.23 511.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "650e7346-8cfa-4c86-bd85-7a85d9a54e56")
 		)
@@ -28155,7 +28265,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 514.35 339.09 0)
+		(at 511.81 339.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28165,7 +28275,7 @@
 		(dnp no)
 		(uuid "40161947-e69c-41e2-84be-a62e7006ca31")
 		(property "Reference" "C49"
-			(at 518.16 337.8199 0)
+			(at 515.62 337.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28175,8 +28285,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GJM0335C1E1R5WB01"
-			(at 518.16 340.3599 0)
+		(property "Value" "1.5pF"
+			(at 515.62 340.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28186,8 +28296,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:GJM033"
-			(at 515.3152 342.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 512.7752 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28198,7 +28308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 339.09 0)
+			(at 511.81 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28209,7 +28319,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 514.35 339.09 0)
+			(at 511.81 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM0335C1E1R5WB01"
+			(at 511.81 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 511.81 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30610,6 +30742,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 121.92 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "16V"
+			(at 121.92 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73381556-15a2-4088-bb0d-51f28ed9c73c")
 		)
@@ -31348,7 +31502,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 542.29 339.09 0)
+		(at 524.51 339.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31359,7 +31513,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f609008-3e41-4293-982e-a586594bb7a0")
 		(property "Reference" "C53"
-			(at 546.1 337.8199 0)
+			(at 528.32 337.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31369,8 +31523,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GJM0335C1E2R0WB01"
-			(at 546.1 340.3599 0)
+		(property "Value" "2pF"
+			(at 528.32 340.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31380,8 +31534,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:GJM033"
-			(at 543.2552 342.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 525.4752 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31392,7 +31546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 339.09 0)
+			(at 524.51 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31403,7 +31557,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 542.29 339.09 0)
+			(at 524.51 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM0335C1E2R0WB01"
+			(at 524.51 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 524.51 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33190,7 +33366,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 577.85 335.28 270)
+		(at 542.29 335.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33201,7 +33377,7 @@
 		(fields_autoplaced yes)
 		(uuid "72614c4c-e817-44b6-98a7-02e64ffab585")
 		(property "Reference" "AE1"
-			(at 581.66 334.0099 90)
+			(at 546.1 334.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33212,7 +33388,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 581.66 336.5499 90)
+			(at 546.1 336.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33223,7 +33399,7 @@
 			)
 		)
 		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
-			(at 577.85 335.28 0)
+			(at 542.29 335.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33234,7 +33410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 577.85 335.28 0)
+			(at 542.29 335.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33245,7 +33421,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 577.85 335.28 0)
+			(at 542.29 335.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33324,6 +33500,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 63.5 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "6.3V"
 			(at 63.5 490.22 0)
 			(hide yes)
 			(show_name no)
@@ -33488,6 +33686,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 71.12 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "0.1W"
 			(at 71.12 541.02 0)
 			(hide yes)
 			(show_name no)
@@ -34279,7 +34499,7 @@
 	)
 	(symbol
 		(lib_id "LQP03HQ3N5B02D:LQP03HQ3N5B02D")
-		(at 546.735 335.915 0)
+		(at 520.065 335.915 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34289,7 +34509,7 @@
 		(dnp no)
 		(uuid "7c0fe143-a1a5-40de-afaa-2b31abea6f5c")
 		(property "Reference" "L6"
-			(at 556.895 329.565 0)
+			(at 530.225 329.565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34298,8 +34518,8 @@
 				)
 			)
 		)
-		(property "Value" "LQP03HQ3N5B02"
-			(at 556.895 332.105 0)
+		(property "Value" "3.5nH"
+			(at 530.225 332.105 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34309,7 +34529,7 @@
 			)
 		)
 		(property "Footprint" "footprints:LQP03HQ0N5B02D"
-			(at 563.245 432.105 0)
+			(at 536.575 432.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34321,7 +34541,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
-			(at 563.245 532.105 0)
+			(at 536.575 532.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34333,7 +34553,7 @@
 			)
 		)
 		(property "Description" "LQP03HQ_02 Series Inductor 3.5nH +/-0.1nH 0201 (0603)"
-			(at 546.735 335.915 0)
+			(at 520.065 335.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34344,7 +34564,7 @@
 			)
 		)
 		(property "Height" "0.42"
-			(at 563.245 732.105 0)
+			(at 536.575 732.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34356,7 +34576,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-LQP03HQ3N5B02D"
-			(at 563.245 832.105 0)
+			(at 536.575 832.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34368,7 +34588,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQP03HQ3N5B02D?qs=Ey7%2FXF42M3czaOgYp0oGuw%3D%3D"
-			(at 563.245 932.105 0)
+			(at 536.575 932.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34380,7 +34600,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 563.245 1032.105 0)
+			(at 536.575 1032.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34392,7 +34612,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LQP03HQ3N5B02D"
-			(at 563.245 1132.105 0)
+			(at 536.575 1132.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34401,6 +34621,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "MPN" "LQP03HQ3N5B02"
+			(at 520.065 335.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 520.065 335.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -34485,6 +34727,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 71.12 551.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "0.1W"
+			(at 71.12 551.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b0ebed7-e601-4730-add9-bc9a85dcda53")
 		)
@@ -34522,7 +34786,7 @@
 				)
 			)
 		)
-		(property "Value" "LQP03HQ2N7B02"
+		(property "Value" "2.7nH"
 			(at 505.46 332.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34625,6 +34889,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "MPN" "LQP03HQ2N7B02"
+			(at 516.255 334.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 516.255 334.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -35301,7 +35587,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 570.23 339.09 0)
+		(at 535.94 339.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35311,7 +35597,7 @@
 		(dnp no)
 		(uuid "8258b598-ac2a-4030-a87b-6e1abecd918b")
 		(property "Reference" "C56"
-			(at 574.04 337.8199 0)
+			(at 539.75 337.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35322,7 +35608,7 @@
 			)
 		)
 		(property "Value" "0.3pF"
-			(at 574.04 340.3599 0)
+			(at 539.75 340.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35332,8 +35618,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 571.1952 342.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 536.9052 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35344,7 +35630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 570.23 339.09 0)
+			(at 535.94 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35355,7 +35641,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 570.23 339.09 0)
+			(at 535.94 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36937,6 +37223,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 86.36 485.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "0.1W"
+			(at 86.36 485.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "82c77bfa-7d1e-43c1-b465-b4b8aa4403c1")
 		)
@@ -37512,6 +37820,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 86.36 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 86.36 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "0.1W"
 			(at 86.36 495.3 0)
 			(hide yes)
 			(show_name no)
@@ -40871,7 +41201,7 @@
 	)
 	(symbol
 		(lib_id "LQP03HQ3N5B02D:LQP03HQ3N5B02D")
-		(at 517.525 335.915 0)
+		(at 507.365 335.915 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40881,7 +41211,7 @@
 		(dnp no)
 		(uuid "b6f038f9-e0d2-4c16-9cab-7c023fe8880c")
 		(property "Reference" "L4"
-			(at 527.685 329.565 0)
+			(at 517.525 329.565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40890,8 +41220,8 @@
 				)
 			)
 		)
-		(property "Value" "LQP03HQ3N5B02"
-			(at 527.685 332.105 0)
+		(property "Value" "3.5nH"
+			(at 517.525 332.105 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40901,7 +41231,7 @@
 			)
 		)
 		(property "Footprint" "footprints:LQP03HQ0N5B02D"
-			(at 534.035 432.105 0)
+			(at 523.875 432.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40913,7 +41243,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
-			(at 534.035 532.105 0)
+			(at 523.875 532.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40925,7 +41255,7 @@
 			)
 		)
 		(property "Description" "LQP03HQ_02 Series Inductor 3.5nH +/-0.1nH 0201 (0603)"
-			(at 517.525 335.915 0)
+			(at 507.365 335.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40936,7 +41266,7 @@
 			)
 		)
 		(property "Height" "0.42"
-			(at 534.035 732.105 0)
+			(at 523.875 732.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40948,7 +41278,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-LQP03HQ3N5B02D"
-			(at 534.035 832.105 0)
+			(at 523.875 832.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40960,7 +41290,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQP03HQ3N5B02D?qs=Ey7%2FXF42M3czaOgYp0oGuw%3D%3D"
-			(at 534.035 932.105 0)
+			(at 523.875 932.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40972,7 +41302,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 534.035 1032.105 0)
+			(at 523.875 1032.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40984,7 +41314,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LQP03HQ3N5B02D"
-			(at 534.035 1132.105 0)
+			(at 523.875 1132.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40993,6 +41323,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "MPN" "LQP03HQ3N5B02"
+			(at 507.365 335.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 507.365 335.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -41954,6 +42306,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 60.96 537.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 537.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "0.1W"
 			(at 60.96 537.21 0)
 			(hide yes)
 			(show_name no)
@@ -42998,6 +43372,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 74.93 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "0.1W"
 			(at 74.93 490.22 0)
 			(hide yes)
 			(show_name no)
@@ -44788,7 +45184,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.5W"
+		(property "Power_Rating" "0.1W"
 			(at 189.23 551.18 0)
 			(hide yes)
 			(show_name no)
@@ -47716,6 +48112,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 552.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 552.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "16V"
 			(at 116.84 552.45 0)
 			(hide yes)
 			(show_name no)
