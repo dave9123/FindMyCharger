@@ -20,6 +20,7 @@ To do
 	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
 - Design PCB
 	- Make TPS25730 support 0-3A (ADCIN3) or not
+	- Figure out capacitor types, like X5R, X7R
 	- Confirm on TPS25762-Q1 as SW's CSNB 50V, CBOOT 10V despite being side-by-side
 	- Include power rating to components
 		- BQ4050
