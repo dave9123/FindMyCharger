@@ -33741,6 +33741,7 @@
 		)
 		(property "Voltage" "6.3V"
 			(at 3.81 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33751,6 +33752,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 3.81 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33761,6 +33763,7 @@
 		)
 		(property "Tolerance" "±10%"
 			(at 3.81 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50806,6 +50809,7 @@
 		)
 		(property "Voltage" "6.3V"
 			(at 3.81 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50816,6 +50820,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 3.81 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50826,6 +50831,7 @@
 		)
 		(property "Tolerance" "±10%"
 			(at 3.81 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
