@@ -97,6 +97,11 @@ SW's SNB cap and BOOT's BOOT cap different (50V and 10V) while being side-by-sid
 ![[Pasted image 20260601162113.png]]
 ![[Pasted image 20260601162115.png]]
 
+![[Pasted image 20260609111633.png]] series diode to prevent return current on battery
+
+![[Pasted image 20260609184912.png]]
+components degrade -> no inf lifespan https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.dyc-electronic.com%2Fx5r-vs-x7r-comprehensive-comparison-engineering-design-guide%2F&ved=0CBkQjhxqFwoTCICFjrWL-pQDFQAAAAAdAAAAABAJ&opi=89978449
+
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
 * 1200 mAh @ Rp 5.738 https://www.tokopedia.com/lbagstore/baterai-recharge-18650-3-7v-flat-top-button-datar-senter-kipas-lampu
