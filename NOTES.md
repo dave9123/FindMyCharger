@@ -19,7 +19,6 @@ To do
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
 	- Prevent ESD https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F https://electronics.stackexchange.com/questions/233600/differences-between-tvs-diode-and-zener-diodes-in-diagrams-and-in-practice, maybe tvs beside zener?
 - Design PCB
-	- Make TPS25730 support 0-3A (ADCIN3) or not
 	- Figure out capacitor types, like X5R, X7R
 	- Confirm on TPS25762-Q1 as SW's CSNB 50V, CBOOT 10V despite being side-by-side
 	- Include power rating to components
@@ -56,6 +55,7 @@ Future considerations
 * Ultra Wide Band (UWB) for precise finding
 * Support PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)
 * Opt for WLCSP (ultra small) version
+* instead of direct BMS LED, do it from MCU for more customizable things (especially how the BMS has 2 pins for control (shutdown and disp) which can be turned into short press and long press
 
 ![[Pasted image 20260324112012.png]]
 
@@ -101,6 +101,10 @@ SW's SNB cap and BOOT's BOOT cap different (50V and 10V) while being side-by-sid
 
 ![[Pasted image 20260609184912.png]]
 components degrade -> no inf lifespan https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.dyc-electronic.com%2Fx5r-vs-x7r-comprehensive-comparison-engineering-design-guide%2F&ved=0CBkQjhxqFwoTCICFjrWL-pQDFQAAAAAdAAAAABAJ&opi=89978449
+
+![[Pasted image 20260609193347.png]]tantalum polrarity
+
+battery charger bq25713 n-mos sot-23 30V![[Pasted image 20260609194908.png]] 
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
