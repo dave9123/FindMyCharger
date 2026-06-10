@@ -105,6 +105,9 @@ components degrade -> no inf lifespan https://www.google.com/url?sa=t&source=web
 ![[Pasted image 20260609193347.png]]tantalum polrarity
 
 battery charger bq25713 n-mos sot-23 30V![[Pasted image 20260609194908.png]] 
+![[Pasted image 20260610152507.png]]class 1 ceramic cap
+
+bq* schematic checklist https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/196/0552.BQ2570X_5F00_BQ2571X_5F00_BQ2572X_5F00_BQ2573X_5F00_SchematicChecklist.pdf
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
