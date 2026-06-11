@@ -24,7 +24,7 @@ To do
 - Design PCB
 	- Add spark gap PACK+ PACK-
 	- add polyfuse
-	- calculate ripple current inductor
+		- calculate ripple current inductor
 	- calculate ripple current capacitor
 	- Include power rating to components
 		- BQ4050

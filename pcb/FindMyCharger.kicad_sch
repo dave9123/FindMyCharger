@@ -10274,6 +10274,16 @@
 		)
 		(uuid "c57f17f5-518e-4208-a9f8-3803ffb6b265")
 	)
+	(text "transient compensation\nto meet minimum capacitance (?)"
+		(exclude_from_sim no)
+		(at 383.286 438.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf8a3709-38f0-46b4-8fc4-7e2623cde263")
+	)
 	(text "ACN-ACP input filter"
 		(exclude_from_sim no)
 		(at 176.53 460.502 0)
@@ -10411,7 +10421,7 @@
 	(text_box "Battery Charger"
 		(exclude_from_sim no)
 		(at 35.56 434.34 0)
-		(size 345.44 135.89)
+		(size 369.57 135.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -10609,12 +10619,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19902a18-c67b-413c-9214-c0b8ecc1c399")
-	)
-	(junction
-		(at 326.39 462.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19c5c667-fafe-48e3-98a6-fb081167bbfa")
 	)
 	(junction
 		(at 97.79 534.67)
@@ -10905,6 +10909,12 @@
 		(uuid "4df47142-9455-4c69-a8b4-e0f3bb5f42c7")
 	)
 	(junction
+		(at 365.76 452.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec14fec-9b81-4ed8-9a1a-7573e4d9304d")
+	)
+	(junction
 		(at 121.92 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11091,12 +11101,6 @@
 		(uuid "6a95fd8d-addb-4029-b46b-93a2e85ccc3c")
 	)
 	(junction
-		(at 321.31 462.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aed8f56-2020-4c9c-9928-8d23001bbdbc")
-	)
-	(junction
 		(at 340.36 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11149,12 +11153,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78c7f090-49af-4cb5-8f7d-aca716f0e088")
-	)
-	(junction
-		(at 337.82 462.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7994205c-6de3-4ad9-acd6-fefbf126b73d")
 	)
 	(junction
 		(at 356.87 219.71)
@@ -11223,6 +11221,12 @@
 		(uuid "8abf8569-5143-43ad-9a72-acfaf5b12e42")
 	)
 	(junction
+		(at 321.31 462.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8be228c8-c5e5-4c61-8c43-573be559a4e7")
+	)
+	(junction
 		(at 189.23 562.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11275,6 +11279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "962c9774-a2de-4916-8665-d10fb790ed92")
+	)
+	(junction
+		(at 388.62 441.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "982dbc5d-82f0-4d16-8b1b-fa075a693495")
 	)
 	(junction
 		(at 292.1 462.28)
@@ -11421,12 +11431,6 @@
 		(uuid "adf50381-a64c-4cdd-a8c8-eb72aed09e95")
 	)
 	(junction
-		(at 332.74 472.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae58d5d0-53a9-4829-b266-1c861c2d2b9a")
-	)
-	(junction
 		(at 113.03 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11535,6 +11539,12 @@
 		(uuid "c0853d2a-313a-4273-bcaa-297800077c71")
 	)
 	(junction
+		(at 377.19 452.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2969cc2-6ae4-4474-b6c9-637415f8f6e3")
+	)
+	(junction
 		(at 59.69 334.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11563,6 +11573,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c63b22d6-5877-4c14-a8ff-aa6092e71037")
+	)
+	(junction
+		(at 377.19 441.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c710639f-d1cf-44be-b1cc-d5c4fd07396a")
 	)
 	(junction
 		(at 292.1 274.32)
@@ -12210,6 +12226,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 441.96) (xy 394.97 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04567007-73fc-40c7-a465-3afbc97872a6")
+	)
+	(wire
+		(pts
 			(xy 209.55 57.15) (xy 215.9 57.15)
 		)
 		(stroke
@@ -12217,6 +12243,16 @@
 			(type default)
 		)
 		(uuid "048fd016-f17a-4056-aa7c-45147bf763ac")
+	)
+	(wire
+		(pts
+			(xy 388.62 452.12) (xy 388.62 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050499a1-b585-4ef2-a3d8-56b36da51948")
 	)
 	(wire
 		(pts
@@ -12960,16 +12996,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 462.28) (xy 337.82 463.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "267bd694-d12d-4cb5-8b00-6f9247bf0b63")
-	)
-	(wire
-		(pts
 			(xy 121.92 462.28) (xy 134.62 462.28)
 		)
 		(stroke
@@ -13077,6 +13103,16 @@
 			(type default)
 		)
 		(uuid "28da7dbe-e988-4031-85cf-f8ca0b373242")
+	)
+	(wire
+		(pts
+			(xy 388.62 441.96) (xy 388.62 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a242646-f700-4270-9f50-8201df249114")
 	)
 	(wire
 		(pts
@@ -13490,6 +13526,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 450.85) (xy 377.19 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4e902b-e0a8-4362-b068-a56190dee92c")
+	)
+	(wire
+		(pts
 			(xy 290.83 318.77) (xy 292.1 318.77)
 		)
 		(stroke
@@ -13530,16 +13576,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 471.17) (xy 326.39 472.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e20f210-078d-43e8-af9c-479da30ccb30")
-	)
-	(wire
-		(pts
 			(xy 355.6 135.89) (xy 407.67 135.89)
 		)
 		(stroke
@@ -13567,16 +13603,6 @@
 			(type default)
 		)
 		(uuid "3eebdea5-d65a-4b5a-8da0-83af5f300024")
-	)
-	(wire
-		(pts
-			(xy 332.74 473.71) (xy 332.74 472.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eef4484-2b79-4880-8d0b-7f490c264f85")
 	)
 	(wire
 		(pts
@@ -14140,16 +14166,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 472.44) (xy 337.82 472.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5289078f-3470-4618-868b-71597602d1cf")
-	)
-	(wire
-		(pts
 			(xy 204.47 462.28) (xy 212.09 462.28)
 		)
 		(stroke
@@ -14480,7 +14496,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 441.96) (xy 367.03 441.96)
+			(xy 365.76 441.96) (xy 377.19 441.96)
 		)
 		(stroke
 			(width 0)
@@ -14577,6 +14593,16 @@
 			(type default)
 		)
 		(uuid "617a6ab4-45ba-4e43-948a-f03b9f9cdec3")
+	)
+	(wire
+		(pts
+			(xy 377.19 452.12) (xy 388.62 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618d3a9f-01b6-4a0d-8d2e-2aaf129b8f00")
 	)
 	(wire
 		(pts
@@ -15820,16 +15846,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 462.28) (xy 326.39 463.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee0b40e-ee05-4d3e-a334-552c18916213")
-	)
-	(wire
-		(pts
 			(xy 340.36 340.36) (xy 353.06 340.36)
 		)
 		(stroke
@@ -15900,7 +15916,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 462.28) (xy 326.39 462.28)
+			(xy 321.31 462.28) (xy 325.12 462.28)
 		)
 		(stroke
 			(width 0)
@@ -16067,16 +16083,6 @@
 			(type default)
 		)
 		(uuid "97f79078-1e48-4e55-b197-f7cb89db2a1b")
-	)
-	(wire
-		(pts
-			(xy 337.82 462.28) (xy 342.9 462.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9867289d-32e8-419b-b56f-197bdfcf4265")
 	)
 	(wire
 		(pts
@@ -16270,6 +16276,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 452.12) (xy 377.19 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbafc6b-3fbd-480a-a7dc-ea1a46aadd2b")
+	)
+	(wire
+		(pts
 			(xy 392.43 205.74) (xy 396.24 205.74)
 		)
 		(stroke
@@ -16357,6 +16373,16 @@
 			(type default)
 		)
 		(uuid "a4ad2b48-3a7e-487e-bca0-eb0a1644db72")
+	)
+	(wire
+		(pts
+			(xy 377.19 441.96) (xy 388.62 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5897447-b9a9-469a-92d5-8363cca78ffe")
 	)
 	(wire
 		(pts
@@ -17280,16 +17306,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 472.44) (xy 337.82 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca96dfe4-7256-4748-b208-4552786ffd87")
-	)
-	(wire
-		(pts
 			(xy 443.23 318.77) (xy 443.23 320.04)
 		)
 		(stroke
@@ -17437,16 +17453,6 @@
 			(type default)
 		)
 		(uuid "d2a20e71-f7b4-4f37-a35f-2dd174d3301d")
-	)
-	(wire
-		(pts
-			(xy 326.39 472.44) (xy 332.74 472.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c6c823-5fb0-41d6-9645-27bca4000a7f")
 	)
 	(wire
 		(pts
@@ -17607,6 +17613,16 @@
 			(type default)
 		)
 		(uuid "daf40579-7942-4df6-b9aa-4e56a1de1cb7")
+	)
+	(wire
+		(pts
+			(xy 377.19 441.96) (xy 377.19 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db98f792-7b78-4612-ab81-84d605e81ed9")
 	)
 	(wire
 		(pts
@@ -18317,16 +18333,6 @@
 			(type default)
 		)
 		(uuid "fbfb2317-3f1b-4a6c-9849-277479f41606")
-	)
-	(wire
-		(pts
-			(xy 326.39 462.28) (xy 337.82 462.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc17b1fd-899c-4417-9898-bdc7631d883e")
 	)
 	(wire
 		(pts
@@ -21420,7 +21426,7 @@
 	)
 	(global_label "PACK+"
 		(shape input)
-		(at 342.9 462.28 0)
+		(at 325.12 462.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21430,7 +21436,7 @@
 		)
 		(uuid "bde3b07e-a8df-4994-99d8-0da8d46c7168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.3562 462.28 0)
+			(at 334.5762 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21559,6 +21565,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 394.97 441.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7bad7b4-b0b6-4f83-8295-19cd61a2e665")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.5514 441.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -21799,30 +21829,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VSYS"
-		(shape input)
-		(at 367.03 441.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db7e4541-8e1b-4496-affe-c1eb28798e8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.6114 441.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -23055,6 +23061,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 388.62 447.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09509842-3707-4f4c-a625-ff50470c194f")
+		(property "Reference" "C88"
+			(at 392.43 444.8809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 392.43 447.4209 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.5852 450.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "25TQC22MYFD"
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "POSCAP"
+			(at 388.62 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9251acea-ef23-4980-944b-945aed489061")
+		)
+		(pin "2"
+			(uuid "c3966578-3d06-44d7-8420-6cfe65881194")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 311.15 480.06 180)
 		(unit 1)
@@ -23087,7 +23241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 312.928 480.06 90)
 			(hide yes)
 			(show_name no)
@@ -23110,6 +23264,72 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 311.15 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 311.15 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "1/16W"
+			(at 311.15 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 311.15 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 311.15 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 311.15 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 311.15 480.06 0)
 			(hide yes)
 			(show_name no)
@@ -23533,7 +23753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2225_5664Metric"
+		(property "Footprint" "Capacitor_SMD:C_2225_5664"
 			(at 354.0252 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -24377,7 +24597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532"
 			(at 317.1952 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -25187,7 +25407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 316.23 460.502 90)
 			(hide yes)
 			(show_name no)
@@ -29730,7 +29950,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "25V"
+		(property "Power_Rating" ""
 			(at 297.18 447.04 0)
 			(hide yes)
 			(show_name no)
@@ -29833,7 +30053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.088 480.06 90)
 			(hide yes)
 			(show_name no)
@@ -29856,6 +30076,72 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 321.31 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 321.31 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "1/16W"
+			(at 321.31 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 321.31 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 321.31 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 321.31 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 321.31 480.06 0)
 			(hide yes)
 			(show_name no)
@@ -30498,9 +30784,29 @@
 				)
 			)
 		)
-		(property "Power_Rating" "25V MLCC"
+		(property "Power_Rating" ""
 			(at 331.47 447.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35570,7 +35876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2225_5664Metric"
+		(property "Footprint" "Capacitor_SMD:C_2225_5664"
 			(at 329.8952 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -37575,7 +37881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2225_5664Metric"
+		(property "Footprint" "Capacitor_SMD:C_2225_5664"
 			(at 341.3252 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -40776,154 +41082,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 337.82 467.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c82fe0c-d378-42ea-8ed1-ff4f9031c92b")
-		(property "Reference" "C88"
-			(at 341.63 465.2009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 341.63 467.7409 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 338.7852 471.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "35V"
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "POSCAP"
-			(at 337.82 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "974c61c3-b8e0-4f95-9d35-9bed39fda941")
-		)
-		(pin "2"
-			(uuid "15849092-b4fc-4684-91fa-d6eafa53472b")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 165.1 481.33 0)
 		(mirror y)
@@ -42116,9 +42274,29 @@
 				)
 			)
 		)
-		(property "Power_Rating" "25V MLCC"
+		(property "Power_Rating" ""
 			(at 365.76 447.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46294,9 +46472,29 @@
 				)
 			)
 		)
-		(property "Power_Rating" "25V MLCC"
+		(property "Power_Rating" ""
 			(at 308.61 447.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47728,154 +47926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 326.39 467.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d63e5f94-e827-4a1a-97b2-796832313ad3")
-		(property "Reference" "C87"
-			(at 330.2 465.2009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 330.2 467.7409 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.3552 471.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "35V"
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "POSCAP"
-			(at 326.39 467.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "361dee8a-9b9c-4e89-9b9d-529e71cafa6a")
-		)
-		(pin "2"
-			(uuid "555486f8-b4d5-45ae-98b3-fbdf6bf6a8d2")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 63.5 325.12 0)
 		(unit 1)
@@ -48032,9 +48082,29 @@
 				)
 			)
 		)
-		(property "Power_Rating" "25V MLCC"
+		(property "Power_Rating" ""
 			(at 320.04 447.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48383,7 +48453,7 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 316.23 467.36 0)
 			(hide yes)
 			(show_name no)
@@ -48405,7 +48475,7 @@
 				)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 316.23 467.36 0)
 			(hide yes)
 			(show_name no)
@@ -49584,84 +49654,6 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 332.74 473.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7f7576a-7f03-4463-b913-93a3b948ec5f")
-		(property "Reference" "#PWR06"
-			(at 332.74 480.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 332.74 478.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 473.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 473.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 473.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1785867e-c61e-435e-aa2e-44169a1c68ce")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -51434,6 +51426,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 377.19 447.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4206fa7-d804-45fb-ae4a-e3a84e49acd1")
+		(property "Reference" "C87"
+			(at 381 444.8809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 381 447.4209 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.1552 450.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "25TQC22MYFD"
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "POSCAP"
+			(at 377.19 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f89a4308-421c-412d-bf6b-47266d418026")
+		)
+		(pin "2"
+			(uuid "e5617a5a-e3e2-4ed9-87f4-c87c0a0de868")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 445.77 140.97 180)
 		(unit 1)
@@ -52574,9 +52714,29 @@
 				)
 			)
 		)
-		(property "Power_Rating" "25V MLCC"
+		(property "Power_Rating" ""
 			(at 354.33 447.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52756,9 +52916,29 @@
 				)
 			)
 		)
-		(property "Power_Rating" "25V MLCC"
+		(property "Power_Rating" ""
 			(at 342.9 447.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
