@@ -25621,7 +25621,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" ""
 			(at 53.34 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -29408,6 +29408,72 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 231.14 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 231.14 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 231.14 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 231.14 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 231.14 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 231.14 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 231.14 466.09 0)
 			(hide yes)
 			(show_name no)
@@ -49373,7 +49439,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.33W"
+		(property "Power_Rating" "1W"
 			(at 322.58 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -50301,6 +50367,72 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 243.84 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 243.84 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 243.84 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 243.84 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 243.84 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 243.84 466.09 0)
 			(hide yes)
 			(show_name no)

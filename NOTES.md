@@ -26,10 +26,11 @@ To do
 	- add polyfuse
 		- calculate ripple current inductor
 	- calculate ripple current capacitor
+	- increase package size if it's extended, esp 0402
 	- Include power rating to components
 		- BQ4050
+		- BQ25713
 		- TPS25730
-		- nRF54
 		- pinout debug
 	- Assign footprints
 	- Double check schematics
