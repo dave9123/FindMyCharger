@@ -10294,9 +10294,9 @@
 		)
 		(uuid "d9d43a1b-fd4d-4b62-9635-4968d710f376")
 	)
-	(text "2800-3200mA"
+	(text "set 2800-3200mA"
 		(exclude_from_sim no)
-		(at 67.056 540.258 0)
+		(at 68.072 540.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25621,7 +25621,7 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 53.34 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -29699,7 +29699,7 @@
 				)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "MLCC"
 			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
@@ -36290,7 +36290,7 @@
 				)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "MLCC"
 			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
@@ -50889,7 +50889,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "XEL6060-222MEC"
 			(at 237.49 462.28 0)
 			(hide yes)
 			(show_name no)
@@ -50900,7 +50900,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "5A shielded"
+		(property "Power_Rating" "Shielded"
 			(at 237.49 462.28 0)
 			(hide yes)
 			(show_name no)
