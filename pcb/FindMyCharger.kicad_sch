@@ -10276,20 +10276,24 @@
 	)
 	(text "2800-3200mA"
 		(exclude_from_sim no)
-		(at 67.818 540.004 0)
+		(at 67.056 540.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "da94b33f-86d0-4e44-8661-42d1a09ec6af")
 	)
 	(text "4S config"
 		(exclude_from_sim no)
-		(at 100.33 486.918 0)
+		(at 95.25 483.616 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "ed337d57-791b-450e-ab13-5436382d775e")
@@ -10813,13 +10817,19 @@
 		(uuid "406432b3-62f4-40f1-a75b-3d3ea3341619")
 	)
 	(junction
+		(at 66.04 486.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "406e0a3f-9bb6-4af9-9506-160ac7114914")
+	)
+	(junction
 		(at 66.04 544.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "427053db-0714-4712-8987-658f0d1820a4")
 	)
 	(junction
-		(at 86.36 490.22)
+		(at 87.63 496.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42b3ff79-e96c-4661-b4b9-a62a5c5e7f86")
@@ -11185,7 +11195,7 @@
 		(uuid "87e53d8a-dffe-4dbf-926a-955a029eebfc")
 	)
 	(junction
-		(at 63.5 486.41)
+		(at 54.61 486.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ebc29a-2b95-453e-bd1a-a6d02dd4c5f3")
@@ -11285,6 +11295,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b29d04-ff52-424e-a121-376bb19be7d1")
+	)
+	(junction
+		(at 53.34 502.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a1e21d6-2f22-40a6-bbc6-2de616e470f0")
 	)
 	(junction
 		(at 149.86 472.44)
@@ -11497,7 +11513,7 @@
 		(uuid "bd8b803d-8b4e-4f2a-9347-c793309a48df")
 	)
 	(junction
-		(at 63.5 494.03)
+		(at 54.61 494.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c02dacab-d7b8-4370-a526-268a777891c0")
@@ -11891,10 +11907,6 @@
 		(uuid "3acf375d-0129-4537-98c7-5d782e81e1c6")
 	)
 	(no_connect
-		(at 123.19 539.75)
-		(uuid "3b99b78e-b3a0-4f91-ad94-e78495a92f0c")
-	)
-	(no_connect
 		(at 53.34 317.5)
 		(uuid "3e0fa96b-aca5-49a5-b9f8-5e133772b588")
 	)
@@ -12278,7 +12290,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 490.22) (xy 86.36 491.49)
+			(xy 87.63 496.57) (xy 87.63 497.84)
 		)
 		(stroke
 			(width 0)
@@ -12565,6 +12577,16 @@
 			(type default)
 		)
 		(uuid "187d9474-3269-4bd2-b5e4-6e38c90f31a4")
+	)
+	(wire
+		(pts
+			(xy 66.04 486.41) (xy 69.85 486.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198468b7-e80b-496e-8818-11aa5f1ccb44")
 	)
 	(wire
 		(pts
@@ -13488,7 +13510,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 480.06) (xy 86.36 480.06)
+			(xy 88.9 486.41) (xy 87.63 486.41)
 		)
 		(stroke
 			(width 0)
@@ -13608,7 +13630,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 480.06) (xy 86.36 481.33)
+			(xy 87.63 486.41) (xy 87.63 487.68)
 		)
 		(stroke
 			(width 0)
@@ -13848,7 +13870,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 486.41) (xy 63.5 486.41)
+			(xy 53.34 486.41) (xy 54.61 486.41)
 		)
 		(stroke
 			(width 0)
@@ -15188,7 +15210,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 488.95) (xy 86.36 490.22)
+			(xy 87.63 495.3) (xy 87.63 496.57)
 		)
 		(stroke
 			(width 0)
@@ -15548,7 +15570,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 486.41) (xy 74.93 486.41)
+			(xy 54.61 486.41) (xy 66.04 486.41)
 		)
 		(stroke
 			(width 0)
@@ -15738,7 +15760,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 508) (xy 62.23 508)
+			(xy 52.07 520.7) (xy 53.34 520.7)
 		)
 		(stroke
 			(width 0)
@@ -17138,7 +17160,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 494.03) (xy 74.93 494.03)
+			(xy 54.61 494.03) (xy 66.04 494.03)
 		)
 		(stroke
 			(width 0)
@@ -17578,7 +17600,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 490.22) (xy 86.36 490.22)
+			(xy 88.9 496.57) (xy 87.63 496.57)
 		)
 		(stroke
 			(width 0)
@@ -17695,6 +17717,16 @@
 			(type default)
 		)
 		(uuid "e18dd47e-6e1c-4ac1-8940-4f98a658894b")
+	)
+	(wire
+		(pts
+			(xy 53.34 502.92) (xy 58.42 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2124b2c-fcde-4b13-8c8c-c230cb795ae5")
 	)
 	(wire
 		(pts
@@ -17928,6 +17960,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 539.75) (xy 123.19 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed710b50-ea70-4ef6-aacf-24303895bc7e")
+	)
+	(wire
+		(pts
 			(xy 53.34 281.94) (xy 54.61 281.94)
 		)
 		(stroke
@@ -17988,7 +18030,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 502.92) (xy 73.66 502.92)
+			(xy 53.34 502.92) (xy 52.07 502.92)
 		)
 		(stroke
 			(width 0)
@@ -19928,7 +19970,7 @@
 	)
 	(global_label "INPUT_IADPT"
 		(shape input)
-		(at 62.23 486.41 180)
+		(at 53.34 486.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19938,7 +19980,7 @@
 		)
 		(uuid "67bb8e4f-7a92-40fd-996d-91cec5d97d43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.8795 486.41 0)
+			(at 36.9895 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20576,7 +20618,7 @@
 	)
 	(global_label "INPUT_CELL_BATPRESZ"
 		(shape input)
-		(at 87.63 490.22 0)
+		(at 88.9 496.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20586,7 +20628,7 @@
 		)
 		(uuid "8f2c1a8a-f4cc-4f47-b269-a944649e2120")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.6565 490.22 0)
+			(at 114.9265 496.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20720,7 +20762,7 @@
 	)
 	(global_label "INPUT_IBAT"
 		(shape input)
-		(at 60.96 508 180)
+		(at 52.07 520.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20730,7 +20772,7 @@
 		)
 		(uuid "97d24871-48b5-49f4-acf9-7a944424f2b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.8795 508 0)
+			(at 36.9895 520.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20888,7 +20930,7 @@
 	)
 	(global_label "INPUT_VDDA"
 		(shape input)
-		(at 87.63 480.06 0)
+		(at 88.9 486.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20898,7 +20940,7 @@
 		)
 		(uuid "a5d2f3cc-d5bc-46e9-a02b-899cb1e844ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8034 480.06 0)
+			(at 103.0734 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21704,7 +21746,7 @@
 	)
 	(global_label "INPUT_PSYS"
 		(shape input)
-		(at 73.66 502.92 180)
+		(at 52.07 502.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21714,7 +21756,7 @@
 		)
 		(uuid "da32910d-bb49-4b2b-ad62-b83469997b25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.7329 502.92 0)
+			(at 36.1429 502.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22293,7 +22335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 100.0252 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22594,6 +22636,85 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 60.96 502.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "033e2a98-f796-4521-bb42-2ba46e2a654d")
+		(property "Reference" "H12"
+			(at 64.77 501.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "iBAT"
+			(at 64.77 504.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 60.96 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "982ff504-306b-4880-b6f1-ca26751d62a7")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -23194,7 +23315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216"
 			(at 134.3152 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -23402,7 +23523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2225_5664Metric_Pad1.80x6.60mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2225_5664"
 			(at 354.0252 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -23813,7 +23934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 56.8452 391.16 0)
 			(hide yes)
 			(show_name no)
@@ -24020,7 +24141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.1952 562.61 0)
 			(hide yes)
 			(show_name no)
@@ -24064,7 +24185,51 @@
 				)
 			)
 		)
-		(property "Power_Rating" "16V"
+		(property "Power_Rating" ""
+			(at 189.23 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 189.23 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 189.23 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 189.23 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 189.23 558.8 0)
 			(hide yes)
 			(show_name no)
@@ -24202,7 +24367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532"
 			(at 317.1952 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -25128,7 +25293,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 506.73 0)
+		(at 53.34 506.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25139,7 +25304,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a8b3408-b6a2-4a75-a89e-5d1cd8a24613")
 		(property "Reference" "R6"
-			(at 77.47 505.4599 0)
+			(at 55.88 505.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25150,7 +25315,7 @@
 			)
 		)
 		(property "Value" "30k"
-			(at 77.47 507.9999 0)
+			(at 55.88 507.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25160,8 +25325,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.152 506.73 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.562 506.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25172,7 +25337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 506.73 0)
+			(at 53.34 506.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25183,7 +25348,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 506.73 0)
+			(at 53.34 506.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25194,7 +25359,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 74.93 506.73 0)
+			(at 53.34 506.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25204,8 +25369,52 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
-			(at 74.93 506.73 0)
+		(property "Power_Rating" "1/16W"
+			(at 53.34 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 53.34 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 53.34 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 53.34 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 53.34 506.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25368,7 +25577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 197.8152 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -26305,7 +26514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 439.7248 127 0)
 			(hide yes)
 			(show_name no)
@@ -26475,7 +26684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 192.0748 551.18 0)
 			(hide yes)
 			(show_name no)
@@ -26520,6 +26729,50 @@
 			)
 		)
 		(property "Power_Rating" "16V"
+			(at 193.04 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 386.08 1109.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 386.08 1109.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 193.04 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 193.04 554.99 0)
 			(hide yes)
 			(show_name no)
@@ -27484,7 +27737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 434.6448 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -27822,7 +28075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 481.33 0)
 			(hide yes)
 			(show_name no)
@@ -27845,6 +28098,72 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 165.1 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 165.1 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 165.1 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 165.1 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 165.1 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 165.1 477.52 0)
 			(hide yes)
 			(show_name no)
@@ -27904,7 +28223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 429.5648 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -28269,6 +28588,61 @@
 		)
 		(property "Power_Rating" "1/16W"
 			(at 213.36 1066.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 106.68 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 106.68 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 106.68 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 106.68 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 106.68 533.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28781,7 +29155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 232.1052 469.9 0)
 			(hide yes)
 			(show_name no)
@@ -28909,7 +29283,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 511.81 0)
+		(at 53.34 524.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28920,7 +29294,7 @@
 		(fields_autoplaced yes)
 		(uuid "39ec8bff-2909-4b90-ada3-b26c8fe47f0a")
 		(property "Reference" "C2"
-			(at 66.04 510.5399 0)
+			(at 57.15 523.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28931,7 +29305,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 66.04 513.0799 0)
+			(at 57.15 525.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28941,8 +29315,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 63.1952 515.62 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
+			(at 54.3052 528.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28953,7 +29327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 511.81 0)
+			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28964,7 +29338,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 511.81 0)
+			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28975,7 +29349,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 62.23 511.81 0)
+			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28986,7 +29360,7 @@
 			)
 		)
 		(property "Power_Rating" ""
-			(at 62.23 511.81 0)
+			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28996,8 +29370,8 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
-			(at 62.23 511.81 0)
+		(property "Dielectric" "C0G"
+			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29007,8 +29381,8 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
-			(at 62.23 511.81 0)
+		(property "Tolerance" "5%"
+			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29018,8 +29392,19 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 62.23 511.81 0)
+		(property "Voltage" "50V"
+			(at 53.34 524.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 53.34 524.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29488,7 +29873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 499.11 0)
+		(at 87.63 505.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29499,7 +29884,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ee1b913-b780-4c5b-a520-3879255938df")
 		(property "Reference" "#PWR010"
-			(at 86.36 505.46 0)
+			(at 87.63 511.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29510,7 +29895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 504.19 0)
+			(at 87.63 510.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29520,7 +29905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 499.11 0)
+			(at 87.63 505.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29531,7 +29916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 499.11 0)
+			(at 87.63 505.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29542,7 +29927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 499.11 0)
+			(at 87.63 505.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29598,7 +29983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 210.5152 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -29851,7 +30236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 229.5652 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -30816,7 +31201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 45.4152 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -31794,7 +32179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.8852 560.07 0)
 			(hide yes)
 			(show_name no)
@@ -31838,7 +32223,51 @@
 				)
 			)
 		)
-		(property "Power_Rating" "50V"
+		(property "Power_Rating" ""
+			(at 121.92 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 121.92 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 121.92 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 121.92 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 121.92 556.26 0)
 			(hide yes)
 			(show_name no)
@@ -32317,7 +32746,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1.0"
 			(at 132.08 473.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32328,7 +32757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 132.842 472.44 90)
 			(hide yes)
 			(show_name no)
@@ -32351,6 +32780,72 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 134.62 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "1/16W"
+			(at 134.62 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 134.62 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 134.62 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 134.62 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 134.62 472.44 0)
 			(hide yes)
 			(show_name no)
@@ -32592,7 +33087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216"
 			(at 73.3552 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -33168,7 +33663,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 510.54 0)
+		(at 53.34 510.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33179,7 +33674,7 @@
 		(fields_autoplaced yes)
 		(uuid "6068d490-457b-42c6-8f52-d8ef3cb73c90")
 		(property "Reference" "#PWR08"
-			(at 74.93 516.89 0)
+			(at 53.34 516.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33190,7 +33685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 515.62 0)
+			(at 53.34 515.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33200,7 +33695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 510.54 0)
+			(at 53.34 510.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33211,7 +33706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 510.54 0)
+			(at 53.34 510.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33222,7 +33717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 510.54 0)
+			(at 53.34 510.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34806,7 +35301,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 482.6 180)
+		(at 133.35 482.6 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34816,7 +35312,7 @@
 		(dnp no)
 		(uuid "6c4fe437-e93d-4306-aa45-587e73302ec8")
 		(property "Reference" "C15"
-			(at 129.54 483.8701 0)
+			(at 129.54 481.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34827,7 +35323,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 129.54 481.3301 0)
+			(at 129.54 483.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34837,8 +35333,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 132.3848 478.79 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
+			(at 132.3848 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34860,6 +35356,72 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 133.35 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 133.35 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 133.35 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 133.35 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 133.35 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "X7R"
 			(at 133.35 482.6 0)
 			(hide yes)
 			(show_name no)
@@ -34998,7 +35560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2225_5664Metric_Pad1.80x6.60mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2225_5664"
 			(at 329.8952 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -35226,7 +35788,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 490.22 0)
+		(at 54.61 490.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35237,7 +35799,7 @@
 		(fields_autoplaced yes)
 		(uuid "743b57f9-4295-4239-848b-efd7aba5a418")
 		(property "Reference" "C3"
-			(at 67.31 488.9499 0)
+			(at 58.42 488.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35248,7 +35810,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 67.31 491.4899 0)
+			(at 58.42 491.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35258,8 +35820,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 64.4652 494.03 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
+			(at 55.5752 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35270,7 +35832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 490.22 0)
+			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35281,7 +35843,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 490.22 0)
+			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35292,7 +35854,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 63.5 490.22 0)
+			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35303,7 +35865,7 @@
 			)
 		)
 		(property "Power_Rating" ""
-			(at 63.5 490.22 0)
+			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35313,8 +35875,8 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
-			(at 63.5 490.22 0)
+		(property "Dielectric" "C0G"
+			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35324,8 +35886,8 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
-			(at 63.5 490.22 0)
+		(property "Tolerance" "5%"
+			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35335,8 +35897,19 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 63.5 490.22 0)
+		(property "Voltage" "50V"
+			(at 54.61 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 54.61 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35587,7 +36160,51 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "1/16W"
+			(at 66.04 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 66.04 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 66.04 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 66.04 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 66.04 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -36426,7 +37043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.8148 481.33 0)
 			(hide yes)
 			(show_name no)
@@ -36449,6 +37066,72 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 144.78 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 144.78 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 144.78 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 144.78 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 144.78 477.52 0)
 			(hide yes)
 			(show_name no)
@@ -36574,7 +37257,7 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 97.79 530.86 0)
 			(hide yes)
 			(show_name no)
@@ -36778,7 +37461,51 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "1/16W"
+			(at 66.04 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 66.04 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 66.04 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 66.04 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 66.04 558.8 0)
 			(hide yes)
 			(show_name no)
@@ -36838,7 +37565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2225_5664Metric_Pad1.80x6.60mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2225_5664"
 			(at 341.3252 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -36942,7 +37669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 291.7952 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -37698,7 +38425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225"
 			(at 211.7852 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -37884,7 +38611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012"
 			(at 394.6652 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -38572,7 +39299,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 485.14 0)
+		(at 87.63 491.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38583,7 +39310,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ff9925c-de9e-4715-9998-bcbdbff1575f")
 		(property "Reference" "R7"
-			(at 88.9 483.8699 0)
+			(at 90.17 490.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38594,7 +39321,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 88.9 486.4099 0)
+			(at 90.17 492.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38605,7 +39332,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 84.582 485.14 90)
+			(at 85.852 491.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38616,7 +39343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 485.14 0)
+			(at 87.63 491.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38627,7 +39354,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 485.14 0)
+			(at 87.63 491.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38638,7 +39365,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 86.36 485.14 0)
+			(at 87.63 491.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38649,7 +39376,51 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 86.36 485.14 0)
+			(at 87.63 491.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 87.63 491.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 87.63 491.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 87.63 491.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 87.63 491.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39236,7 +40007,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 495.3 0)
+		(at 87.63 501.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39247,7 +40018,7 @@
 		(fields_autoplaced yes)
 		(uuid "95c8333d-19f8-47af-aec6-d99b39127949")
 		(property "Reference" "R8"
-			(at 88.9 494.0299 0)
+			(at 90.17 500.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39258,7 +40029,7 @@
 			)
 		)
 		(property "Value" "300k"
-			(at 88.9 496.5699 0)
+			(at 90.17 502.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39269,7 +40040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 84.582 495.3 90)
+			(at 85.852 501.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39280,7 +40051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 495.3 0)
+			(at 87.63 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39291,7 +40062,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 495.3 0)
+			(at 87.63 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39302,7 +40073,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 86.36 495.3 0)
+			(at 87.63 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39313,7 +40084,51 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 86.36 495.3 0)
+			(at 87.63 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 87.63 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 87.63 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 87.63 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 87.63 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39450,7 +40265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 113.9952 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -40447,7 +41262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 210.5152 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -42622,7 +43437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 86.0552 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -42687,6 +43502,85 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 72.39 486.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b17bf0fd-a138-40ac-a9b6-eaf9cd8854d9")
+		(property "Reference" "H13"
+			(at 76.2 485.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "iCHG"
+			(at 76.2 487.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 72.39 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04928b45-fec7-4808-abb5-3625c8310d24")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -42956,7 +43850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 291.7952 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -43060,7 +43954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 72.0852 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -43172,7 +44066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216"
 			(at 85.09 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -43276,7 +44170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 237.1852 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -43380,7 +44274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 237.1852 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -44103,7 +44997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216"
 			(at 59.3852 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -44240,7 +45134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012"
 			(at 59.9948 557.53 0)
 			(hide yes)
 			(show_name no)
@@ -44263,6 +45157,72 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 60.96 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 60.96 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 60.96 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 60.96 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 60.96 553.72 0)
 			(hide yes)
 			(show_name no)
@@ -44320,7 +45280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 546.608 90)
 			(hide yes)
 			(show_name no)
@@ -44364,7 +45324,51 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "1/16W"
+			(at 55.88 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 55.88 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 55.88 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 55.88 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 55.88 544.83 0)
 			(hide yes)
 			(show_name no)
@@ -44424,7 +45428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 86.0552 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -44642,7 +45646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225"
 			(at 122.8852 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -44894,7 +45898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 237.1852 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -44966,7 +45970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 494.03 0)
+		(at 54.61 494.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44977,7 +45981,7 @@
 		(fields_autoplaced yes)
 		(uuid "c70139e9-fd37-4df3-80e4-876e3f07f09b")
 		(property "Reference" "#PWR05"
-			(at 63.5 500.38 0)
+			(at 54.61 500.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44988,7 +45992,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 499.11 0)
+			(at 54.61 499.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44998,7 +46002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 494.03 0)
+			(at 54.61 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45009,7 +46013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 494.03 0)
+			(at 54.61 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45020,7 +46024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 494.03 0)
+			(at 54.61 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45076,7 +46080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 224.4852 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -45568,7 +46572,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 490.22 0)
+		(at 66.04 490.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45579,7 +46583,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce812f3e-5266-47da-bac4-65ee2ba8da0c")
 		(property "Reference" "R5"
-			(at 77.47 488.9499 0)
+			(at 68.58 488.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45590,7 +46594,7 @@
 			)
 		)
 		(property "Value" "137k"
-			(at 77.47 491.4899 0)
+			(at 68.58 491.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45601,7 +46605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.152 490.22 90)
+			(at 64.262 490.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45612,7 +46616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 490.22 0)
+			(at 66.04 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45623,7 +46627,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 490.22 0)
+			(at 66.04 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45634,7 +46638,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 74.93 490.22 0)
+			(at 66.04 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45644,8 +46648,8 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
-			(at 74.93 490.22 0)
+		(property "Power_Rating" "1/16W"
+			(at 66.04 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46223,7 +47227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 298.1452 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -47258,7 +48262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 320.04 468.3252 0)
 			(hide yes)
 			(show_name no)
@@ -47339,7 +48343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.452 551.18 90)
 			(hide yes)
 			(show_name no)
@@ -47383,7 +48387,51 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "1/16W"
+			(at 189.23 551.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 189.23 551.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 189.23 551.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 189.23 551.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 189.23 551.18 0)
 			(hide yes)
 			(show_name no)
@@ -47692,7 +48740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 412.75 42.2148 0)
 			(hide yes)
 			(show_name no)
@@ -48255,7 +49303,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 515.62 0)
+		(at 53.34 528.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48266,7 +49314,7 @@
 		(fields_autoplaced yes)
 		(uuid "e69e6da3-6d12-4d83-9c92-edee48aaecc6")
 		(property "Reference" "#PWR04"
-			(at 62.23 521.97 0)
+			(at 53.34 534.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48277,7 +49325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 520.7 0)
+			(at 53.34 533.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48287,7 +49335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 515.62 0)
+			(at 53.34 528.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48298,7 +49346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 515.62 0)
+			(at 53.34 528.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48309,7 +49357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 515.62 0)
+			(at 53.34 528.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48958,7 +50006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 422.91 42.2148 0)
 			(hide yes)
 			(show_name no)
@@ -49106,7 +50154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 244.8052 469.9 0)
 			(hide yes)
 			(show_name no)
@@ -49303,6 +50351,84 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 539.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee14ffa-b944-41e6-b9b8-2e443b2d5191")
+		(property "Reference" "#PWR013"
+			(at 113.03 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 544.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b8d4894-fef0-44b7-be23-78f2991380f0")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -49656,7 +50782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225"
 			(at 111.4552 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -50209,7 +51335,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 444.8048 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -50301,7 +51427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012"
 			(at 303.2252 477.52 0)
 			(hide yes)
 			(show_name no)
@@ -50383,7 +51509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 275.2852 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -50487,7 +51613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.8052 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -50531,7 +51657,51 @@
 				)
 			)
 		)
-		(property "Power_Rating" "50V"
+		(property "Power_Rating" ""
+			(at 116.84 552.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 116.84 552.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 116.84 552.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 116.84 552.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 116.84 552.45 0)
 			(hide yes)
 			(show_name no)
@@ -50857,7 +52027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.142 548.64 90)
 			(hide yes)
 			(show_name no)
@@ -50880,6 +52050,72 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "1/16W"
+			(at 121.92 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 121.92 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 121.92 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 121.92 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 121.92 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -51382,7 +52618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608"
 			(at 304.4952 340.36 0)
 			(hide yes)
 			(show_name no)
