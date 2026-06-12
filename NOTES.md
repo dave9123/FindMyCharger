@@ -23,15 +23,17 @@ To do
 	- https://www.ti.com/lit/an/slva232/slva232.pdf?ts=1781099885492&ref_url=https%253A%252F%252Fwww.google.com%252F spark gap
 	- inductor calculation http://pigeonsnest.co.uk/stuff/core-saturation.html
 	- inductor calculator spreadsheet https://www.eevblog.com/forum/projects/softwarespreadsheet-for-transformer-calculation/msg5080441/#msg5080441
+	- bq25713 evm https://www.ti.com/lit/ug/sluubt8b/sluubt8b.pdf?ts=1781161466690
+	- bq25713 design checklist https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/196/0552.BQ2570X_5F00_BQ2571X_5F00_BQ2572X_5F00_BQ2573X_5F00_SchematicChecklist.pdf
 - Design PCB
 	- Add spark gap PACK+ PACK-
 	- add polyfuse
 		- calculate ripple current inductor
-	- calculate ripple current capacitor
-	- increase package size if it's extended, esp 0402
+	- calculate ripple current for capacitors
+	- verify 0402 resistors aren't extended jlcpcb pcba
+	- add thermistor for thermal foldback tps25762-q1 https://www.tokopedia.com/rajacell/sensor-suhu-ntc-10k-thermistor-temperature-sensor-b3950-probe-5x25mm-1m
 	- Include power rating to components
 		- BQ4050
-		- BQ25713
 		- TPS25730
 		- pinout debug
 	- Assign footprints
@@ -125,6 +127,10 @@ different setup bq4050
 
 how did I miss current sense DNP
 ![[Pasted image 20260610220321.png]]![[Pasted image 20260610220322.png]]
+
+![[Pasted image 20260612194439.png]]ref design and evm diff fets
+
+what![[Pasted image 20260612200559.png]]
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
