@@ -12,4 +12,6 @@
 	(lib (name "LQP03HQ3N5B02D") (type "KiCad") (uri "${KIPRJMOD}/libraries/LQP03HQ3N5B02D.kicad_sym") (options "") (descr ""))
 	(lib (name "NRF54L15-QFAA-R7") (type "KiCad") (uri "${KIPRJMOD}/libraries/NRF54L15-QFAA-R7.kicad_sym") (options "") (descr ""))
 	(lib (name "NRF54L15-QFAA-R") (type "KiCad") (uri "${KIPRJMOD}/libraries/NRF54L15-QFAA-R.kicad_sym") (options "") (descr ""))
+	(lib (name "CSD17308Q3") (type "KiCad") (uri "${KIPRJMOD}/libraries/CSD17308Q3.kicad_sym") (options "") (descr ""))
+	(lib (name "easyECADDownloader") (type "KiCad") (uri "${KIPRJMOD}/libraries/easyECADDownloader.kicad_sym") (options "") (descr ""))
 )
