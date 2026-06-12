@@ -22604,6 +22604,7 @@
 		)
 		(property "Voltage" "50V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30321,6 +30322,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30331,6 +30333,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31289,6 +31292,7 @@
 		)
 		(property "Type" "MLCC"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31299,6 +31303,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31309,6 +31314,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39017,6 +39023,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39027,6 +39034,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42914,6 +42922,7 @@
 		)
 		(property "Type" "MLCC"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42924,6 +42933,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42934,6 +42944,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44984,6 +44995,7 @@
 		)
 		(property "Voltage" "50V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46514,6 +46526,7 @@
 		)
 		(property "Voltage" "50V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47270,6 +47283,7 @@
 		)
 		(property "Type" "MLCC"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47280,6 +47294,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47290,6 +47305,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48890,6 +48906,7 @@
 		)
 		(property "Type" "MLCC"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48900,6 +48917,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48910,6 +48928,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49024,6 +49043,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49034,6 +49054,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49555,6 +49576,7 @@
 		)
 		(property "Voltage" "30V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49672,6 +49694,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49682,6 +49705,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51461,6 +51485,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51471,6 +51496,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53572,6 +53598,7 @@
 		)
 		(property "Type" "MLCC"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53582,6 +53609,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53592,6 +53620,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53784,6 +53813,7 @@
 		)
 		(property "Type" "MLCC"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53794,6 +53824,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53804,6 +53835,7 @@
 		)
 		(property "Voltage" "35V"
 			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
