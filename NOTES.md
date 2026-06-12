@@ -21,6 +21,8 @@ To do
 	- layout guidelines 
 	- https://www.ti.com/document-viewer/BQ25720/datasheet#GUID-713033B3-1727-4037-B279-6185E4201636/TITLE-SLUSDU3X7800
 	- https://www.ti.com/lit/an/slva232/slva232.pdf?ts=1781099885492&ref_url=https%253A%252F%252Fwww.google.com%252F spark gap
+	- inductor calculation http://pigeonsnest.co.uk/stuff/core-saturation.html
+	- inductor calculator spreadsheet https://www.eevblog.com/forum/projects/softwarespreadsheet-for-transformer-calculation/msg5080441/#msg5080441
 - Design PCB
 	- Add spark gap PACK+ PACK-
 	- add polyfuse
