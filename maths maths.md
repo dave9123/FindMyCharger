@@ -1,3 +1,4 @@
+*value rounded up for obvious safety reasons
 ## calc tps25762-q1
 
 ### inductor
@@ -19,4 +20,86 @@ Il_boost(max) = 12V*0.46/(400KHz*(10^3) * 4.7uH*(10^-6)) = 2.94A
 Isw_boost(max) = 2.94A/2 + 3.25A/(1-0.45) = 7.38A
 Imaxout(boost) = (8.2A-2.94A/2) * (1-0.46) = 3.63A
 ```
+## calc bq25713
 ### mosfet
+duty cycle -> D = Vout/Vin
+= 16.8V/20V = 0.84
+= 12V/20V = 0.6
+= 16.8V/5V = 3.36
+= 12V/5V = 2.4
+Ptop = D
+
+iripple is 4.195A, derating 50% -> 6.2925A ~ 6.3A
+
+### inductor - 10.2.2.2
+```
+D = duty cycle
+
+
+Dbuck = Vout/Vin
+= (16.8/20) = 0.84
+
+Iripple_buck = Vin * D * (1 - D) / (fs * L)
+= 20V * 0.84 * (1-0.84) / (800kHz*(10^3) * 2.2uH*(10^-6))
+= 1.53A (peak buck)
+
+
+Dboost = 1 - (Vin/Vbat)
+= 1 - (5V/16.8V) = 1 - 0.2976.. = 0.71
+
+Iripple_boost = (VIN * Dboost) / (fs * L)
+= (5V * 0.71) / ((800kHz*(10^3) * 2.2uH*(10^-6))
+  = 2.02A (peak boost)
+
+
+Isat >= Ichg + 1/2*Iripple
+  >= 3A + 1/2*2.02A
+  >= 4.01A
+```
+inductor ripple range 20 – 40% as trade-off between size and efficiency
+
+### input capacitor - 10.2.2.3
+*duty cycle rounded down as worst case RMS seems to be half
+> Input capacitor should have enough ripple current rating to absorb input switching ripple current. The **worst case RMS ripple current is half of the charging current** (plus system current there is any system load) when duty cycle is 0.5 in buck mode
+
+*referencing duty cycle buck & boost values from inductor calc, 10.2.2.2
+
+buck
+Icin = 3A * sqrt(0.83*(1-0.83)) = 1.13A
+
+boost
+Icin = 3A * sqrt(0.70*(1-0.70)) = 1.38A
+
+### power mosfet
+gate drive -> 6V
+input -> 19-20V -> derating +50% >= 30V
+
+D = Vout/Vin
+  = 16.8V/5V = 3.36
+  = 16.8V/20V = 0.84
+
+
+Qsw = Qgd + 1/2*Qgs
+
+ton = 
+
+toff = 
+
+Ion = (6-)
+
+Ioff = 
+
+Ptop = 3.36 * (3A)^2 * Rds(on) + 1/2 * 5 * 3 * ()
+
+MOSFET plateau voltage (Vplt) -> basically gate needs more voltage than threshold because of miller effect (when between in&out amplifier, Vout > Vin)
+https://electronics.stackexchange.com/questions/392956/what-do-we-mean-by-gate-plateau-voltage
+https://electronics.stackexchange.com/questions/141298/what-happpens-to-the-vgs-in-the-miller-plateau-region-during-mosfet-turn-on
+ok now how am I supposed to calc Vplt, it's needed for figure-of-merit (FOM) calc
+
+> max current non-sync -> 0.25A@10mΩ curent sensing or 0.5A if batt < 2.5V
+> minimum duty cycle happens at lowest battery voltage
+does this mean that less duty cycle = worst case scenario?
+### battery cells
+cell_batpresz at 8.5 BQ25713 "ANALOG INPUT (CELL_BATPRESZ)" 4S 6*300000/(100000+300000) = 4.5V (75%)
+    - on 10% tolerance up to lowest 6 * 270000/(110000+270000) = 4.26V (71%)
+    - on 15% tolerance up to lowest 6 * 255000/(115000+255000) = 4.13V (68.8%)
