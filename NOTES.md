@@ -9,10 +9,20 @@ Powerbank with Tracker
 * Make certain traces thicker
 * If I'm going for a small approach, might as well do 1.2 MHz, although I believe that more battery would be worth it but having the tracker approach, make it as small as possible, maybe?
 * Include battery level transmission onto Macless Haystack
+* https://github.com/smaeul/fhn-beacon-tools https://github.com/smaeul/fhn-beacon-tools https://arxiv.org/pdf/2210.14702
+* buck boost switching https://www.ti.com/lit/an/slva535b/slva535b.pdf?ts=1781330527146
 
 Goals
 - Able to stay alive for at least 3 months idle (while transmitting)
 - Moisture detection for USB C receptacles https://www.infineon.com/assets/row/public/documents/24/42/infineon-liquid-corrosion-mitigation-on-usb-type-c-connector-using-ez-pd-pmg1-devices-applicationnotes-en.pdf
+
+Thermal foldback default config TPS25762-Q1 *R1 10k thermistor 3950 NTC - R2 3.3k
+
+| Phase | Enter Threshold (V) | NTC Enter (Ohm) | Temp Enter (°C) | Exit Threshold (V) | NTC Exit (Ohm) | Temp Exit (°C) | Max Power (%) |
+| :---: | :-----------------: | :-------------: | :-------------: | :----------------: | :------------: | :------------: | :-----------: |
+|   1   |       2.044V        |     2.027k      |     65.84°C     |       1.988V       |     2.177k     |    63.77°C     |      60%      |
+|   2   |        2.1V         |     1.885k      |     67.96°C     |       2.044V       |     2.027k     |    65.84°C     |      30%      |
+|   3   |       2.142V        |     1.784k      |     69.59°C     |       2.086V       |     1.920k     |    67.42°C     |      0%       |
 
 To do
 - Resources
@@ -32,6 +42,7 @@ To do
 	- calculate ripple current for capacitors
 	- verify 0402 resistors aren't extended jlcpcb pcba
 	- add thermistor for thermal foldback tps25762-q1 https://www.tokopedia.com/rajacell/sensor-suhu-ntc-10k-thermistor-temperature-sensor-b3950-probe-5x25mm-1m
+	- verify items exist in jlcpcb
 	- replace extended with non ones
 	- Include power rating to components
 		- BQ4050
@@ -43,7 +54,7 @@ To do
 	- Route component traces
 	- Double check PCB
 - Casing
-	- through hole NTC beside battery
+	- through hole NTC beside battery d:5mm p:25mm
 - Firmware
 	- Macless Haystack port
 	- Google Find Hub port
@@ -132,6 +143,8 @@ how did I miss current sense DNP
 ![[Pasted image 20260612194439.png]]ref design and evm diff fets
 
 what![[Pasted image 20260612200559.png]]
+
+![[Pasted image 20260613114032.png]]
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 

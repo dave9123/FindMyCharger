@@ -24405,7 +24405,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "50V"
+		(property "Power_Rating" "40V"
 			(at 55.88 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -26401,7 +26401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 41.91 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -27551,7 +27551,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS25762CQRQLRQ1"
+		(property "Value" "TPS25762DQRQLRQ1"
 			(at 132.08 293.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27596,7 +27596,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TPS25762DQRQLRQ1"
 			(at 88.9 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -27608,6 +27608,61 @@
 			)
 		)
 		(property "Power_Rating" ""
+			(at 88.9 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 88.9 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 88.9 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 88.9 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 88.9 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C43131301"
 			(at 88.9 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -30876,7 +30931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 31.75 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -31634,7 +31689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
 			(at 472.44 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -31645,7 +31700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf54L15"
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf54L10"
 			(at 472.44 467.36 0)
 			(hide yes)
 			(show_name no)
@@ -31667,7 +31722,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NRF54L10-QFAA-R7"
 			(at 472.44 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -31679,6 +31734,61 @@
 			)
 		)
 		(property "Power_Rating" ""
+			(at 472.44 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 472.44 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 472.44 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 472.44 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 472.44 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C44800139"
 			(at 472.44 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -38609,7 +38719,7 @@
 				)
 			)
 		)
-		(property "Value" "BQ25713RSNT"
+		(property "Value" "BQ25713RSNR"
 			(at 156.21 499.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38654,7 +38764,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BQ25713RSNR"
 			(at 123.19 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -38666,6 +38776,61 @@
 			)
 		)
 		(property "Power_Rating" ""
+			(at 123.19 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 123.19 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 123.19 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 123.19 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 123.19 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2878935"
 			(at 123.19 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -48395,7 +48560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.65k"
+		(property "Value" "5.6k"
 			(at 31.75 383.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48451,6 +48616,50 @@
 			)
 		)
 		(property "Power_Rating" "0.5W"
+			(at 29.21 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 29.21 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 29.21 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 29.21 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
 			(at 29.21 382.27 0)
 			(hide yes)
 			(show_name no)
