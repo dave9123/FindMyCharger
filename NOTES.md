@@ -32,6 +32,7 @@ To do
 	- calculate ripple current for capacitors
 	- verify 0402 resistors aren't extended jlcpcb pcba
 	- add thermistor for thermal foldback tps25762-q1 https://www.tokopedia.com/rajacell/sensor-suhu-ntc-10k-thermistor-temperature-sensor-b3950-probe-5x25mm-1m
+	- replace extended with non ones
 	- Include power rating to components
 		- BQ4050
 		- TPS25730
