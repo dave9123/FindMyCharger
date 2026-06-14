@@ -29265,7 +29265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.458 533.4 90)
 			(hide yes)
 			(show_name no)
@@ -29353,6 +29353,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 106.68 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17414"
 			(at 106.68 533.4 0)
 			(hide yes)
 			(show_name no)
@@ -37976,7 +37987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.568 530.86 90)
 			(hide yes)
 			(show_name no)
@@ -38065,6 +38076,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 97.79 530.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17414"
 			(at 97.79 530.86 0)
 			(hide yes)
 			(show_name no)
