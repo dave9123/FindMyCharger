@@ -1,6 +1,15 @@
 *value rounded up for obvious safety reasons
 ## calc tps25762-q1
 
+### thermal foldback
+default config w R1 10k thermistor 3950 NTC - R2 3.3k
+
+| Phase | Enter Threshold (V) | NTC Enter (Ohm) | Temp Enter (°C) | Exit Threshold (V) | NTC Exit (Ohm) | Temp Exit (°C) | Max Power (%) |
+| :---: | :-----------------: | :-------------: | :-------------: | :----------------: | :------------: | :------------: | :-----------: |
+|   1   |       2.044V        |     2.027k      |     65.84°C     |       1.988V       |     2.177k     |    63.77°C     |      60%      |
+|   2   |        2.1V         |     1.885k      |     67.96°C     |       2.044V       |     2.027k     |    65.84°C     |      30%      |
+|   3   |       2.142V        |     1.784k      |     69.59°C     |       2.086V       |     1.920k     |    67.42°C     |      0%       |
+
 ### inductor
 ```
 vin -> 12-16.8V
@@ -21,7 +30,7 @@ Isw_boost(max) = 2.94A/2 + 3.25A/(1-0.45) = 7.38A
 Imaxout(boost) = (8.2A-2.94A/2) * (1-0.46) = 3.63A
 ```
 ## calc bq25713
-### mosfet
+### mosfet --- count me
 duty cycle -> D = Vout/Vin
 = 16.8V/20V = 0.84
 = 12V/20V = 0.6
@@ -99,6 +108,13 @@ ok now how am I supposed to calc Vplt, it's needed for figure-of-merit (FOM) cal
 > max current non-sync -> 0.25A@10mΩ curent sensing or 0.5A if batt < 2.5V
 > minimum duty cycle happens at lowest battery voltage
 does this mean that less duty cycle = worst case scenario?
+
+| Mode |   Buck    | Buck-Boost |   Boost   |
+| :--: | :-------: | :--------: | :-------: |
+|  Q1  | Switching | Switching  |    ON     |
+|  Q2  | Switching | Switching  |    OFF    |
+|  Q3  |    OFF    | Switching  | Switching |
+|  Q4  |    ON     | Switching  | Switching |
 ### battery cells
 cell_batpresz at 8.5 BQ25713 "ANALOG INPUT (CELL_BATPRESZ)" 4S 6*300000/(100000+300000) = 4.5V (75%)
     - on 10% tolerance up to lowest 6 * 270000/(110000+270000) = 4.26V (71%)

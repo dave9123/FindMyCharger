@@ -16,14 +16,6 @@ Goals
 - Able to stay alive for at least 3 months idle (while transmitting)
 - Moisture detection for USB C receptacles https://www.infineon.com/assets/row/public/documents/24/42/infineon-liquid-corrosion-mitigation-on-usb-type-c-connector-using-ez-pd-pmg1-devices-applicationnotes-en.pdf
 
-Thermal foldback default config TPS25762-Q1 *R1 10k thermistor 3950 NTC - R2 3.3k
-
-| Phase | Enter Threshold (V) | NTC Enter (Ohm) | Temp Enter (°C) | Exit Threshold (V) | NTC Exit (Ohm) | Temp Exit (°C) | Max Power (%) |
-| :---: | :-----------------: | :-------------: | :-------------: | :----------------: | :------------: | :------------: | :-----------: |
-|   1   |       2.044V        |     2.027k      |     65.84°C     |       1.988V       |     2.177k     |    63.77°C     |      60%      |
-|   2   |        2.1V         |     1.885k      |     67.96°C     |       2.044V       |     2.027k     |    65.84°C     |      30%      |
-|   3   |       2.142V        |     1.784k      |     69.59°C     |       2.086V       |     1.920k     |    67.42°C     |      0%       |
-
 To do
 - Resources
 	- PCB design guidelines for reduced EMI https://www.ti.com/lit/an/szza009/szza009.pdf
@@ -37,6 +29,7 @@ To do
 	- bq25713 design checklist https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/196/0552.BQ2570X_5F00_BQ2571X_5F00_BQ2572X_5F00_BQ2573X_5F00_SchematicChecklist.pdf
 - Design PCB
 	- Add spark gap PACK+ PACK-
+	- calculate bq25713 mosfet
 	- add polyfuse
 		- calculate ripple current inductor
 	- calculate ripple current for capacitors
