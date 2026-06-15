@@ -15,4 +15,5 @@
 	(lib (name "easyECADDownloader") (type "KiCad") (uri "${KIPRJMOD}/libraries/easyECADDownloader.kicad_sym") (options "") (descr ""))
 	(lib (name "AT24C256C-SSHL-T") (type "KiCad") (uri "${KIPRJMOD}/libraries/AT24C256C-SSHL-T.kicad_sym") (options "") (descr ""))
 	(lib (name "C157570-BQ4050RSMR") (type "KiCad") (uri "${KIPRJMOD}/libraries/C157570-BQ4050RSMR.kicad_sym") (options "") (descr ""))
+	(lib (name "C37635332-XTM20032000DT00351005") (type "KiCad") (uri "${KIPRJMOD}/libraries/C37635332-XTM20032000DT00351005.kicad_sym") (options "") (descr ""))
 )

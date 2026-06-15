@@ -1955,6 +1955,233 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C37635332-XTM20032000DT00351005:XTM20032000DT00351005"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XTM20032000DT00351005"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CRYSTAL-SMD_4P-L2.0-W1.6-BL-A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C37635332"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XTM20032000DT00351005_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.51 1.78)
+					(end 0.51 -1.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -3589,219 +3816,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y1"
-				(at 1.2701 -3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "32Mhz 8pF"
-				(at -1.2699 -3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power_Rating" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10548,17 +10562,6 @@
 		)
 		(uuid "c1df3bfb-7f5f-46be-961e-64e5e7edacd2")
 	)
-	(text "NOTE: double check crystal pins\n13 might be crystal\n24 ground"
-		(exclude_from_sim no)
-		(at 444.754 337.058 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c57f17f5-518e-4208-a9f8-3803ffb6b265")
-	)
 	(text "transient compensation\nto meet minimum capacitance (?)"
 		(exclude_from_sim no)
 		(at 383.286 438.404 0)
@@ -12625,6 +12628,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 347.98) (xy 415.29 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087619cc-e32d-4051-ad04-a57f92ff9e42")
+	)
+	(wire
+		(pts
 			(xy 234.95 353.06) (xy 236.22 353.06)
 		)
 		(stroke
@@ -13645,6 +13658,16 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 342.9) (xy 440.69 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f722347-af73-4954-ac84-1e508afe92f5")
+	)
+	(wire
+		(pts
 			(xy 477.52 334.01) (xy 478.79 334.01)
 		)
 		(stroke
@@ -14255,6 +14278,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 344.17) (xy 420.37 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49189bf7-ce5e-47e7-9dc6-3d0a8695af85")
+	)
+	(wire
+		(pts
 			(xy 582.93 50.8) (xy 582.93 53.34)
 		)
 		(stroke
@@ -14825,6 +14858,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 342.9) (xy 440.69 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b33aafc-c16d-486a-9bd1-fd0c6b714f3a")
+	)
+	(wire
+		(pts
 			(xy 297.18 281.94) (xy 300.99 281.94)
 		)
 		(stroke
@@ -15055,6 +15098,16 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 347.98) (xy 444.5 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6336b685-33d9-4754-a470-888c577baedc")
+	)
+	(wire
+		(pts
 			(xy 472.44 318.77) (xy 478.79 318.77)
 		)
 		(stroke
@@ -15162,16 +15215,6 @@
 			(type default)
 		)
 		(uuid "673180bd-e2a6-41d3-bc6c-40c4a16ee869")
-	)
-	(wire
-		(pts
-			(xy 444.5 347.98) (xy 444.5 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a542e9-7d6e-4b43-871a-0c9cf40cfd30")
 	)
 	(wire
 		(pts
@@ -15775,16 +15818,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 349.25) (xy 433.07 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d53d697-0623-4e00-92e1-0111b44dea44")
-	)
-	(wire
-		(pts
 			(xy 400.05 69.85) (xy 400.05 72.39)
 		)
 		(stroke
@@ -15955,6 +15988,26 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 342.9) (xy 421.64 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82be0a32-9d26-446c-9269-79355857f1b2")
+	)
+	(wire
+		(pts
+			(xy 436.88 347.98) (xy 438.15 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82db400a-c7f3-4a5e-b027-c66da448f21f")
+	)
+	(wire
+		(pts
 			(xy 297.18 450.85) (xy 297.18 452.12)
 		)
 		(stroke
@@ -16092,6 +16145,16 @@
 			(type default)
 		)
 		(uuid "87271337-9bae-4fe6-a849-e64f0efde95a")
+	)
+	(wire
+		(pts
+			(xy 421.64 347.98) (xy 415.29 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87813c92-ca5e-4724-bf5f-aef9ac7b5eac")
 	)
 	(wire
 		(pts
@@ -16375,6 +16438,16 @@
 	)
 	(wire
 		(pts
+			(xy 443.23 332.74) (xy 443.23 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93656c1f-8ef3-49cf-bb11-bacc1da7f0e1")
+	)
+	(wire
+		(pts
 			(xy 160.02 472.44) (xy 160.02 473.71)
 		)
 		(stroke
@@ -16382,16 +16455,6 @@
 			(type default)
 		)
 		(uuid "93c3e5bf-a294-496b-af57-fe52581ff77f")
-	)
-	(wire
-		(pts
-			(xy 444.5 342.9) (xy 444.5 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93d874f5-4745-4918-8165-e7d666621730")
 	)
 	(wire
 		(pts
@@ -17065,6 +17128,16 @@
 	)
 	(wire
 		(pts
+			(xy 443.23 342.9) (xy 444.5 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8c62e2-753c-47dc-9cfd-489dcc452be9")
+	)
+	(wire
+		(pts
 			(xy 290.83 332.74) (xy 303.53 332.74)
 		)
 		(stroke
@@ -17572,16 +17645,6 @@
 			(type default)
 		)
 		(uuid "c0e413aa-7cf0-42a7-86df-dcc48ab38617")
-	)
-	(wire
-		(pts
-			(xy 433.07 341.63) (xy 444.5 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f00410-e84b-4236-931a-74df97f7c604")
 	)
 	(wire
 		(pts
@@ -18252,6 +18315,16 @@
 			(type default)
 		)
 		(uuid "e08dac28-9f75-4128-b064-122e85a092ac")
+	)
+	(wire
+		(pts
+			(xy 415.29 332.74) (xy 443.23 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e092f994-c6c1-445b-a3bf-68d1f6fec0d4")
 	)
 	(wire
 		(pts
@@ -22976,154 +23049,6 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 433.07 345.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0085d92d-dec1-4600-8fa5-9f34515e9632")
-		(property "Reference" "Y1"
-			(at 436.88 344.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "32Mhz"
-			(at 436.88 346.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "40 ppm"
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 433.07 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "8pF"
-			(at 433.07 345.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6596e7e5-6723-43a9-89f9-28187528d6ba")
-		)
-		(pin "2"
-			(uuid "a46bc94b-6b99-4600-aa4b-58293560f39d")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -28065,6 +27990,84 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 420.37 344.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ac7c16-497e-4df8-be68-82a6cd686ab4")
+		(property "Reference" "#PWR011"
+			(at 420.37 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 420.37 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 420.37 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 420.37 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81ae7598-afd2-4312-a993-88570a5c97ef")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -45507,6 +45510,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 438.15 347.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d909d7-4b65-4109-81cd-0b788265a854")
+		(property "Reference" "#PWR019"
+			(at 438.15 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 438.15 353.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 438.15 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 438.15 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 438.15 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0764e11-716a-4b02-afac-e4e8f5181ed7")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor")
 		(at 144.78 373.38 0)
 		(unit 1)
@@ -47975,6 +48056,103 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C37635332-XTM20032000DT00351005:XTM20032000DT00351005")
+		(at 429.26 345.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c92221d1-8c1e-4017-b605-fd6b6c1ed6a6")
+		(property "Reference" "X1"
+			(at 429.26 335.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XTM20032000DT00351005"
+			(at 429.26 337.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRYSTAL-SMD_4P-L2.0-W1.6-BL-A"
+			(at 429.26 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C37635332"
+			(at 429.26 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e23d557e-e23a-4ec6-8579-b7adaa9d5d02")
+		)
+		(pin "1"
+			(uuid "f6b84b51-7c6c-48bc-bf7c-44762d8edac7")
+		)
+		(pin "3"
+			(uuid "3c1f982a-48bc-43ea-a3c1-f97e865826a8")
+		)
+		(pin "4"
+			(uuid "2147bc12-b0c0-4a2f-bb37-567441e5e693")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "X1")
 					(unit 1)
 				)
 			)
