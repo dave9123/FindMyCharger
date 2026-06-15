@@ -30,6 +30,7 @@ To do
 - Design PCB
 	- Add spark gap PACK+ PACK-
 	- calculate bq25713 mosfet
+	- add transistor/mosfet to ICs for restart for firmware update (nRF54(?), TPS25762-Q1)
 	- add polyfuse
 		- calculate ripple current inductor
 	- calculate ripple current for capacitors

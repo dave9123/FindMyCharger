@@ -29,6 +29,31 @@ Il_boost(max) = 12V*0.46/(400KHz*(10^3) * 4.7uH*(10^-6)) = 2.94A
 Isw_boost(max) = 2.94A/2 + 3.25A/(1-0.45) = 7.38A
 Imaxout(boost) = (8.2A-2.94A/2) * (1-0.46) = 3.63A
 ```
+
+### LDO
+external current limit 25 mA
+
+nRF54 TX 10 mA
+EEPROM 5 mA max (?, max dc output current @ absolute maximum rating)
+pull up resistors, TODO: calculate power used
+
+### i2c pull up
+
+![[Pasted image 20260615203838.png]]
+
+capacitive load seems to be worst case scenario, TODO: calculate capacitive load
+```
+-> min = (3.3V-0.4V) / (3mA*10^-3) = 966.666667
+
+standard mode (max)
+ -> max = 1000ns*10^-9 / (0.8473 * 400pF*10^-12) = 2950.54880208
+
+fast mode (max)
+ -> max 300ns*10^-9 / (0.8473 * 400pF*10^-12) = 885.16464062
+
+fast mode plus (max)
+ -> max = 120ns*10^-9 / (0.8473 * 550pF*10^-12) = 257.50244091
+```
 ## calc bq25713
 ### mosfet --- count me
 duty cycle -> D = Vout/Vin
