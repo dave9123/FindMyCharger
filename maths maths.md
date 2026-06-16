@@ -14,7 +14,7 @@ default config w R1 10k thermistor 3950 NTC - R2 3.3k
 ```
 vin -> 12-16.8V
 vout -> 5-21V
-iout -> 3.25A
+iout -> 3-3.25A
 fsw -> 400kHz
 
 
@@ -29,7 +29,7 @@ Il_boost(max) = 12V*0.46/(400KHz*(10^3) * 4.7uH*(10^-6)) = 2.94A
 Isw_boost(max) = 2.94A/2 + 3.25A/(1-0.45) = 7.38A
 Imaxout(boost) = (8.2A-2.94A/2) * (1-0.46) = 3.63A
 ```
-
+switching max is 7.38A, so pick higher
 ### LDO
 external current limit 25 mA
 
