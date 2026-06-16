@@ -31,6 +31,7 @@ To do
 	- Add spark gap PACK+ PACK-
 	- calculate bq25713 mosfet
 	- add transistor/mosfet to ICs for restart for firmware update (nRF54(?), TPS25762-Q1)
+	- ensure switching capacitors have proper power dissipation
 	- confirm package size and ensure jlcpcb and current are the same
 		- tps25762
 		- tps25730
@@ -38,14 +39,8 @@ To do
 	- add polyfuse
 		- calculate ripple current inductor
 	- calculate ripple current for capacitors
-	- verify 0402 resistors aren't extended jlcpcb pcba
 	- add thermistor for thermal foldback tps25762-q1 https://www.tokopedia.com/rajacell/sensor-suhu-ntc-10k-thermistor-temperature-sensor-b3950-probe-5x25mm-1m
-	- verify items exist in jlcpcb
 	- replace extended with non ones
-	- Include power rating to components
-		- BQ4050
-		- TPS25730
-		- pinout debug
 	- Assign footprints
 	- Double check schematics
 	- Double check footprints
