@@ -4,11 +4,11 @@
 ### thermal foldback
 default config w R1 10k thermistor 3950 NTC - R2 3.3k
 
-| Phase | Enter Threshold (V) | NTC Enter (Ohm) | Temp Enter (°C) | Exit Threshold (V) | NTC Exit (Ohm) | Temp Exit (°C) | Max Power (%) |
-| :---: | :-----------------: | :-------------: | :-------------: | :----------------: | :------------: | :------------: | :-----------: |
-|   1   |       2.044V        |     2.027k      |     65.84°C     |       1.988V       |     2.177k     |    63.77°C     |      60%      |
-|   2   |        2.1V         |     1.885k      |     67.96°C     |       2.044V       |     2.027k     |    65.84°C     |      30%      |
-|   3   |       2.142V        |     1.784k      |     69.59°C     |       2.086V       |     1.920k     |    67.42°C     |      0%       |
+|Phase|Enter Threshold (V)|NTC Enter (Ohm)|Temp Enter (°C)|Exit Threshold (V)|NTC Exit (Ohm)|Temp Exit (°C)|Max Power (%)|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|2.044 V|2.892 kΩ|56.88°C|1.988 V|3.101 kΩ|55.10°C|60%|
+|2|2.100 V|2.686 kΩ|58.75°C|2.044 V|2.892 kΩ|56.88°C|30%|
+|3|2.142 V|2.546 kΩ|60.08°C|2.086 V|2.731 kΩ|58.33°C|0%|
 
 ### inductor
 ```
