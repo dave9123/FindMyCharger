@@ -30,7 +30,7 @@ To do
 - Design PCB
 	- Add spark gap PACK+ PACK-
 	- calculate bq25713 mosfet
-	- add transistor/mosfet to ICs for restart for firmware update (nRF54(?), TPS25762-Q1)
+	- add transistor/mosfet to ICs for restart for firmware update TPS25762-Q1
 	- ensure switching capacitors have proper power dissipation
 	- confirm package size and ensure jlcpcb and current are the same
 		- tps25762
