@@ -9305,19 +9305,9 @@
 		)
 		(uuid "12d34242-26de-4f33-8e92-dc54ebe622de")
 	)
-	(text "3A max"
+	(text "ADCIN1 = 0\n5V min"
 		(exclude_from_sim no)
-		(at 118.364 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "16e434d7-83d2-43f3-b27a-c24b1d45ff48")
-	)
-	(text "5V min"
-		(exclude_from_sim no)
-		(at 63.246 98.806 0)
+		(at 60.96 84.074 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9325,9 +9315,9 @@
 		)
 		(uuid "21a17b1c-a2dd-4618-8143-0eff7d9b331a")
 	)
-	(text "20V max"
+	(text "ADCIN2 = 7\n20V max"
 		(exclude_from_sim no)
-		(at 82.042 98.806 0)
+		(at 79.248 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9389,9 +9379,19 @@
 		)
 		(uuid "8c9a31f1-d7db-45a9-83cb-c7e3944c2e39")
 	)
+	(text "ADCIN4 = 1\n3A max"
+		(exclude_from_sim no)
+		(at 117.348 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9248e8a1-28ee-48e8-ad39-af7b33067221")
+	)
 	(text "6V LDO"
 		(exclude_from_sim no)
-		(at 28.194 234.95 0)
+		(at 269.494 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9411,9 +9411,9 @@
 		)
 		(uuid "99db9ff2-4d25-488a-83d2-fe3eedc6f0e7")
 	)
-	(text "3A min"
+	(text "ADCIN3 = 3\n3A min"
 		(exclude_from_sim no)
-		(at 99.06 98.806 0)
+		(at 97.282 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9457,7 +9457,7 @@
 	)
 	(text "transient compensation\nto meet minimum capacitance (?)"
 		(exclude_from_sim no)
-		(at 366.776 131.064 0)
+		(at 352.806 131.064 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9477,21 +9477,9 @@
 		)
 		(uuid "d9d43a1b-fd4d-4b62-9635-4968d710f376")
 	)
-	(text "set 2800-3200mA"
-		(exclude_from_sim no)
-		(at 67.056 243.332 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "da94b33f-86d0-4e44-8661-42d1a09ec6af")
-	)
 	(text "4S config"
 		(exclude_from_sim no)
-		(at 31.75 199.136 0)
+		(at 223.52 218.186 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9500,6 +9488,18 @@
 			)
 		)
 		(uuid "ed337d57-791b-450e-ab13-5436382d775e")
+	)
+	(text "set chg 2800-3200mA"
+		(exclude_from_sim no)
+		(at 234.95 228.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f6f3972c-c695-4614-8a75-0789c7aebd06")
 	)
 	(text "R PCHG = (Vchg-Vbat)^2/R\n(20-16.8)^2/300\n"
 		(exclude_from_sim no)
@@ -9613,8 +9613,8 @@
 	)
 	(text_box "Battery Charger"
 		(exclude_from_sim no)
-		(at 16.51 127 0)
-		(size 372.11 135.89)
+		(at 30.48 127 0)
+		(size 374.65 135.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -9706,12 +9706,6 @@
 		(uuid "0595c5f6-59e8-4421-9bb5-8189d0f6936a")
 	)
 	(junction
-		(at 85.09 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0623be4f-d0be-4baf-b9a2-01a13015772c")
-	)
-	(junction
 		(at 153.67 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9736,12 +9730,6 @@
 		(uuid "0b7afc05-b38f-4f7c-8a0b-2672880b2675")
 	)
 	(junction
-		(at 127 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ba4494f-f73b-466d-ad94-b1e08fad14a9")
-	)
-	(junction
 		(at 525.78 374.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9752,12 +9740,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c34efd2-b3bf-4419-a326-cdd67bd3f8bb")
-	)
-	(junction
-		(at 58.42 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cf452f2-a4cd-4dcb-b633-bc2837a2fbc3")
 	)
 	(junction
 		(at 328.93 346.71)
@@ -9802,10 +9784,22 @@
 		(uuid "13ec2cda-62da-46c3-9b0c-f71846382737")
 	)
 	(junction
+		(at 107.95 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18e96f1f-7856-4462-80d7-f1fc82c11b57")
+	)
+	(junction
 		(at 549.91 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19902a18-c67b-413c-9214-c0b8ecc1c399")
+	)
+	(junction
+		(at 120.65 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bba941c-623e-461b-bd0d-a8a0272a538a")
 	)
 	(junction
 		(at 81.28 227.33)
@@ -9886,7 +9880,7 @@
 		(uuid "2cfdea50-2292-4991-97e8-245209d842ce")
 	)
 	(junction
-		(at 49.53 246.38)
+		(at 290.83 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d7f3425-04a0-4be5-9954-17d2bd326321")
@@ -9898,10 +9892,10 @@
 		(uuid "2e302d55-fa9b-45a5-a5c3-df05b178c5bb")
 	)
 	(junction
-		(at 71.12 33.02)
+		(at 133.35 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ff48dbb-33f4-4480-aba2-2e24e4731a1c")
+		(uuid "2e444e2f-f116-45c9-8809-802fa77d42db")
 	)
 	(junction
 		(at 654.05 44.45)
@@ -9932,12 +9926,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32be7734-df43-4328-8ac5-8bc8ba49aea9")
-	)
-	(junction
-		(at 337.82 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33527f11-1bca-48e1-aa14-e5e770a99b63")
 	)
 	(junction
 		(at 599.44 146.05)
@@ -10018,7 +10006,7 @@
 		(uuid "406432b3-62f4-40f1-a75b-3d3ea3341619")
 	)
 	(junction
-		(at 49.53 179.07)
+		(at 236.22 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "406e0a3f-9bb6-4af9-9506-160ac7114914")
@@ -10030,7 +10018,7 @@
 		(uuid "4248692f-9f28-412c-9377-f82f47e64a3f")
 	)
 	(junction
-		(at 49.53 237.49)
+		(at 290.83 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "427053db-0714-4712-8987-658f0d1820a4")
@@ -10042,7 +10030,7 @@
 		(uuid "42a73e24-e063-4541-9238-3535e3bcd391")
 	)
 	(junction
-		(at 24.13 212.09)
+		(at 215.9 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42b3ff79-e96c-4661-b4b9-a62a5c5e7f86")
@@ -10052,12 +10040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "448a06a8-1d63-472f-9c68-8263c2b78517")
-	)
-	(junction
-		(at 58.42 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4491f3df-761e-4172-a46b-e003b42a4889")
 	)
 	(junction
 		(at 280.67 134.62)
@@ -10078,12 +10060,6 @@
 		(uuid "48f64b04-88fa-438d-b517-d644c68f4ad9")
 	)
 	(junction
-		(at 85.09 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a0578fb-fb3e-4381-b2c7-d9f321707a5d")
-	)
-	(junction
 		(at 294.64 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10096,7 +10072,7 @@
 		(uuid "4b7b2396-60b8-4847-ba78-3f47d9f084f1")
 	)
 	(junction
-		(at 44.45 255.27)
+		(at 285.75 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cf78649-52c0-4c7e-9a6f-e69e6ccd90d2")
@@ -10108,16 +10084,10 @@
 		(uuid "4d2b22b3-fca4-4e89-bd44-70bfe6333550")
 	)
 	(junction
-		(at 105.41 45.72)
+		(at 121.92 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4df47142-9455-4c69-a8b4-e0f3bb5f42c7")
-	)
-	(junction
-		(at 116.84 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f5037af-2034-47df-9ae6-e5971b340f03")
 	)
 	(junction
 		(at 143.51 41.91)
@@ -10162,12 +10132,6 @@
 		(uuid "57bdda65-f1a6-40bf-8496-6bf67a99caad")
 	)
 	(junction
-		(at 143.51 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "598617a1-9809-425a-acf0-2e1e78e4c75f")
-	)
-	(junction
 		(at 88.9 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10192,6 +10156,12 @@
 		(uuid "5b458f22-1afc-496b-85c6-25ec4d021e13")
 	)
 	(junction
+		(at 143.51 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b67e44f-454e-4eae-be37-2e6e067ba165")
+	)
+	(junction
 		(at 143.51 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10208,6 +10178,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d960730-16dc-4971-9836-9929c7658325")
+	)
+	(junction
+		(at 95.25 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f0adb28-f38e-4ae3-afdc-b507ff2b8e25")
 	)
 	(junction
 		(at 331.47 403.86)
@@ -10270,10 +10246,16 @@
 		(uuid "64836e8f-36fa-4d8f-9b41-afce17e7ef7c")
 	)
 	(junction
-		(at 44.45 237.49)
+		(at 285.75 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64db99a3-939a-4d88-8308-6dcc1cfaff32")
+	)
+	(junction
+		(at 128.27 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64f4d593-c84b-4be6-84fa-414f2610bf26")
 	)
 	(junction
 		(at 227.33 154.94)
@@ -10354,12 +10336,6 @@
 		(uuid "7464ef14-1f21-4df3-9043-a676cf3ccb7f")
 	)
 	(junction
-		(at 113.03 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7714c679-35fe-45c7-aad4-eda1c64747a5")
-	)
-	(junction
 		(at 617.22 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10414,6 +10390,12 @@
 		(uuid "8353b7da-d5e4-4f03-a3c1-90584c146adf")
 	)
 	(junction
+		(at 95.25 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843990fa-a39c-415f-9793-c6c86d463aab")
+	)
+	(junction
 		(at 321.31 406.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10432,28 +10414,16 @@
 		(uuid "880bc69d-b6c8-4ba2-844f-354d1755a927")
 	)
 	(junction
-		(at 38.1 179.07)
+		(at 224.79 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ebc29a-2b95-453e-bd1a-a6d02dd4c5f3")
-	)
-	(junction
-		(at 99.06 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a807568-9f76-496a-b23f-6fb8912b8110")
 	)
 	(junction
 		(at 504.19 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8abf8569-5143-43ad-9a72-acfaf5b12e42")
-	)
-	(junction
-		(at 39.37 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b7e85e5-ae50-4a72-b5f5-49005b0e1773")
 	)
 	(junction
 		(at 304.8 154.94)
@@ -10466,12 +10436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e204350-2b89-40a1-82b7-6ebdd8cc299a")
-	)
-	(junction
-		(at 31.75 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f8bf25c-42db-4acb-945c-3f88b5df7a63")
 	)
 	(junction
 		(at 81.28 218.44)
@@ -10516,10 +10480,22 @@
 		(uuid "948d1561-4b03-4090-ad0b-b0b8241e5a16")
 	)
 	(junction
+		(at 55.88 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "958e837a-b59f-4df6-a451-e26faff53905")
+	)
+	(junction
 		(at 537.21 436.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95973c8b-436d-4580-9e7d-f0ff71f42f13")
+	)
+	(junction
+		(at 107.95 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c9ef3b-3f2e-48ea-a6a1-b80129278ce1")
 	)
 	(junction
 		(at 473.71 168.91)
@@ -10546,12 +10522,6 @@
 		(uuid "98ba2e05-555d-4100-8eec-b98456f5a831")
 	)
 	(junction
-		(at 71.12 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98ed0888-5061-4017-ac4c-3ba9c56933c4")
-	)
-	(junction
 		(at 467.36 334.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10568,12 +10538,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b29d04-ff52-424e-a121-376bb19be7d1")
-	)
-	(junction
-		(at 128.27 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c3a2f23-f103-47c3-a287-f61d20cf87d4")
 	)
 	(junction
 		(at 133.35 165.1)
@@ -10594,10 +10558,10 @@
 		(uuid "9ea6c90c-a5a3-401d-a0d4-072ae11068d3")
 	)
 	(junction
-		(at 326.39 144.78)
+		(at 62.23 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0cdb827-28ce-4de9-ab68-f3d754d878a5")
+		(uuid "a07f6501-be9e-4e71-bf5c-b0e091d8bbaf")
 	)
 	(junction
 		(at 189.23 405.13)
@@ -10628,6 +10592,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5d7822a-83c2-4ad7-b4e6-1ebdec49742c")
+	)
+	(junction
+		(at 68.58 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d57eaa-853d-46f8-b2fe-f1d4edf36b20")
 	)
 	(junction
 		(at 33.02 392.43)
@@ -10682,12 +10652,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf50381-a64c-4cdd-a8c8-eb72aed09e95")
-	)
-	(junction
-		(at 113.03 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae59b2b2-d08a-4d7d-aa04-f58199387fa2")
 	)
 	(junction
 		(at 455.93 318.77)
@@ -10768,12 +10732,6 @@
 		(uuid "bcc88e3c-35e6-427c-873b-480f384fe63c")
 	)
 	(junction
-		(at 326.39 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bce82aeb-8f5d-48aa-97d0-0af98e21c520")
-	)
-	(junction
 		(at 552.45 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10786,7 +10744,7 @@
 		(uuid "bd8b803d-8b4e-4f2a-9347-c793309a48df")
 	)
 	(junction
-		(at 38.1 186.69)
+		(at 224.79 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c02dacab-d7b8-4370-a526-268a777891c0")
@@ -10834,6 +10792,12 @@
 		(uuid "ca93d960-2b03-4694-bb36-b9a5018bc9cd")
 	)
 	(junction
+		(at 307.34 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc7c1a07-2331-41f5-8db6-1646f678a067")
+	)
+	(junction
 		(at 33.02 410.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10862,12 +10826,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d41166e3-66f5-4ff7-9541-2b14d8836f87")
-	)
-	(junction
-		(at 337.82 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d49fe8f4-9955-407b-9bbc-4015f89fda9b")
 	)
 	(junction
 		(at 582.93 207.01)
@@ -10912,12 +10870,6 @@
 		(uuid "d96c8038-0973-4a15-ad24-e61ef7758bf0")
 	)
 	(junction
-		(at 99.06 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9cd65ab-397b-403c-8552-c43931d6b963")
-	)
-	(junction
 		(at 292.1 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10930,16 +10882,16 @@
 		(uuid "da5b9862-dae3-457f-8c15-6e75f65f08ba")
 	)
 	(junction
+		(at 48.26 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc1773d0-12e7-48f2-bee8-507f10e1fb1b")
+	)
+	(junction
 		(at 508 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce79978-9edc-42b7-9585-858388fc0c57")
-	)
-	(junction
-		(at 48.26 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "deeeaa2b-fd2e-4374-a785-1122845abd4c")
 	)
 	(junction
 		(at 478.79 334.01)
@@ -11008,12 +10960,6 @@
 		(uuid "eceb5643-bfc0-49be-a873-1c76988fd0d3")
 	)
 	(junction
-		(at 349.25 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edec9d09-eaa7-412f-9583-13bafa0827c2")
-	)
-	(junction
 		(at 326.39 406.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11024,12 +10970,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f14b5b79-afec-4010-b855-69bf9a73b7c1")
-	)
-	(junction
-		(at 105.41 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2799fae-f330-4c94-80c7-f3196ce4b017")
 	)
 	(junction
 		(at 501.65 354.33)
@@ -11068,12 +11008,6 @@
 		(uuid "fa461800-4120-4f35-b72b-f8419b2ed696")
 	)
 	(junction
-		(at 35.56 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb061373-67ba-46a4-bb17-f6ad745edb55")
-	)
-	(junction
 		(at 273.05 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11092,16 +11026,16 @@
 		(uuid "fe55ed5c-92e1-47ac-ba30-108c07b26a16")
 	)
 	(junction
+		(at 326.39 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe726f84-8885-4ff3-b886-a7697e6136ec")
+	)
+	(junction
 		(at 488.95 328.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fec2f83c-f19e-4a28-b2f7-5919274604c2")
-	)
-	(junction
-		(at 116.84 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fedabf8f-42f6-4ae5-9642-d7cff51c160d")
 	)
 	(junction
 		(at 467.36 318.77)
@@ -11515,7 +11449,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 212.09) (xy 24.13 213.36)
+			(xy 215.9 231.14) (xy 215.9 232.41)
 		)
 		(stroke
 			(width 0)
@@ -11705,7 +11639,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 237.49) (xy 44.45 237.49)
+			(xy 284.48 214.63) (xy 285.75 214.63)
 		)
 		(stroke
 			(width 0)
@@ -11752,16 +11686,6 @@
 			(type default)
 		)
 		(uuid "118ff978-47e1-4da9-8fd6-c922d60a9fdd")
-	)
-	(wire
-		(pts
-			(xy 349.25 134.62) (xy 356.87 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11ec512f-368b-4ce3-a9f4-e7ed62840c15")
 	)
 	(wire
 		(pts
@@ -11855,7 +11779,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 179.07) (xy 53.34 179.07)
+			(xy 236.22 198.12) (xy 240.03 198.12)
 		)
 		(stroke
 			(width 0)
@@ -11885,7 +11809,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 143.51 49.53)
+			(xy 142.24 49.53) (xy 143.51 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11975,6 +11899,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 33.02) (xy 107.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4f4d3d-a70d-49e1-af80-0e443bcf35c3")
+	)
+	(wire
+		(pts
 			(xy 577.85 160.02) (xy 577.85 158.75)
 		)
 		(stroke
@@ -11982,16 +11916,6 @@
 			(type default)
 		)
 		(uuid "1d5ce169-0ac2-46a4-b3ba-0edf7ee82e46")
-	)
-	(wire
-		(pts
-			(xy 116.84 53.34) (xy 128.27 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d8fdc2d-18cd-4a9c-bade-fcc6032ce7db")
 	)
 	(wire
 		(pts
@@ -12082,6 +12006,16 @@
 			(type default)
 		)
 		(uuid "1f51b11d-4787-47b5-8038-4d9a80218125")
+	)
+	(wire
+		(pts
+			(xy 55.88 52.07) (xy 62.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fca13ac-d60d-4fc9-a563-6182e0288039")
 	)
 	(wire
 		(pts
@@ -12235,6 +12169,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 52.07) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250be387-c769-42d5-a87c-73ea8cfec3a2")
+	)
+	(wire
+		(pts
 			(xy 303.53 134.62) (xy 314.96 134.62)
 		)
 		(stroke
@@ -12275,7 +12219,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 154.94) (xy 31.75 154.94)
+			(xy 45.72 154.94) (xy 48.26 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12322,16 +12266,6 @@
 			(type default)
 		)
 		(uuid "2713e8c5-7a0d-4d7d-937c-89b091ad0eb9")
-	)
-	(wire
-		(pts
-			(xy 349.25 144.78) (xy 337.82 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274d67a2-a09f-4692-bbca-0292b896dea0")
 	)
 	(wire
 		(pts
@@ -12565,7 +12499,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 144.78) (xy 314.96 146.05)
+			(xy 307.34 144.78) (xy 307.34 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12602,16 +12536,6 @@
 			(type default)
 		)
 		(uuid "3144ff2e-01db-40c2-80e8-58ce25e75072")
-	)
-	(wire
-		(pts
-			(xy 85.09 40.64) (xy 99.06 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324b11c9-416c-4948-b0e1-1803da22f638")
 	)
 	(wire
 		(pts
@@ -12695,16 +12619,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 71.12 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a13cb1-2014-4fc4-b5f0-3429e5f24226")
-	)
-	(wire
-		(pts
 			(xy 86.36 345.44) (xy 99.06 345.44)
 		)
 		(stroke
@@ -12775,16 +12689,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 134.62) (xy 349.25 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a941a93-35d9-4751-b770-61f43ed096aa")
-	)
-	(wire
-		(pts
 			(xy 148.59 165.1) (xy 143.51 165.1)
 		)
 		(stroke
@@ -12825,7 +12729,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 201.93) (xy 24.13 201.93)
+			(xy 217.17 220.98) (xy 215.9 220.98)
 		)
 		(stroke
 			(width 0)
@@ -12915,23 +12819,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 201.93) (xy 24.13 203.2)
+			(xy 215.9 220.98) (xy 215.9 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "419e7016-315a-48e2-bb31-8ac342eff2cb")
-	)
-	(wire
-		(pts
-			(xy 31.75 154.94) (xy 39.37 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a4c9b5-e80a-4e0f-b2c1-6e06778bf876")
 	)
 	(wire
 		(pts
@@ -13205,7 +13099,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 179.07) (xy 38.1 179.07)
+			(xy 223.52 198.12) (xy 224.79 198.12)
 		)
 		(stroke
 			(width 0)
@@ -13255,7 +13149,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 45.72) (xy 138.43 49.53)
+			(xy 142.24 45.72) (xy 142.24 49.53)
 		)
 		(stroke
 			(width 0)
@@ -13535,7 +13429,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 246.38) (xy 49.53 247.65)
+			(xy 290.83 223.52) (xy 290.83 224.79)
 		)
 		(stroke
 			(width 0)
@@ -13545,7 +13439,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 134.62) (xy 337.82 134.62)
+			(xy 326.39 134.62) (xy 334.01 134.62)
 		)
 		(stroke
 			(width 0)
@@ -13765,13 +13659,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 143.51) (xy 349.25 144.78)
+			(xy 128.27 53.34) (xy 133.35 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ba5ea9d-d2e7-4959-ac59-1a5e6b612b4a")
+		(uuid "5c677d95-1cd1-472c-a8df-0be7e6a7d0d0")
 	)
 	(wire
 		(pts
@@ -13885,7 +13779,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 245.11) (xy 49.53 246.38)
+			(xy 290.83 222.25) (xy 290.83 223.52)
 		)
 		(stroke
 			(width 0)
@@ -14045,6 +13939,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b24b89-fcc7-4855-ac86-86417a111140")
+	)
+	(wire
+		(pts
 			(xy 133.35 408.94) (xy 133.35 410.21)
 		)
 		(stroke
@@ -14062,16 +13966,6 @@
 			(type default)
 		)
 		(uuid "673180bd-e2a6-41d3-bc6c-40c4a16ee869")
-	)
-	(wire
-		(pts
-			(xy 31.75 162.56) (xy 35.56 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "680e6cf9-980d-4ae0-a124-d61f19e50e61")
 	)
 	(wire
 		(pts
@@ -14192,16 +14086,6 @@
 			(type default)
 		)
 		(uuid "6b7b26eb-107f-47f0-9fa4-a84b7aa4b06f")
-	)
-	(wire
-		(pts
-			(xy 113.03 40.64) (xy 127 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b83255b-f736-456d-86a5-535a1207e453")
 	)
 	(wire
 		(pts
@@ -14375,7 +14259,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 246.38) (xy 49.53 246.38)
+			(xy 292.1 223.52) (xy 290.83 223.52)
 		)
 		(stroke
 			(width 0)
@@ -14575,7 +14459,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 210.82) (xy 24.13 212.09)
+			(xy 215.9 229.87) (xy 215.9 231.14)
 		)
 		(stroke
 			(width 0)
@@ -14602,6 +14486,16 @@
 			(type default)
 		)
 		(uuid "7b481662-69f2-4779-9f62-c26b05185cc2")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 43.18 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8700e2-5443-48a7-8ee1-ecf3463a68c0")
 	)
 	(wire
 		(pts
@@ -14725,16 +14619,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 134.62) (xy 337.82 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e635e18-4a1b-47c5-9637-e1c916b141c2")
-	)
-	(wire
-		(pts
 			(xy 116.84 375.92) (xy 123.19 375.92)
 		)
 		(stroke
@@ -14832,16 +14716,6 @@
 			(type default)
 		)
 		(uuid "8073b0cc-c8b8-4e71-a5d5-45267ac44930")
-	)
-	(wire
-		(pts
-			(xy 99.06 33.02) (xy 113.03 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "829e3bc5-a900-43cc-95cd-fb4c71c23259")
 	)
 	(wire
 		(pts
@@ -14965,7 +14839,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 179.07) (xy 49.53 179.07)
+			(xy 224.79 198.12) (xy 236.22 198.12)
 		)
 		(stroke
 			(width 0)
@@ -14992,6 +14866,16 @@
 			(type default)
 		)
 		(uuid "86316a42-6cd6-43d8-a2b9-3a1d99e04e4e")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a2d683-e48e-469e-825c-9292ca5f25b8")
 	)
 	(wire
 		(pts
@@ -15035,16 +14919,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 33.02) (xy 140.97 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8811ffb6-43aa-4510-8a87-53b2d9e1297a")
-	)
-	(wire
-		(pts
 			(xy 191.77 57.15) (xy 209.55 57.15)
 		)
 		(stroke
@@ -15085,7 +14959,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 236.22) (xy 49.53 236.22)
+			(xy 293.37 213.36) (xy 290.83 213.36)
 		)
 		(stroke
 			(width 0)
@@ -15212,16 +15086,6 @@
 			(type default)
 		)
 		(uuid "8f88613a-266d-453d-a431-2e34cba4c04c")
-	)
-	(wire
-		(pts
-			(xy 337.82 144.78) (xy 326.39 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ffe9192-fd60-498a-a766-a3c662c7c281")
 	)
 	(wire
 		(pts
@@ -15355,7 +15219,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 138.43 45.72)
+			(xy 133.35 45.72) (xy 142.24 45.72)
 		)
 		(stroke
 			(width 0)
@@ -15415,16 +15279,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 33.02) (xy 85.09 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96e8e99c-7066-40ab-8ef2-d3bc93fdfa1c")
-	)
-	(wire
-		(pts
 			(xy 160.02 162.56) (xy 153.67 162.56)
 		)
 		(stroke
@@ -15442,16 +15296,6 @@
 			(type default)
 		)
 		(uuid "97f79078-1e48-4e55-b197-f7cb89db2a1b")
-	)
-	(wire
-		(pts
-			(xy 71.12 40.64) (xy 85.09 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a0ae9a-f2ad-4c4f-807d-2f148eb6f64c")
 	)
 	(wire
 		(pts
@@ -15552,16 +15396,6 @@
 			(type default)
 		)
 		(uuid "9d13320d-380b-4ce8-bfbd-945d6a6cb2d8")
-	)
-	(wire
-		(pts
-			(xy 99.06 40.64) (xy 113.03 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d13ec04-a0fd-4f48-abe6-1a92d3e7faff")
 	)
 	(wire
 		(pts
@@ -15685,6 +15519,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 44.45) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bd12d1-5162-41fb-9eae-058dd0663db1")
+	)
+	(wire
+		(pts
 			(xy 209.55 154.94) (xy 214.63 154.94)
 		)
 		(stroke
@@ -15712,6 +15556,16 @@
 			(type default)
 		)
 		(uuid "a1988496-0fa4-4d11-b035-d3f86ae87ff0")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b3d199-2b38-4f8a-af0e-61d6d4f75110")
 	)
 	(wire
 		(pts
@@ -15925,16 +15779,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 143.51) (xy 337.82 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa30ca30-1fec-44c7-8d87-1ea5b0be7b9c")
-	)
-	(wire
-		(pts
 			(xy 321.31 402.59) (xy 321.31 406.4)
 		)
 		(stroke
@@ -16095,7 +15939,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 237.49) (xy 44.45 242.57)
+			(xy 285.75 214.63) (xy 285.75 219.71)
 		)
 		(stroke
 			(width 0)
@@ -16275,6 +16119,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 40.64) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6632044-3943-46b3-8cf2-33e6a21a7101")
+	)
+	(wire
+		(pts
 			(xy 93.98 162.56) (xy 93.98 163.83)
 		)
 		(stroke
@@ -16305,7 +16159,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 250.19) (xy 44.45 255.27)
+			(xy 285.75 227.33) (xy 285.75 232.41)
 		)
 		(stroke
 			(width 0)
@@ -16345,16 +16199,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 128.27 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0cb967-4a6e-46aa-a74c-311fb3946940")
-	)
-	(wire
-		(pts
 			(xy 627.38 226.06) (xy 627.38 219.71)
 		)
 		(stroke
@@ -16365,7 +16209,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 45.72) (xy 105.41 45.72)
+			(xy 120.65 45.72) (xy 121.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -16382,6 +16226,16 @@
 			(type default)
 		)
 		(uuid "bc2f7327-4a64-4417-8bb7-b883ee26f049")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5dffa4-efab-41bc-8dc8-4cf285f494f6")
 	)
 	(wire
 		(pts
@@ -16435,7 +16289,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 255.27) (xy 49.53 255.27)
+			(xy 285.75 232.41) (xy 290.83 232.41)
 		)
 		(stroke
 			(width 0)
@@ -16545,6 +16399,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 33.02) (xy 140.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c345ac29-27bb-4ac0-8672-53326828c06d")
+	)
+	(wire
+		(pts
 			(xy 140.97 107.95) (xy 140.97 105.41)
 		)
 		(stroke
@@ -16552,6 +16416,16 @@
 			(type default)
 		)
 		(uuid "c3c52d72-ca79-4f54-8d42-ec9258096986")
+	)
+	(wire
+		(pts
+			(xy 107.95 33.02) (xy 120.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4af4983-6e73-4871-a8ba-a05097e4c476")
 	)
 	(wire
 		(pts
@@ -16565,7 +16439,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 186.69) (xy 49.53 186.69)
+			(xy 224.79 205.74) (xy 236.22 205.74)
 		)
 		(stroke
 			(width 0)
@@ -16605,7 +16479,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 236.22) (xy 49.53 237.49)
+			(xy 290.83 213.36) (xy 290.83 214.63)
 		)
 		(stroke
 			(width 0)
@@ -16672,16 +16546,6 @@
 			(type default)
 		)
 		(uuid "ca2dc7c9-62ab-4a24-8465-60ea3831acb5")
-	)
-	(wire
-		(pts
-			(xy 39.37 154.94) (xy 48.26 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6c9e39-92bb-42f9-8d93-519546a1c82f")
 	)
 	(wire
 		(pts
@@ -16825,7 +16689,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 144.78) (xy 314.96 144.78)
+			(xy 303.53 144.78) (xy 307.34 144.78)
 		)
 		(stroke
 			(width 0)
@@ -16862,6 +16726,16 @@
 			(type default)
 		)
 		(uuid "d2a20e71-f7b4-4f37-a35f-2dd174d3301d")
+	)
+	(wire
+		(pts
+			(xy 307.34 144.78) (xy 314.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b8dbea-c637-40af-919c-3c1ff2ad7956")
 	)
 	(wire
 		(pts
@@ -17015,7 +16889,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 237.49) (xy 44.45 237.49)
+			(xy 290.83 214.63) (xy 285.75 214.63)
 		)
 		(stroke
 			(width 0)
@@ -17055,7 +16929,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 212.09) (xy 24.13 212.09)
+			(xy 217.17 231.14) (xy 215.9 231.14)
 		)
 		(stroke
 			(width 0)
@@ -17385,16 +17259,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 134.62) (xy 349.25 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb3a74f0-4a92-46d2-997b-0ac58b8a1ba4")
-	)
-	(wire
-		(pts
 			(xy 118.11 154.94) (xy 133.35 154.94)
 		)
 		(stroke
@@ -17505,16 +17369,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 53.34) (xy 116.84 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef25ef67-b8f9-4247-89c9-ce264292e1bd")
-	)
-	(wire
-		(pts
 			(xy 589.28 149.86) (xy 599.44 149.86)
 		)
 		(stroke
@@ -17615,7 +17469,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 45.72) (xy 116.84 45.72)
+			(xy 121.92 45.72) (xy 133.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -17635,7 +17489,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 58.42 33.02)
+			(xy 92.71 33.02) (xy 95.25 33.02)
 		)
 		(stroke
 			(width 0)
@@ -17672,16 +17526,6 @@
 			(type default)
 		)
 		(uuid "f73511e7-33ef-4f0f-8c93-ceba2f0d465c")
-	)
-	(wire
-		(pts
-			(xy 85.09 33.02) (xy 99.06 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7749c8a-c423-44e8-af27-b35b8c56cf79")
 	)
 	(wire
 		(pts
@@ -17795,16 +17639,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 162.56) (xy 39.37 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad6a77c-6964-4395-8360-702a28be53ed")
-	)
-	(wire
-		(pts
 			(xy 472.44 317.5) (xy 472.44 318.77)
 		)
 		(stroke
@@ -17862,26 +17696,6 @@
 			(type default)
 		)
 		(uuid "fcce3bfa-c919-4ae7-b104-00938c1ed129")
-	)
-	(wire
-		(pts
-			(xy 113.03 33.02) (xy 127 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd4bfcf-b810-47e3-80e9-c1ed4e391a85")
-	)
-	(wire
-		(pts
-			(xy 58.42 33.02) (xy 71.12 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1fab5d-f61a-488b-8050-9c8797aeaae6")
 	)
 	(wire
 		(pts
@@ -18779,7 +18593,7 @@
 	)
 	(global_label "INPUT_PWR"
 		(shape input)
-		(at 30.48 154.94 180)
+		(at 45.72 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18789,7 +18603,7 @@
 		)
 		(uuid "3a1ee254-00e8-49ad-b209-51e18d82db89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0324 154.94 0)
+			(at 32.2724 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19451,7 +19265,7 @@
 	)
 	(global_label "INPUT_IADPT"
 		(shape input)
-		(at 36.83 179.07 180)
+		(at 223.52 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19461,7 +19275,7 @@
 		)
 		(uuid "67bb8e4f-7a92-40fd-996d-91cec5d97d43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4795 179.07 0)
+			(at 207.1695 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19859,7 +19673,7 @@
 	)
 	(global_label "VBUS_IN"
 		(shape input)
-		(at 57.15 33.02 180)
+		(at 92.71 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19869,7 +19683,7 @@
 		)
 		(uuid "8310b3a2-15ae-4883-9d5c-0f84052a4222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.3633 33.02 0)
+			(at 81.9233 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20099,7 +19913,7 @@
 	)
 	(global_label "INPUT_CELL_BATPRESZ"
 		(shape input)
-		(at 25.4 212.09 0)
+		(at 217.17 231.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20109,7 +19923,7 @@
 		)
 		(uuid "8f2c1a8a-f4cc-4f47-b269-a944649e2120")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.4265 212.09 0)
+			(at 243.1965 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20387,7 +20201,7 @@
 	)
 	(global_label "INPUT_VDDA"
 		(shape input)
-		(at 25.4 201.93 0)
+		(at 217.17 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20397,7 +20211,7 @@
 		)
 		(uuid "a5d2f3cc-d5bc-46e9-a02b-899cb1e844ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.5734 201.93 0)
+			(at 231.3434 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20579,7 +20393,7 @@
 	)
 	(global_label "INPUT_ILIM_HIZ"
 		(shape input)
-		(at 50.8 246.38 0)
+		(at 292.1 223.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20589,7 +20403,7 @@
 		)
 		(uuid "af0f306b-df95-45fe-b1e0-044515e9ff03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.751 246.38 0)
+			(at 311.051 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20771,7 +20585,7 @@
 	)
 	(global_label "INPUT_VDDA"
 		(shape input)
-		(at 52.07 236.22 0)
+		(at 293.37 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20781,7 +20595,7 @@
 		)
 		(uuid "bc57b591-dd23-46d4-98d8-908972cc457d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.9367 236.22 0)
+			(at 309.2367 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21011,7 +20825,7 @@
 	)
 	(global_label "VSYS"
 		(shape input)
-		(at 356.87 134.62 0)
+		(at 334.01 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21021,7 +20835,7 @@
 		)
 		(uuid "c7bad7b4-b0b6-4f83-8295-19cd61a2e665")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.4514 134.62 0)
+			(at 341.5914 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21203,7 +21017,7 @@
 	)
 	(global_label "INPUT_REGN"
 		(shape input)
-		(at 35.56 237.49 180)
+		(at 276.86 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21213,7 +21027,7 @@
 		)
 		(uuid "d9861542-6642-462b-b3f7-e40dcceae9db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.391 237.49 0)
+			(at 260.691 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21515,7 +21329,7 @@
 	)
 	(global_label "INPUT_PWR"
 		(shape input)
-		(at 104.14 45.72 180)
+		(at 120.65 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21525,7 +21339,7 @@
 		)
 		(uuid "f3eee18e-860f-4c46-b875-074408e3e2ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6924 45.72 0)
+			(at 107.2024 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21539,7 +21353,7 @@
 	)
 	(global_label "VBUS_IN"
 		(shape input)
-		(at 43.18 44.45 0)
+		(at 76.2 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21549,7 +21363,7 @@
 		)
 		(uuid "f5cecdd6-143a-4797-8b33-db39b9a1c824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.9667 44.45 0)
+			(at 86.9867 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21735,121 +21549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 99.06 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0047dc34-a046-4bf8-abb3-5841a2fc1fce")
-		(property "Reference" "C5"
-			(at 102.87 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 102.87 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.0252 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "da7f79dd-d525-4077-989a-67d54dda63b9")
-		)
-		(pin "1"
-			(uuid "24cd75d9-cd08-4036-9ac8-033c0ca3809d")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 52.07 104.14 0)
 		(unit 1)
@@ -21861,7 +21560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01e48bee-6b9f-4651-a177-a5d0a21134c7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 52.07 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21921,7 +21620,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22017,7 +21716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f1485b-a508-4c0c-aec6-72b9347559d6")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 492.76 195.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22078,7 +21777,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -22184,7 +21883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0955501b-be13-42d0-982d-3e622972a2ac")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 297.18 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22325,7 +22024,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -22343,7 +22042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2fe6f2-dd1a-4c8d-8738-a3f6f3ac5620")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 191.77 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22403,7 +22102,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -22421,7 +22120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a300fe7-0df3-4e76-aede-bcd72d93d329")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 137.16 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -22481,7 +22180,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -22489,7 +22188,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 128.27 49.53 0)
+		(at 133.35 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22499,8 +22198,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c795c31-c098-41ed-9a8d-fe5685e4c164")
-		(property "Reference" "C11"
-			(at 132.08 48.2599 0)
+		(property "Reference" "C9"
+			(at 137.16 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22511,7 +22210,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 132.08 50.7999 0)
+			(at 137.16 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22522,7 +22221,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 129.2352 53.34 0)
+			(at 134.3152 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22533,7 +22232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22544,7 +22243,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22555,7 +22254,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22566,7 +22265,7 @@
 			)
 		)
 		(property "Power_Rating" "50V"
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22577,7 +22276,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22588,7 +22287,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22599,7 +22298,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22610,7 +22309,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22621,7 +22320,7 @@
 			)
 		)
 		(property "LCSC Part" "C440198"
-			(at 128.27 49.53 0)
+			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22640,7 +22339,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -22762,7 +22461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fddf6d2-6747-4086-bad7-1e5736907079")
-		(property "Reference" "C71"
+		(property "Reference" "C66"
 			(at 345.44 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22848,7 +22547,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C71")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -22866,7 +22565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "105a106c-fe1d-41cb-99cd-f5ee0eec8553")
-		(property "Reference" "C78"
+		(property "Reference" "C73"
 			(at 518.16 378.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23007,7 +22706,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C78")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -23025,7 +22724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10a920eb-fd33-4b25-aa1d-02e1f0142c29")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 190.5 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -23086,7 +22785,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -23195,7 +22894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12e5b5f4-3b01-4007-95fc-5298a2df9107")
-		(property "Reference" "C85"
+		(property "Reference" "C80"
 			(at 48.26 400.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23336,7 +23035,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C85")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -23448,165 +23147,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.56 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14632841-f02e-4d1a-bbfe-b99707f048e0")
-		(property "Reference" "C41"
-			(at 39.37 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 39.37 167.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.5252 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "35V"
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C15849"
-			(at 35.56 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6b0eb61d-0d97-4788-acb9-25fdb432c171")
-		)
-		(pin "1"
-			(uuid "32d29b0a-1485-4646-b2a7-06b154eab789")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 172.72 251.46 0)
 		(unit 1)
 		(body_style 1)
@@ -23616,7 +23156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1588d737-8a18-452e-b9ea-1235f5155f0c")
-		(property "Reference" "C52"
+		(property "Reference" "C47"
 			(at 168.91 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23746,7 +23286,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C52")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -23764,7 +23304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "168dfafe-9c9f-4eaf-b2d9-3f3e50824629")
-		(property "Reference" "R54"
+		(property "Reference" "R52"
 			(at 284.48 316.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23903,7 +23443,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R54")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -23921,7 +23461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16985bfa-ffac-41d3-86ff-8c63bdd978e5")
-		(property "Reference" "R37"
+		(property "Reference" "R34"
 			(at 471.17 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24049,7 +23589,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R37")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -24066,7 +23606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1713e3ad-b492-4d85-9c30-c09b7b362cb0")
-		(property "Reference" "C69"
+		(property "Reference" "C64"
 			(at 320.04 349.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24207,7 +23747,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C69")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -24215,7 +23755,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 127 36.83 270)
+		(at 120.65 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24226,7 +23766,7 @@
 		(fields_autoplaced yes)
 		(uuid "17e15d7b-852d-4127-8229-3237690dee58")
 		(property "Reference" "D1"
-			(at 129.54 35.2424 90)
+			(at 123.19 35.2424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24237,7 +23777,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 129.54 37.7824 90)
+			(at 123.19 37.7824 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24248,7 +23788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 36.83 0)
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24259,7 +23799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 36.83 0)
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24270,7 +23810,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 127 36.83 0)
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24281,7 +23821,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 127 36.83 0)
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24292,7 +23832,7 @@
 			)
 		)
 		(property "Power_Rating" "50V"
-			(at 127 36.83 0)
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24946,7 +24486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cbc15af-7344-404d-bde4-1efdb4753c7e")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 200.66 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25087,7 +24627,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -25105,7 +24645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e238100-191f-4c31-b81f-265d7e8c4979")
-		(property "Reference" "R41"
+		(property "Reference" "R39"
 			(at 471.17 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25233,7 +24773,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R41")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -25491,7 +25031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f449904-1707-4793-a65c-c8089f057c52")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -25552,7 +25092,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -25571,7 +25111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6af56b-afec-47b1-9f60-3464a883bc8d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -25632,7 +25172,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -25799,7 +25339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fff0c28-bb5c-4f33-b6b0-09b5660f5baa")
-		(property "Reference" "C18"
+		(property "Reference" "C16"
 			(at 563.88 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25896,7 +25436,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C18")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -25914,7 +25454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200a939c-c6e7-4e9a-b6e2-3176ecb96f65")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 652.78 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -25975,7 +25515,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -25992,7 +25532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2056f128-eaac-4b0d-88d7-47494f290c69")
-		(property "Reference" "C50"
+		(property "Reference" "C45"
 			(at 180.34 246.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26122,7 +25662,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C50")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -26536,7 +26076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27293e74-01d3-4138-a2b6-5cb8435f0644")
-		(property "Reference" "R60"
+		(property "Reference" "R58"
 			(at 72.39 400.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26677,7 +26217,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R60")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -26898,7 +26438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aac8412-bf48-480f-95ec-7f9b693e5612")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 125.73 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -26958,7 +26498,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -27101,7 +26641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ae58eeb-1678-4cf5-a284-f44e25b95858")
-		(property "Reference" "C57"
+		(property "Reference" "C52"
 			(at 434.34 322.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27220,7 +26760,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C57")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -27238,7 +26778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c460220-2879-4323-8e24-043da050244c")
-		(property "Reference" "C87"
+		(property "Reference" "C82"
 			(at 532.13 400.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27357,7 +26897,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C87")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -27561,7 +27101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f39a60a-9f97-4457-9e45-87a7f0bfc6aa")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 558.8 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27658,7 +27198,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -27676,7 +27216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f67d0bf-daf0-4f9e-866d-35a105329109")
-		(property "Reference" "C28"
+		(property "Reference" "C24"
 			(at 581.66 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27817,7 +27357,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C28")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -28069,7 +27609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32468069-e916-4691-9952-bb0864251bd5")
-		(property "Reference" "C44"
+		(property "Reference" "C39"
 			(at 152.4 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28210,7 +27750,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C44")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -28228,7 +27768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3267aa54-d85f-4239-ac10-86716a25db91")
-		(property "Reference" "C16"
+		(property "Reference" "C14"
 			(at 553.72 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28369,7 +27909,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -28613,7 +28153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "331c255b-3fc6-433e-8b98-5dbf2eb3c260")
-		(property "Reference" "R44"
+		(property "Reference" "R42"
 			(at 91.44 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28754,7 +28294,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R44")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -28933,7 +28473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "366472ff-1dc4-4d98-989c-a1b97bbede10")
-		(property "Reference" "C72"
+		(property "Reference" "C67"
 			(at 508 358.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29052,7 +28592,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C72")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -29149,7 +28689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37de9c8b-ac33-4bf1-9ce5-7ad08a255249")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 586.74 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -29209,7 +28749,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -29227,7 +28767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38d3bb0b-8ec7-45f2-b3d7-bd66c1d27fce")
-		(property "Reference" "C38"
+		(property "Reference" "C34"
 			(at 218.44 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29368,7 +28908,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C38")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -29386,7 +28926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd0f756-4a39-4479-a6e2-89f573f7e891")
-		(property "Reference" "C35"
+		(property "Reference" "C31"
 			(at 109.22 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29515,7 +29055,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C35")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -29533,7 +29073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cfee6cb-1629-46db-a950-bd6d89738bc9")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 284.48 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29663,7 +29203,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -29680,7 +29220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e1a0e8e-2032-411f-b5ee-de59ca46362f")
-		(property "Reference" "R35"
+		(property "Reference" "R33"
 			(at 307.34 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29821,7 +29361,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R35")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -29829,7 +29369,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 220.98 0)
+		(at 215.9 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29839,8 +29379,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ee1b913-b780-4c5b-a520-3879255938df")
-		(property "Reference" "#PWR039"
-			(at 24.13 227.33 0)
+		(property "Reference" "#PWR043"
+			(at 215.9 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29851,7 +29391,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 226.06 0)
+			(at 215.9 245.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29861,7 +29401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 220.98 0)
+			(at 215.9 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29872,7 +29412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 220.98 0)
+			(at 215.9 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29883,7 +29423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 220.98 0)
+			(at 215.9 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29899,7 +29439,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -29917,7 +29457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "407e7d34-2b61-4c59-a10d-79df6ad52f85")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 213.36 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30058,7 +29598,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -30076,7 +29616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e7f091-ca74-4200-9dce-d489edaa5d90")
-		(property "Reference" "C53"
+		(property "Reference" "C48"
 			(at 283.21 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30217,7 +29757,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C53")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -30339,7 +29879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4509e198-4740-4b5f-a3bb-8f28f61f893f")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 318.77 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30458,7 +29998,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -30476,7 +30016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a081ed5-e430-474d-942f-85b80b9a2dbf")
-		(property "Reference" "R50"
+		(property "Reference" "R48"
 			(at 257.81 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30617,7 +30157,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R50")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -31093,7 +30633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9787c7-2731-4355-9f0b-7dccc83c6398")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 594.36 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31232,7 +30772,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C27")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -31250,7 +30790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cee2d95-92f0-4e1a-b793-d7340746ceaf")
-		(property "Reference" "C84"
+		(property "Reference" "C79"
 			(at 36.83 394.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31391,7 +30931,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C84")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -31409,7 +30949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d835aa0-bb0a-4b26-a54f-aa4c45379df0")
-		(property "Reference" "R52"
+		(property "Reference" "R50"
 			(at 345.44 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31550,7 +31090,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R52")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -31723,7 +31263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f4b9fd4-5d57-4318-b5f7-30ee51c1fc27")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 140.97 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31809,7 +31349,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -32053,7 +31593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51c1a00d-aa94-4248-91b4-5ed7022a3657")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 252.73 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -32113,7 +31653,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -32338,7 +31878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55fa2033-c6e8-49f1-882a-45a420ef2c5c")
-		(property "Reference" "C51"
+		(property "Reference" "C46"
 			(at 109.22 247.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32468,7 +32008,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C51")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -32476,7 +32016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 255.27 0)
+		(at 285.75 232.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32486,8 +32026,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "566d5f99-b27d-4834-9269-0419e735ece3")
-		(property "Reference" "#PWR044"
-			(at 44.45 261.62 0)
+		(property "Reference" "#PWR040"
+			(at 285.75 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32498,7 +32038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 260.35 0)
+			(at 285.75 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32508,7 +32048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 255.27 0)
+			(at 285.75 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32519,7 +32059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 255.27 0)
+			(at 285.75 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32530,7 +32070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 255.27 0)
+			(at 285.75 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32546,7 +32086,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR044")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -32564,7 +32104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56d9e8f2-7e78-455b-9241-cacc1389c249")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 501.65 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -32624,7 +32164,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -32642,7 +32182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57d8f71a-96d5-4d6c-a28c-f9b41aa391cf")
-		(property "Reference" "C79"
+		(property "Reference" "C74"
 			(at 529.59 378.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32761,7 +32301,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C79")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -32779,7 +32319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a2029f3-19fb-41c8-ab5c-90441ae9f5dc")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -32839,7 +32379,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -32857,7 +32397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a868402-eba4-4491-8746-23bfa18b1726")
-		(property "Reference" "C90"
+		(property "Reference" "C85"
 			(at 541.02 440.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32976,7 +32516,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C90")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -32994,7 +32534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b07dbfe-3399-4bca-8caa-92b23ce1ced9")
-		(property "Reference" "R32"
+		(property "Reference" "R30"
 			(at 115.57 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33124,7 +32664,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -33142,7 +32682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bd4076d-2a3f-4e32-a429-eba4bb881fe0")
-		(property "Reference" "R61"
+		(property "Reference" "R59"
 			(at 35.56 403.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33283,7 +32823,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R61")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -33301,7 +32841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c3d4b1b-9912-467b-bf96-e9a8af322397")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 160.02 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -33361,7 +32901,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -33379,7 +32919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c9574c8-1d16-4c08-b00e-99ee6f901367")
-		(property "Reference" "C63"
+		(property "Reference" "C58"
 			(at 90.17 347.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33465,7 +33005,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C63")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -33724,7 +33264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "602edf55-2578-4ece-9a6b-9182a872d42e")
-		(property "Reference" "C36"
+		(property "Reference" "C32"
 			(at 157.48 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33865,7 +33405,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C36")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -34408,7 +33948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6144b013-71e0-4c62-9e46-6e7351b9d402")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 71.12 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -34468,7 +34008,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -34713,7 +34253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f60cd1-c155-4e53-bbf4-ad1700820281")
-		(property "Reference" "C59"
+		(property "Reference" "C54"
 			(at 459.74 322.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34821,7 +34361,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C59")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -34997,7 +34537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6535b8e1-e8c6-4801-9384-e9c1d2b865af")
-		(property "Reference" "R31"
+		(property "Reference" "R29"
 			(at 140.97 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35127,7 +34667,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -35145,7 +34685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "667a3955-2f6d-475a-abf4-4487a0acb137")
-		(property "Reference" "C61"
+		(property "Reference" "C56"
 			(at 497.84 322.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35264,7 +34804,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C61")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -35360,7 +34900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "691176be-63a9-4378-86d8-b135f2a98747")
-		(property "Reference" "C60"
+		(property "Reference" "C55"
 			(at 486.41 322.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35501,7 +35041,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C60")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -35597,7 +35137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be6e213-512c-4089-8577-9ac7e6274ebf")
-		(property "Reference" "R51"
+		(property "Reference" "R49"
 			(at 266.7 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35738,7 +35278,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R51")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -35756,7 +35296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c4fe437-e93d-4306-aa45-587e73302ec8")
-		(property "Reference" "C45"
+		(property "Reference" "C40"
 			(at 113.03 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35897,7 +35437,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C45")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -35994,7 +35534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e256d86-b2b5-498c-959c-055a84ea589b")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 129.54 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36135,7 +35675,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -36455,7 +35995,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 182.88 0)
+		(at 224.79 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36465,8 +36005,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743b57f9-4295-4239-848b-efd7aba5a418")
-		(property "Reference" "C47"
-			(at 41.91 181.6099 0)
+		(property "Reference" "C42"
+			(at 228.6 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36477,7 +36017,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 41.91 184.1499 0)
+			(at 228.6 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36488,7 +36028,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.0652 186.69 0)
+			(at 225.7552 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36499,7 +36039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36510,7 +36050,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36521,7 +36061,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36532,7 +36072,7 @@
 			)
 		)
 		(property "Power_Rating" ""
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36543,7 +36083,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36554,7 +36094,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36565,7 +36105,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36576,7 +36116,7 @@
 			)
 		)
 		(property "Type" "MLCC"
-			(at 38.1 182.88 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36595,7 +36135,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C47")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -36613,7 +36153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "751610b0-dcac-4a50-a391-96e66eea546a")
-		(property "Reference" "R30"
+		(property "Reference" "R28"
 			(at 130.81 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36743,7 +36283,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -36751,7 +36291,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 241.3 0)
+		(at 290.83 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36761,8 +36301,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "768a0547-d3d9-48d9-a379-51ca7beb45ba")
-		(property "Reference" "R46"
-			(at 52.07 240.0299 0)
+		(property "Reference" "R38"
+			(at 293.37 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36773,7 +36313,7 @@
 			)
 		)
 		(property "Value" "390k"
-			(at 52.07 242.5699 0)
+			(at 293.37 219.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36784,7 +36324,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 47.752 241.3 90)
+			(at 289.052 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36795,7 +36335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36806,7 +36346,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36817,7 +36357,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36828,7 +36368,7 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36839,7 +36379,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36850,7 +36390,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36861,7 +36401,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36872,7 +36412,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 49.53 241.3 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36891,7 +36431,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R46")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -36909,7 +36449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76a42df5-9f44-4d82-a390-672e83b13967")
-		(property "Reference" "C77"
+		(property "Reference" "C72"
 			(at 505.46 378.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37028,7 +36568,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C77")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -37282,7 +36822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78508ae7-19ee-4da5-aed1-5f87ce54c1ba")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 24.13 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -37342,7 +36882,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -37868,7 +37408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a481318-255e-4436-b864-daf8b1c56df4")
-		(property "Reference" "C43"
+		(property "Reference" "C38"
 			(at 124.46 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38009,7 +37549,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C43")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -38027,7 +37567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac0f197-a02c-4214-a20c-9663a942ccba")
-		(property "Reference" "R43"
+		(property "Reference" "R41"
 			(at 83.82 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38168,7 +37708,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R43")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -38265,7 +37805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bcfa1e3-6098-466c-98a4-4636ed897531")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 105.41 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -38325,7 +37865,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -38333,7 +37873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 251.46 0)
+		(at 290.83 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38343,8 +37883,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c196b64-33c6-455f-a504-eff1c2a387ef")
-		(property "Reference" "R49"
-			(at 52.07 250.1899 0)
+		(property "Reference" "R44"
+			(at 293.37 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38355,7 +37895,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 52.07 252.7299 0)
+			(at 293.37 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38366,7 +37906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 47.752 251.46 90)
+			(at 289.052 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38377,7 +37917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38388,7 +37928,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38399,7 +37939,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38410,7 +37950,7 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38421,7 +37961,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38432,7 +37972,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38443,7 +37983,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38454,7 +37994,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 49.53 251.46 0)
+			(at 290.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38473,7 +38013,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R49")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -38491,7 +38031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e5ce9c8-b064-4a10-9e3e-7856ffecdde9")
-		(property "Reference" "C70"
+		(property "Reference" "C65"
 			(at 332.74 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38577,7 +38117,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C70")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -38595,7 +38135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f0fe813-ec96-46ce-b975-1ea16ac28e44")
-		(property "Reference" "C65"
+		(property "Reference" "C60"
 			(at 270.51 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38736,7 +38276,85 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C65")
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f20a584-43de-4853-b792-ae0694cc6010")
+		(property "Reference" "#PWR03"
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9874ee50-4d46-4cae-b52f-b23b6a62535d")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -39349,7 +38967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8318ecbb-e7ad-49b8-9b68-a5d722dca970")
-		(property "Reference" "C33"
+		(property "Reference" "C29"
 			(at 86.36 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39478,7 +39096,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C33")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -39496,7 +39114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c34771-f2ea-417c-a92b-9dc55d633543")
-		(property "Reference" "C80"
+		(property "Reference" "C75"
 			(at 83.82 391.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39582,7 +39200,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C80")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -39682,7 +39300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a10dade-980f-4ab8-a2f1-31b08d37316c")
-		(property "Reference" "C46"
+		(property "Reference" "C41"
 			(at 516.89 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39823,7 +39441,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C46")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -39841,7 +39459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8afba7da-23bd-446a-9c5e-6b07f62938b6")
-		(property "Reference" "C75"
+		(property "Reference" "C70"
 			(at 114.3 370.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39927,7 +39545,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C75")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -40027,7 +39645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c922df0-53e3-4a28-96a9-bb7118e28f8f")
-		(property "Reference" "C29"
+		(property "Reference" "C25"
 			(at 613.41 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40168,7 +39786,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C29")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -40355,7 +39973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8df4ca73-b39f-4613-a4fa-daef3f6ca940")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 195.58 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -40415,7 +40033,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -40528,7 +40146,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 207.01 0)
+		(at 215.9 226.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40538,8 +40156,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff9925c-de9e-4715-9998-bcbdbff1575f")
-		(property "Reference" "R39"
-			(at 26.67 205.7399 0)
+		(property "Reference" "R43"
+			(at 218.44 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40550,7 +40168,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 26.67 208.2799 0)
+			(at 218.44 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40561,7 +40179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 22.352 207.01 90)
+			(at 214.122 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40572,7 +40190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40583,7 +40201,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40594,7 +40212,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40605,7 +40223,7 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40616,7 +40234,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40627,7 +40245,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40638,7 +40256,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40649,7 +40267,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40660,7 +40278,7 @@
 			)
 		)
 		(property "LCSC Part" "C25741"
-			(at 24.13 207.01 0)
+			(at 215.9 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40679,7 +40297,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R39")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -40958,7 +40576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91d46522-67b1-4b2b-8ba9-3aba4ad68fda")
-		(property "Reference" "C88"
+		(property "Reference" "C83"
 			(at 543.56 400.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41077,7 +40695,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C88")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -41095,7 +40713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d72079-9667-4a3c-a461-dea249434cd4")
-		(property "Reference" "C68"
+		(property "Reference" "C63"
 			(at 307.34 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41236,166 +40854,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "941525c0-5f59-4b2e-871a-94975ed1b1ab")
-		(property "Reference" "R29"
-			(at 41.91 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.7"
-			(at 41.91 160.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 37.592 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" "0.5W"
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 39.37 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "0805W8F470KT5E"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0216921f-aec2-454e-908e-24b48c12533e")
-		)
-		(pin "2"
-			(uuid "e944428f-07ec-413d-a9e6-937968907b4e")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R29")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -41413,7 +40872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949fcee2-aecd-4e02-bd64-025a0685535c")
-		(property "Reference" "R55"
+		(property "Reference" "R53"
 			(at 284.48 339.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41552,7 +41011,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R55")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -41664,7 +41123,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 217.17 0)
+		(at 215.9 236.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41674,8 +41133,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c8333d-19f8-47af-aec6-d99b39127949")
-		(property "Reference" "R40"
-			(at 26.67 215.8999 0)
+		(property "Reference" "R45"
+			(at 218.44 234.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41686,7 +41145,7 @@
 			)
 		)
 		(property "Value" "300k"
-			(at 26.67 218.4399 0)
+			(at 218.44 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41697,7 +41156,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 22.352 217.17 90)
+			(at 214.122 236.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41708,7 +41167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41719,7 +41178,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41730,7 +41189,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41741,7 +41200,7 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41752,7 +41211,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41763,7 +41222,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41774,7 +41233,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41785,7 +41244,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41796,7 +41255,7 @@
 			)
 		)
 		(property "LCSC Part" "C25774"
-			(at 24.13 217.17 0)
+			(at 215.9 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41815,7 +41274,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R40")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -41833,7 +41292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c89130-bcf6-4bf6-be85-f0fb3c3c3efd")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 601.98 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -41893,144 +41352,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 113.03 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97fbaa99-be5a-4037-8223-abcdc4c6928b")
-		(property "Reference" "C6"
-			(at 116.84 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 116.84 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.9952 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e0063c3e-22b8-4858-ac97-bec29d2af89e")
-		)
-		(pin "1"
-			(uuid "75f6de76-2ec5-47fc-9a9e-9dd87e223c60")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C6")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -42127,7 +41449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0d2946-3cf4-4402-a8c8-11eebc1f165c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 203.2 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -42187,7 +41509,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -42205,7 +41527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a2da088-ef58-4ffd-be97-1c0d1f78fad9")
-		(property "Reference" "R59"
+		(property "Reference" "R57"
 			(at 323.85 397.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42291,7 +41613,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R59")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -42308,7 +41630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c0474d6-4232-4f05-a962-17876eacb604")
-		(property "Reference" "C86"
+		(property "Reference" "C81"
 			(at 519.43 400.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42427,7 +41749,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C86")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -42760,7 +42082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f4a0108-26f7-4c36-928d-daf7b7cb1e79")
-		(property "Reference" "C55"
+		(property "Reference" "C50"
 			(at 264.16 299.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42901,7 +42223,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C55")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -43532,143 +42854,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 349.25 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1c0e6a7-37ba-4add-b0d6-ce8a78d3abab")
-		(property "Reference" "C25"
-			(at 353.06 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 353.06 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 350.2152 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 349.25 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 349.25 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 349.25 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "MLCC"
-			(at -16.51 -307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at -16.51 -307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "35V"
-			(at -16.51 -307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c5f68a8-a6c1-466f-a4aa-196967e2f666")
-		)
-		(pin "2"
-			(uuid "0ad73c45-819b-49fa-a879-b1596a7e5090")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 514.35 55.88 90)
 		(unit 1)
@@ -44019,7 +43204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5129b70-2701-40d9-bf3a-1dda2da92d80")
-		(property "Reference" "C74"
+		(property "Reference" "C69"
 			(at 114.3 359.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44160,7 +43345,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C74")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -44326,7 +43511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b92e59-321e-42ef-a8d1-bdb29e3c2106")
-		(property "Reference" "C73"
+		(property "Reference" "C68"
 			(at 101.6 359.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44412,7 +43597,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C73")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -44430,7 +43615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a813ce6e-2e9d-45a0-a42d-63498c4ca035")
-		(property "Reference" "R64"
+		(property "Reference" "R62"
 			(at 542.29 430.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44569,7 +43754,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R64")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -44803,7 +43988,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 53.34 0)
+		(at 128.27 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44813,8 +43998,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaec915a-15c3-4d08-854a-a4557effbd70")
-		(property "Reference" "#PWR03"
-			(at 105.41 59.69 0)
+		(property "Reference" "#PWR04"
+			(at 128.27 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44825,7 +44010,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 58.42 0)
+			(at 128.27 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44835,7 +44020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 53.34 0)
+			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44846,7 +44031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 53.34 0)
+			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44857,7 +44042,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 53.34 0)
+			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44873,7 +44058,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -45368,7 +44553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad659aef-6cdb-40d7-a9fc-33adde6e4e97")
-		(property "Reference" "C67"
+		(property "Reference" "C62"
 			(at 295.91 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45509,166 +44694,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aec7cbf7-6df4-4542-96fd-553dcdaf4178")
-		(property "Reference" "R28"
-			(at 34.29 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.7"
-			(at 34.29 160.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 29.972 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" "0.5W"
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "0805W8F470KT5E"
-			(at 31.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a0aca2f-d67d-444e-a10d-ec33f2031c50")
-		)
-		(pin "2"
-			(uuid "e889a403-6cd8-4481-82bd-8af406505d25")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R28")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -45764,7 +44790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d529a2-c06a-46dc-90f4-99f9ed18279b")
-		(property "Reference" "C64"
+		(property "Reference" "C59"
 			(at 102.87 347.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45905,7 +44931,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C64")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -45913,7 +44939,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 55.88 179.07 270)
+		(at 242.57 198.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45923,8 +44949,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b17bf0fd-a138-40ac-a9b6-eaf9cd8854d9")
-		(property "Reference" "H3"
-			(at 59.69 177.7999 90)
+		(property "Reference" "H4"
+			(at 246.38 196.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45935,7 +44961,7 @@
 			)
 		)
 		(property "Value" "iCHG"
-			(at 59.69 180.3399 90)
+			(at 246.38 199.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45946,7 +44972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 179.07 0)
+			(at 242.57 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45957,7 +44983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 179.07 0)
+			(at 242.57 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45968,7 +44994,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 55.88 179.07 0)
+			(at 242.57 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45984,7 +45010,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -46310,7 +45336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a62d4a-fe67-4c17-8e1d-464391373b28")
-		(property "Reference" "C62"
+		(property "Reference" "C57"
 			(at 283.21 326.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46396,122 +45422,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 71.12 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4c447a6-4d12-4b9a-9e95-e6885a7a5ed9")
-		(property "Reference" "C3"
-			(at 74.93 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 74.93 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 72.0852 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 71.12 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 71.12 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 71.12 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "722e9187-8600-4cf5-830c-44b448abbd26")
-		)
-		(pin "1"
-			(uuid "dbc7fad7-8948-4e4e-b672-eabb49321ee1")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C3")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -46529,7 +45440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7b4b5a9-d557-44f9-b9cf-b4ca89f46a1f")
-		(property "Reference" "C83"
+		(property "Reference" "C78"
 			(at 180.34 391.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46670,7 +45581,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C83")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -46688,7 +45599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7fe52e1-4850-4915-9644-cd51da836be0")
-		(property "Reference" "C82"
+		(property "Reference" "C77"
 			(at 109.22 391.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46829,7 +45740,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C82")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -47385,7 +46296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bec23e75-2a6a-4d67-b302-ccaf29bf8966")
-		(property "Reference" "C37"
+		(property "Reference" "C33"
 			(at 168.91 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47526,7 +46437,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C37")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -47534,7 +46445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 36.83 0)
+		(at 107.95 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47544,8 +46455,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c08f1973-5cc0-4c5e-972a-3b1d746997e4")
-		(property "Reference" "C2"
-			(at 62.23 35.5599 0)
+		(property "Reference" "C3"
+			(at 111.76 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47556,7 +46467,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 62.23 38.0999 0)
+			(at 111.76 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47567,7 +46478,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 59.3852 40.64 0)
+			(at 108.9152 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47578,7 +46489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 36.83 0)
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47589,7 +46500,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 36.83 0)
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47600,7 +46511,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 58.42 36.83 0)
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47611,7 +46522,7 @@
 			)
 		)
 		(property "Power_Rating" ""
-			(at 58.42 36.83 0)
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47622,7 +46533,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 58.42 36.83 0)
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47633,7 +46544,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 58.42 36.83 0)
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47644,7 +46555,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 58.42 36.83 0)
+			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47663,7 +46574,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -47671,7 +46582,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 246.38 0)
+		(at 285.75 223.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -47681,8 +46592,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c209d7dd-8e3f-4412-a853-360de30abad6")
-		(property "Reference" "C49"
-			(at 40.64 245.1099 0)
+		(property "Reference" "C43"
+			(at 281.94 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47693,7 +46604,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 40.64 247.6499 0)
+			(at 281.94 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47704,7 +46615,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 43.4848 250.19 0)
+			(at 284.7848 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47715,7 +46626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47726,7 +46637,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47737,7 +46648,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47748,7 +46659,7 @@
 			)
 		)
 		(property "Power_Rating" ""
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47759,7 +46670,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47770,7 +46681,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47781,7 +46692,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47792,7 +46703,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47803,7 +46714,7 @@
 			)
 		)
 		(property "LCSC Part" "C15849"
-			(at 44.45 246.38 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47822,7 +46733,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C49")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -47830,7 +46741,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 237.49 90)
+		(at 280.67 214.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47840,8 +46751,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2106148-e0f8-44b8-a2c5-58092a5a0684")
-		(property "Reference" "R45"
-			(at 39.37 231.14 90)
+		(property "Reference" "R37"
+			(at 280.67 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47851,7 +46762,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 39.37 233.68 90)
+			(at 280.67 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47861,7 +46772,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 39.37 239.268 90)
+			(at 280.67 216.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47872,7 +46783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47883,7 +46794,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47894,7 +46805,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47905,7 +46816,7 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47916,7 +46827,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47927,7 +46838,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47938,7 +46849,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47949,7 +46860,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47960,7 +46871,7 @@
 			)
 		)
 		(property "LCSC Part" "C25077"
-			(at 39.37 237.49 0)
+			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47979,122 +46890,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 85.09 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2f2107e-74fd-41f6-90e8-a8529767c8b0")
-		(property "Reference" "C4"
-			(at 88.9 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 88.9 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.0552 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7cdf1ffa-11c4-4272-bb32-f2f67d6691ae")
-		)
-		(pin "1"
-			(uuid "819842b1-6193-4f42-9af0-d9a9e3d1a6fd")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C4")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -48260,110 +47056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 116.84 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4dd46c7-3071-4f80-ab57-053bcf2ac7b1")
-		(property "Reference" "C10"
-			(at 120.65 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 120.65 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 117.8052 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 116.84 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 116.84 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" "50V"
-			(at 116.84 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1fcce6e-ea02-40d7-87cc-9ad54d183c7a")
-		)
-		(pin "1"
-			(uuid "7b8a11e3-d6ee-44ac-8ad3-69dd2df5c85a")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Q_NMOS")
 		(at 182.88 157.48 90)
 		(unit 1)
@@ -48523,7 +47215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ca38b0-1b0e-4280-bfee-f4b6702dcba6")
-		(property "Reference" "C89"
+		(property "Reference" "C84"
 			(at 180.34 407.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48664,7 +47356,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C89")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -48672,7 +47364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 186.69 0)
+		(at 224.79 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48682,8 +47374,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c70139e9-fd37-4df3-80e4-876e3f07f09b")
-		(property "Reference" "#PWR030"
-			(at 38.1 193.04 0)
+		(property "Reference" "#PWR033"
+			(at 224.79 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48694,7 +47386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 191.77 0)
+			(at 224.79 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48704,7 +47396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 186.69 0)
+			(at 224.79 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48715,7 +47407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 186.69 0)
+			(at 224.79 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48726,7 +47418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 186.69 0)
+			(at 224.79 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48742,7 +47434,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -48760,7 +47452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c74899f6-7708-4daf-835b-7d2dba206627")
-		(property "Reference" "C81"
+		(property "Reference" "C76"
 			(at 96.52 391.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48901,7 +47593,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C81")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -49082,7 +47774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d41cac-6610-41fa-b181-611a76c5ad63")
-		(property "Reference" "C20"
+		(property "Reference" "C18"
 			(at 295.91 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49201,7 +47893,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C20")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -49219,7 +47911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca39f8ba-8086-4e62-bd0e-67ab791f6ea5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -49279,7 +47971,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -49297,7 +47989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca67fb99-bb2a-43d2-9d69-6d913d993259")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 596.9 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -49357,7 +48049,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -49365,7 +48057,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 182.88 0)
+		(at 236.22 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49376,7 +48068,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce812f3e-5266-47da-bac4-65ee2ba8da0c")
 		(property "Reference" "R36"
-			(at 52.07 181.6099 0)
+			(at 238.76 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49387,7 +48079,7 @@
 			)
 		)
 		(property "Value" "137k"
-			(at 52.07 184.1499 0)
+			(at 238.76 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49398,7 +48090,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 47.752 182.88 90)
+			(at 234.442 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49409,7 +48101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49420,7 +48112,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49431,7 +48123,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49441,7 +48133,7 @@
 			)
 		)
 		(property "Power_Rating" "1/16W"
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49452,7 +48144,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49463,7 +48155,7 @@
 			)
 		)
 		(property "Tolerance" "3%"
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49474,7 +48166,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49485,7 +48177,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49496,7 +48188,7 @@
 			)
 		)
 		(property "LCSC Part" "C321717"
-			(at 49.53 182.88 0)
+			(at 236.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49523,7 +48215,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 40.64 0)
+		(at 92.71 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49534,7 +48226,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce88991d-7adf-4b7d-a741-a55a1bec7058")
 		(property "Reference" "#PWR02"
-			(at 58.42 46.99 0)
+			(at 92.71 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49545,7 +48237,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 45.72 0)
+			(at 92.71 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49555,7 +48247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 40.64 0)
+			(at 92.71 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49566,7 +48258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 40.64 0)
+			(at 92.71 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49577,7 +48269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 40.64 0)
+			(at 92.71 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49769,7 +48461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d265bd6b-3f1b-44e9-adb3-fcbd18e53b9e")
-		(property "Reference" "R42"
+		(property "Reference" "R40"
 			(at 482.6 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49897,7 +48589,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R42")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -49915,7 +48607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d387f2dc-6b66-4f5e-9e3e-cfb19533fffa")
-		(property "Reference" "C30"
+		(property "Reference" "C26"
 			(at 52.07 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50056,7 +48748,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C30")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -50074,7 +48766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e16022-de75-42d3-901e-6cc652e27b7b")
-		(property "Reference" "C56"
+		(property "Reference" "C51"
 			(at 351.79 299.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50160,7 +48852,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C56")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -50178,7 +48870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e42221-11dd-4517-848d-1afbdbe5569f")
-		(property "Reference" "R57"
+		(property "Reference" "R55"
 			(at 20.32 394.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50308,7 +49000,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R57")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -50316,7 +49008,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 314.96 146.05 0)
+		(at 307.34 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50326,8 +49018,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4f883a2-a50b-4bab-8261-b8c955273fab")
-		(property "Reference" "#PWR017"
-			(at 314.96 152.4 0)
+		(property "Reference" "#PWR018"
+			(at 307.34 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50338,7 +49030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 151.13 0)
+			(at 307.34 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50348,7 +49040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 146.05 0)
+			(at 307.34 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50359,7 +49051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 146.05 0)
+			(at 307.34 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50370,7 +49062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 314.96 146.05 0)
+			(at 307.34 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50386,7 +49078,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -50482,7 +49174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53720b8-878f-490e-ac8c-dbfdbb878682")
-		(property "Reference" "R58"
+		(property "Reference" "R56"
 			(at 314.96 397.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50568,7 +49260,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R58")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -50744,7 +49436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db351826-2efa-43c0-8b10-552745c37522")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 307.34 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50863,7 +49555,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -50881,7 +49573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2abcd6-9c02-4984-9078-07db6fd95b2d")
-		(property "Reference" "C31"
+		(property "Reference" "C27"
 			(at 63.5 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51010,7 +49702,122 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C31")
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de69a710-701a-4b0b-9c17-ce83c53fed79")
+		(property "Reference" "C6"
+			(at 59.69 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 59.69 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 56.8452 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at -29.21 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43740d2d-b81e-494d-a848-8ff739d9be28")
+		)
+		(pin "1"
+			(uuid "bcf15602-5cb6-4a0c-a194-28efd305ca0b")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -51132,7 +49939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e047f650-fd6a-4430-8d47-18d149b82108")
-		(property "Reference" "C40"
+		(property "Reference" "C36"
 			(at 299.72 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51271,7 +50078,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C40")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -51288,7 +50095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e11b55bf-cdbc-4dee-8a77-a81ab7995be2")
-		(property "Reference" "R48"
+		(property "Reference" "R47"
 			(at 170.18 242.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51418,7 +50225,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R48")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -51554,7 +50361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16fcb3c-4db4-4dde-a4d2-fffbbfecd18b")
-		(property "Reference" "C32"
+		(property "Reference" "C28"
 			(at 74.93 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51683,7 +50490,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C32")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -51701,7 +50508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e194e56c-6333-4ba0-944b-ea1fa29a3d20")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 528.32 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51840,7 +50647,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -52121,7 +50928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4fd3101-9559-4df6-919c-796cea748b4e")
-		(property "Reference" "R56"
+		(property "Reference" "R54"
 			(at 311.15 340.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52260,7 +51067,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R56")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -52356,7 +51163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e67ef98e-be13-491b-90bf-befc09bf9135")
-		(property "Reference" "R63"
+		(property "Reference" "R61"
 			(at 72.39 410.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52497,7 +51304,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R63")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -52662,6 +51469,121 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 95.25 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e99003d4-3c5a-4e59-a966-1dde395675ad")
+		(property "Reference" "C2"
+			(at 99.06 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 99.06 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 96.2152 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 95.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" ""
+			(at 95.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 10.16 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a8b11014-b159-45cd-8bf8-5a2a2673f36f")
+		)
+		(pin "1"
+			(uuid "de0068c2-d1d1-48ae-b796-3ffbc73e650a")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 123.19 372.11 0)
 		(unit 1)
 		(body_style 1)
@@ -52672,7 +51594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea47fc01-222a-4039-9aae-b66a93488e40")
-		(property "Reference" "C76"
+		(property "Reference" "C71"
 			(at 127 370.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52813,7 +51735,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C76")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -52831,7 +51753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6224bb-583c-4347-bc39-5e57871de8e1")
-		(property "Reference" "R33"
+		(property "Reference" "R31"
 			(at 594.36 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52970,85 +51892,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebe2b113-8f8e-41d2-8c54-6745b07bdce0")
-		(property "Reference" "#PWR023"
-			(at 35.56 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db65c2c5-238c-49ef-b3a9-aef3d0e5f33f")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR023")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -53143,7 +51987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec343a69-351e-41f2-a7aa-0c9c49ca3355")
-		(property "Reference" "C8"
+		(property "Reference" "C5"
 			(at 538.48 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53282,7 +52126,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C8")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -53300,7 +52144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ececd80b-97fc-47d5-acdf-a9eb1668fded")
-		(property "Reference" "C39"
+		(property "Reference" "C35"
 			(at 231.14 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53441,7 +52285,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C39")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -53613,7 +52457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee14ffa-b944-41e6-b9b8-2e443b2d5191")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 96.52 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -53673,7 +52517,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -53691,7 +52535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef797db6-300d-446f-9f49-5bc417d41be9")
-		(property "Reference" "C34"
+		(property "Reference" "C30"
 			(at 97.79 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53820,7 +52664,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C34")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -54008,7 +52852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 49.53 0)
+		(at 121.92 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54018,8 +52862,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b86f1a-5c6b-4a2f-ac45-b3cf81a9b298")
-		(property "Reference" "C9"
-			(at 109.22 48.2599 0)
+		(property "Reference" "C8"
+			(at 125.73 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54030,7 +52874,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 109.22 50.7999 0)
+			(at 125.73 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54041,7 +52885,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 106.3752 53.34 0)
+			(at 122.8852 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54052,7 +52896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 49.53 0)
+			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54063,7 +52907,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 49.53 0)
+			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54074,7 +52918,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 105.41 49.53 0)
+			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54085,7 +52929,7 @@
 			)
 		)
 		(property "Power_Rating" "50V"
-			(at 105.41 49.53 0)
+			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54104,7 +52948,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -54122,7 +52966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0d4be84-4e3b-4264-97dd-33a87a95be64")
-		(property "Reference" "R38"
+		(property "Reference" "R35"
 			(at 481.33 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54250,7 +53094,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R38")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -54268,7 +53112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ab265e-0e33-4799-8ae0-f6a10de31c46")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 107.95 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -54328,7 +53172,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -54505,7 +53349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f49b4915-dd1c-47ed-9b65-c354c6540f2b")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 568.96 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54602,7 +53446,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -54620,7 +53464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b76597-ef49-4814-9b32-c60dd5bb54f1")
-		(property "Reference" "C42"
+		(property "Reference" "C37"
 			(at 289.56 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54761,7 +53605,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C42")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -54779,7 +53623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5251041-e672-4864-8087-3316ba8fa508")
-		(property "Reference" "C54"
+		(property "Reference" "C49"
 			(at 328.93 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54920,7 +53764,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C54")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -54938,7 +53782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f53e4293-b8aa-4364-a068-f38e79430e44")
-		(property "Reference" "C48"
+		(property "Reference" "C44"
 			(at 96.52 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55068,7 +53912,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C48")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -55463,7 +54307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7fb7b91-33fa-4c26-b934-a833d752a1ac")
-		(property "Reference" "R47"
+		(property "Reference" "R46"
 			(at 107.95 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55604,7 +54448,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R47")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -55768,143 +54612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 337.82 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f99a660d-b1a4-4fe5-a567-d5ee2f4c711d")
-		(property "Reference" "C24"
-			(at 341.63 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 341.63 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 338.7852 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 337.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 337.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 337.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "MLCC"
-			(at -16.51 -307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at -16.51 -307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "35V"
-			(at -16.51 -307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fada621-b2ac-4fb1-b95f-96edaa856227")
-		)
-		(pin "2"
-			(uuid "374780f1-b0e5-40c7-96e7-a8402f5ffced")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 449.58 330.2 0)
 		(unit 1)
@@ -55984,6 +54691,110 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 68.58 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb4b1be6-e0a0-4473-8643-46a9f0ddd974")
+		(property "Reference" "C7"
+			(at 72.39 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 72.39 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 69.5452 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 68.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "50V"
+			(at 68.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a797d8d5-2904-47d9-8c67-e5bc8649fb70")
+		)
+		(pin "1"
+			(uuid "7b02e231-76db-451e-9dc1-dcd6501df073")
+		)
+		(instances
+			(project "FindMyCharger"
+				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 326.39 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -55994,7 +54805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbea7d8e-ffe5-4774-b9d9-5d07387768f8")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 330.2 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56113,7 +54924,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -56131,7 +54942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5ff9c5-090c-4841-a262-e63f30f9eb01")
-		(property "Reference" "C66"
+		(property "Reference" "C61"
 			(at 283.21 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56272,7 +55083,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C66")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -56372,7 +55183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf5fe50-cd58-4e73-a104-3d0c8fb7e28c")
-		(property "Reference" "C58"
+		(property "Reference" "C53"
 			(at 447.04 322.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56480,7 +55291,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C58")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -56498,7 +55309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff244721-e131-465c-b7e2-e9afa038ed54")
-		(property "Reference" "R53"
+		(property "Reference" "R51"
 			(at 354.33 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56639,7 +55450,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R53")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -56657,7 +55468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff78e7f0-f6fc-4068-b3e9-64d99cdb985b")
-		(property "Reference" "R62"
+		(property "Reference" "R60"
 			(at 135.89 403.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56743,7 +55554,7 @@
 		(instances
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "R62")
+					(reference "R60")
 					(unit 1)
 				)
 			)
