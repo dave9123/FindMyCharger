@@ -17,4 +17,5 @@
 	(lib (name "C157570-BQ4050RSMR") (type "KiCad") (uri "${KIPRJMOD}/libraries/C157570-BQ4050RSMR.kicad_sym") (options "") (descr ""))
 	(lib (name "C37635332-XTM20032000DT00351005") (type "KiCad") (uri "${KIPRJMOD}/libraries/C37635332-XTM20032000DT00351005.kicad_sym") (options "") (descr ""))
 	(lib (name "C393939-TYPE-C16PIN") (type "KiCad") (uri "${KIPRJMOD}/libraries/C393939-TYPE-C16PIN.kicad_sym") (options "") (descr ""))
+	(lib (name "C14289-HT7533-1_C14289") (type "KiCad") (uri "${KIPRJMOD}/libraries/C14289-HT7533-1_C14289.kicad_sym") (options "") (descr ""))
 )
