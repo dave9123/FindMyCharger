@@ -1,0 +1,78 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator "Easy ECAD Downloader")
+  (symbol "XR0640-4R7M"
+    (in_bom yes)
+    (on_board yes)
+    (property
+    "Reference"
+    "U"
+    (id 0)
+    (at 0 5.08 0)
+    (effects (font (size 1.27 1.27) ) )
+  )
+    (property
+    "Value"
+    "XR0640-4R7M"
+    (id 1)
+    (at 0 -5.08 0)
+    (effects (font (size 1.27 1.27) ) )
+  )
+    (property
+    "Footprint"
+    "IND-SMD_L7.0-W6.6"
+    (id 2)
+    (at 0 -7.62 0)
+    (effects (font (size 1.27 1.27) ) hide)
+  )
+    (property
+    "LCSC Part"
+    "C5339435"
+    (id 5)
+    (at 0 -10.16 0)
+    (effects (font (size 1.27 1.27) ) hide)
+  )
+    (symbol "XR0640-4R7M_0_1"
+          (arc
+            (start 2.21 0.02)
+            (mid 3.41 -0.89)
+            (end 4.23 0.02)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (arc
+            (start 0.02 0.02)
+            (mid 1.21 -0.89)
+            (end 2.04 0.02)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (arc
+            (start -2.13 0.02)
+            (mid -0.94 -0.89)
+            (end -0.11 0.02)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (arc
+            (start -4.29 0.02)
+            (mid -3.09 -0.89)
+            (end -2.27 0.02)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (pin unspecified line
+            (at -5.08 0.00 0)
+            (length 0.76)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 5.08 0.00 180)
+            (length 0.76)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+    )
+  )
+)
