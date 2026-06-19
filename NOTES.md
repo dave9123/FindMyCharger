@@ -29,17 +29,9 @@ To do
 	- bq25713 design checklist https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/196/0552.BQ2570X_5F00_BQ2571X_5F00_BQ2572X_5F00_BQ2573X_5F00_SchematicChecklist.pdf
 - Design PCB
 	- Add spark gap PACK+ PACK-
-	- calculate bq25713 mosfet
 	- add transistor/mosfet to ICs for restart for firmware update TPS25762-Q1
-	- ensure switching capacitors have proper power dissipation
-	- confirm package size and ensure jlcpcb and current are the same
-		- tps25762
-		- tps25730
-		- bq25713
 	- add polyfuse
 		- calculate ripple current inductor
-	- calculate ripple current for capacitors
-	- add thermistor for thermal foldback tps25762-q1 https://www.tokopedia.com/rajacell/sensor-suhu-ntc-10k-thermistor-temperature-sensor-b3950-probe-5x25mm-1m
 	- replace extended with non ones
 	- Assign footprints
 	- Double check schematics
@@ -54,6 +46,7 @@ To do
 	- Google Find Hub port
 - Finishing
 	- update bq4050 cell undervoltage and recovery values https://www.ti.com/lit/ug/sluuaq3a/sluuaq3a.pdf?ts=1781854308058
+	- add thermistor for thermal foldback tps25762-q1 https://www.tokopedia.com/rajacell/sensor-suhu-ntc-10k-thermistor-temperature-sensor-b3950-probe-5x25mm-1m
 
 TPS25762-Q1 EN/UVLO setup
 (12.6-12)/(16.8-12) = 12.5% left before shutdown

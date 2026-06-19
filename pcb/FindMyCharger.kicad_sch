@@ -27857,7 +27857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.708 401.32 90)
 			(hide yes)
 			(show_name no)
@@ -28740,7 +28740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 75.692 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -31993,7 +31993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 19.812 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -37258,7 +37258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 456.8952 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -42400,7 +42400,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25905"
+		(property "LCSC Part" "C25076"
 			(at 631.19 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -46408,7 +46408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 595.122 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -46452,7 +46452,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "1/16W"
 			(at 596.9 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -46499,6 +46499,16 @@
 		(property "Type" ""
 			(at 596.9 146.05 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C384386"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48372,7 +48382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 647.192 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -48416,7 +48426,7 @@
 				)
 			)
 		)
-		(property "Power_Rating" "0.1W"
+		(property "Power_Rating" "1/16W"
 			(at 648.97 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -48461,6 +48471,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 648.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C384386"
 			(at 648.97 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -51722,7 +51743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 624.84 152.908 90)
 			(hide yes)
 			(show_name no)
@@ -51747,6 +51768,26 @@
 		(property "Description" "Resistor"
 			(at 624.84 151.13 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_Rating" "1/16W"
+			(at 473.71 775.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C384386"
+			(at 473.71 775.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52515,7 +52556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 16.002 396.24 90)
 			(hide yes)
 			(show_name no)
@@ -52604,6 +52645,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 17.78 396.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25908"
 			(at 17.78 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -53693,7 +53745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.862 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -58742,7 +58794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 615.442 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -58834,6 +58886,16 @@
 		(property "Type" ""
 			(at 617.22 156.21 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
