@@ -51,6 +51,8 @@ To do
 - Firmware
 	- Macless Haystack port
 	- Google Find Hub port
+- Finishing
+	- update bq4050 cell undervoltage and recovery values https://www.ti.com/lit/ug/sluuaq3a/sluuaq3a.pdf?ts=1781854308058
 
 TPS25762-Q1 EN/UVLO setup
 (12.6-12)/(16.8-12) = 12.5% left before shutdown

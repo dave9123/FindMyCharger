@@ -18,4 +18,5 @@
 	(lib (name "C37635332-XTM20032000DT00351005") (type "KiCad") (uri "${KIPRJMOD}/libraries/C37635332-XTM20032000DT00351005.kicad_sym") (options "") (descr ""))
 	(lib (name "C393939-TYPE-C16PIN") (type "KiCad") (uri "${KIPRJMOD}/libraries/C393939-TYPE-C16PIN.kicad_sym") (options "") (descr ""))
 	(lib (name "C14289-HT7533-1_C14289") (type "KiCad") (uri "${KIPRJMOD}/libraries/C14289-HT7533-1_C14289.kicad_sym") (options "") (descr ""))
+	(lib (name "C22466368-BAT54_C22466368") (type "KiCad") (uri "${KIPRJMOD}/libraries/C22466368-BAT54_C22466368.kicad_sym") (options "") (descr ""))
 )
