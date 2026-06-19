@@ -1,6 +1,27 @@
 *value rounded up for obvious safety reasons
 ## calc tps25762-q1
 
+### output caps - 9.2.2.6
+
+```
+Icout(rms) = 3A*sqrt(21V/12V - 1) = 2.59A
+Icout(rms) = 3A*sqrt(21V/16.8V - 1) = 1.5A
+
+Icout(rms) = 3.25A*sqrt(20V/12V - 1) = 2.65A
+Icout(rms) = 3.25A*sqrt(20V/16.8V - 1) = 1.42A
+
+
+Vripple(Cout) = 3.25A*(1 - 12V/20V) / (144uF*10^-6 * 400kHz*10^3) ~= 0.0225V = 22.5mV (that's if MLCC don't decide to lower their capacitance)
+```
+
+### input caps - 9.2.2.7
+
+```
+D = Vout-Vin/Vout = 21-12/21 ~= 0.43
+> from https://www.everythingpe.com/calculators/duty-cycle-calculator
+
+Icin(rms) = 3.25A * sqrt(0.43*(1-0.43)) ~= 1.61A
+```
 ### thermal foldback
 default config w R1 10k thermistor 3950 NTC - R2 3.3k
 

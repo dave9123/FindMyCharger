@@ -45,6 +45,7 @@ To do
 	- Double check schematics
 	- Double check footprints
 	- Route component traces
+		- 330 pF CC capacitor GND pins use a 16-mil trace TPS25762-Q1
 	- Double check PCB
 - Casing
 	- through hole NTC beside battery d:5mm p:25mm
