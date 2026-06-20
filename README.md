@@ -2,6 +2,8 @@
 
 ![](./assets/FindMyCharger.jpg)
 
+[Bill of Material](./pcb/jlcpcb/production_files/BOM-FindMyCharger.csv)
+
 A smart powerbank with locating capabilities through Apple FindMy network
 
 - Low power at 10mA BLE transmission at +8dBm
