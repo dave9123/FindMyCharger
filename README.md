@@ -1,7 +1,7 @@
 # FindMyCharger
 
 <div align="center">
-![](./assets/FIndMyCharger.jpg)](./assets/FIndMyCharger.pdf)
+![](./assets/FIndMyCharger.jpg)
 </div>
 
 A smart powerbank with locating capabilities through Apple FindMy network
