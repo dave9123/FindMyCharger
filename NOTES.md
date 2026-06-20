@@ -68,7 +68,7 @@ Future considerations
 * Opt for WLCSP (ultra small) version
 * instead of direct BMS LED, do it from MCU for more customizable things (especially how the BMS has 2 pins for control (shutdown and disp) which can be turned into short press and long press
 
-![[Pasted image 20260324112012.png]]
+![[assets/Pasted image 20260324112012.png]]
 
 ceramic capacitor weird by volt stuff https://www.analog.com/en/resources/technical-articles/temperature-and-voltage-variation-ceramic-capacitor.html
 >As a result of this lesson, I no longer just specify an X7R or X5R capacitor to colleagues or customers. Instead, I specify specific parts from specific vendors whose data I have checked. I also warn customers to check data when considering alternative vendors in production to ensure that they do not run into these problems.
@@ -82,61 +82,61 @@ human esd https://www.egr.msu.edu/classes/ece480/capstone/fall08/group03/appnote
 https://www.ti.com/lit/an/slva680a/slva680a.pdf?ts=1776544226092&ref_url=https%253A%252F%252Fwww.google.com%252F (add curves to traces)
 
 short to vbus figure 8-3
-![[Pasted image 20260419185610.png]]
+![[assets/Pasted image 20260419185610.png]]
 https://www.ti.com/lit/an/slvaf82b/slvaf82b.pdf?ts=1776591067117
 
 > zener diode breakdown voltage when reverse-biased would connect it to gnd, but slow response times
 https://www.flywing-tech.com/blog/overvoltage-protection-using-zener-vs-tvs-diode/
 
-![[Pasted image 20260529212459.png]]
-![[firefox_of7rFwYYZ2.jpg]]
-![[Pasted image 20260530112122.png]]
+![[assets/Pasted image 20260529212459.png]]
+![[assets/firefox_of7rFwYYZ2.jpg]]
+![[assets/Pasted image 20260530112122.png]]
 weird values for easier future changes instead of directly shoving it to GND and 3V3 and 1V5
 
-![[Pasted image 20260530115305.png]]
+![[assets/Pasted image 20260530115305.png]]
 charger voltage through battery detection
 
-normal sleep shutdown mode![[Pasted image 20260530214131.png]]
+normal sleep shutdown mode![[assets/Pasted image 20260530214131.png]]
 
-![[Pasted image 20260531142250.png]]
+![[assets/Pasted image 20260531142250.png]]
 die at ~12.5%
 
 charge pump capacitor uses mosfets to charge for use in usage peak
 
 SW's SNB cap and BOOT's BOOT cap different (50V and 10V) while being side-by-side
-![[Pasted image 20260601162110.png]]
-![[Pasted image 20260601162113.png]]
-![[Pasted image 20260601162115.png]]
+![[assets/Pasted image 20260601162110.png]]
+![[assets/Pasted image 20260601162113.png]]
+![[assets/Pasted image 20260601162115.png]]
 
-![[Pasted image 20260609111633.png]] series diode to prevent return current on battery
+![[assets/Pasted image 20260609111633.png]] series diode to prevent return current on battery
 
-![[Pasted image 20260609184912.png]]
+![[assets/Pasted image 20260609184912.png]]
 components degrade -> no inf lifespan https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.dyc-electronic.com%2Fx5r-vs-x7r-comprehensive-comparison-engineering-design-guide%2F&ved=0CBkQjhxqFwoTCICFjrWL-pQDFQAAAAAdAAAAABAJ&opi=89978449
 
-![[Pasted image 20260609193347.png]]tantalum polrarity
+![[assets/Pasted image 20260609193347.png]]tantalum polrarity
 
-battery charger bq25713 n-mos sot-23 30V![[Pasted image 20260609194908.png]] 
-![[Pasted image 20260610152507.png]]class 1 ceramic cap
+battery charger bq25713 n-mos sot-23 30V![[assets/Pasted image 20260609194908.png]] 
+![[assets/Pasted image 20260610152507.png]]class 1 ceramic cap
 
 bq* schematic checklist https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/196/0552.BQ2570X_5F00_BQ2571X_5F00_BQ2572X_5F00_BQ2573X_5F00_SchematicChecklist.pdf
 
 altogether skip the insane power rating resistor and directly connect bq25713
-![[Pasted image 20260610192307.png]]![[Pasted image 20260610192309.png]]
+![[assets/Pasted image 20260610192307.png]]![[assets/Pasted image 20260610192309.png]]
 
 different setup bq4050
-![[Pasted image 20260610193129.png]]
+![[assets/Pasted image 20260610193129.png]]
 
 how did I miss current sense DNP
-![[Pasted image 20260610220321.png]]![[Pasted image 20260610220322.png]]
+![[assets/Pasted image 20260610220321.png]]![[assets/Pasted image 20260610220322.png]]
 
-![[Pasted image 20260612194439.png]]ref design and evm diff fets
+![[assets/Pasted image 20260612194439.png]]ref design and evm diff fets
 
-what![[Pasted image 20260612200559.png]]
+what![[assets/Pasted image 20260612200559.png]]
 
-![[Pasted image 20260613114032.png]]
+![[assets/Pasted image 20260613114032.png]]
 
 nRF54 crystal oscillator ESR capacitance
-![[Pasted image 20260615220659.png]]
+![[assets/Pasted image 20260615220659.png]]
 
 Battery (18650)
 * 3000 mAh 3.7V @ Rp 14.250 (sells at 2) https://www.tokopedia.com/nayfastore/baterai-cas-ulang-charger-li-ion-18650-3000mah-3-7v-ungu-isi-2-pcs-1731453774692058659 
