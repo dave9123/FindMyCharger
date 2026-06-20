@@ -10935,12 +10935,6 @@
 		(uuid "406432b3-62f4-40f1-a75b-3d3ea3341619")
 	)
 	(junction
-		(at 690.88 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "406e0a3f-9bb6-4af9-9506-160ac7114914")
-	)
-	(junction
 		(at 326.39 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12803,16 +12797,6 @@
 			(type default)
 		)
 		(uuid "1676529c-002c-4a2e-9d5c-6e146e2ff42d")
-	)
-	(wire
-		(pts
-			(xy 690.88 127) (xy 694.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "198468b7-e80b-496e-8818-11aa5f1ccb44")
 	)
 	(wire
 		(pts
@@ -48551,85 +48535,6 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 697.23 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b17bf0fd-a138-40ac-a9b6-eaf9cd8854d9")
-		(property "Reference" "H3"
-			(at 701.04 125.7299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "iCHG"
-			(at 701.04 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 697.23 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 697.23 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 697.23 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04928b45-fec7-4808-abb5-3625c8310d24")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "H3")
 					(unit 1)
 				)
 			)
