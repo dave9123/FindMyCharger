@@ -1,0 +1,3 @@
+[submodule "macless-haystack"]
+	path = macless-haystack
+	url = https://github.com/dchristl/macless-haystack

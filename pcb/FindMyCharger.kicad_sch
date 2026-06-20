@@ -10923,12 +10923,6 @@
 		(uuid "3df89360-1718-4f73-823f-aa8a5acbcbc8")
 	)
 	(junction
-		(at 326.39 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f31ffb9-44e3-4163-803d-64ef59fc9b73")
-	)
-	(junction
 		(at 40.64 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11397,12 +11391,6 @@
 		(uuid "9365d1bb-8652-46d7-b53f-41d9349fcff1")
 	)
 	(junction
-		(at 316.23 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93ef21a6-0358-4465-bae8-62ee73ef3674")
-	)
-	(junction
 		(at 678.18 294.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11833,12 +11821,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da5b9862-dae3-457f-8c15-6e75f65f08ba")
-	)
-	(junction
-		(at 308.61 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db6bfe0c-1a83-4574-be6c-be03567ccca6")
 	)
 	(junction
 		(at 396.24 49.53)
@@ -12910,16 +12892,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 247.65) (xy 304.8 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d5ce169-0ac2-46a4-b3ba-0edf7ee82e46")
-	)
-	(wire
-		(pts
 			(xy 598.17 288.29) (xy 598.17 297.18)
 		)
 		(stroke
@@ -13017,16 +12989,6 @@
 			(type default)
 		)
 		(uuid "1f51b11d-4787-47b5-8038-4d9a80218125")
-	)
-	(wire
-		(pts
-			(xy 308.61 248.92) (xy 308.61 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f691128-ede4-4027-9528-366430158bce")
 	)
 	(wire
 		(pts
@@ -13730,16 +13692,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 237.49) (xy 336.55 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39cbc749-8a41-40c2-b10d-ce1b83c7e515")
-	)
-	(wire
-		(pts
 			(xy 464.82 64.77) (xy 466.09 64.77)
 		)
 		(stroke
@@ -14270,16 +14222,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 237.49) (xy 336.55 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e27a27d-c259-4b5b-8d91-006c56933523")
-	)
-	(wire
-		(pts
 			(xy 623.57 29.21) (xy 623.57 49.53)
 		)
 		(stroke
@@ -14347,16 +14289,6 @@
 			(type default)
 		)
 		(uuid "4e9c7e55-43cd-4698-af93-2ad226a32afd")
-	)
-	(wire
-		(pts
-			(xy 316.23 233.68) (xy 316.23 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6b268f-6bc5-411e-a940-aa2069406db3")
 	)
 	(wire
 		(pts
@@ -14477,16 +14409,6 @@
 			(type default)
 		)
 		(uuid "51f94825-2316-482c-bc6a-4c114fa8dd9c")
-	)
-	(wire
-		(pts
-			(xy 304.8 237.49) (xy 304.8 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522d61f9-f8df-4d7a-bfbd-e57af99dbacf")
 	)
 	(wire
 		(pts
@@ -15397,26 +15319,6 @@
 			(type default)
 		)
 		(uuid "6fdad2d9-417f-448a-ab2b-b73ed57c1da5")
-	)
-	(wire
-		(pts
-			(xy 308.61 247.65) (xy 336.55 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "712ea3c0-246a-4052-958a-f7a362279047")
-	)
-	(wire
-		(pts
-			(xy 304.8 247.65) (xy 308.61 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7154d5bc-42b8-4878-bea6-117148e86c41")
 	)
 	(wire
 		(pts
@@ -16550,16 +16452,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 237.49) (xy 326.39 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9449cb3b-bd4d-4f09-978e-3fa8d44abad8")
-	)
-	(wire
-		(pts
 			(xy 491.49 50.8) (xy 491.49 49.53)
 		)
 		(stroke
@@ -16837,16 +16729,6 @@
 			(type default)
 		)
 		(uuid "9df9c377-cee3-44fc-8aea-3937d7f8766d")
-	)
-	(wire
-		(pts
-			(xy 304.8 237.49) (xy 316.23 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e03ec34-3a0e-42b7-8400-bfaf9fbe68af")
 	)
 	(wire
 		(pts
@@ -17900,7 +17782,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 233.68) (xy 326.39 237.49)
+			(xy 326.39 233.68) (xy 326.39 238.76)
 		)
 		(stroke
 			(width 0)
@@ -18660,16 +18542,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 247.65) (xy 336.55 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df23dd8e-d6a7-4e6d-b1a7-714e30167800")
-	)
-	(wire
-		(pts
 			(xy 608.33 55.88) (xy 608.33 54.61)
 		)
 		(stroke
@@ -18850,7 +18722,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 237.49) (xy 316.23 238.76)
+			(xy 316.23 233.68) (xy 316.23 238.76)
 		)
 		(stroke
 			(width 0)
@@ -18987,16 +18859,6 @@
 			(type default)
 		)
 		(uuid "eefe1ca3-e170-4282-826b-4e5405c41b8c")
-	)
-	(wire
-		(pts
-			(xy 316.23 237.49) (xy 326.39 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef56cbdc-679f-47b6-9344-7135ddb8524d")
 	)
 	(wire
 		(pts
@@ -28991,165 +28853,6 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 304.8 242.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f67d0bf-daf0-4f9e-866d-35a105329109")
-		(property "Reference" "C71"
-			(at 308.61 241.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 308.61 243.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 305.7652 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 304.8 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c31bf036-657b-4a73-bbca-a0bc4da697df")
-		)
-		(pin "1"
-			(uuid "f439b7f2-11df-46d6-b80d-7bd32580ec7c")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -42677,165 +42380,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 336.55 242.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c922df0-53e3-4a28-96a9-bb7118e28f8f")
-		(property "Reference" "C72"
-			(at 340.36 241.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 340.36 243.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 337.5152 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power_Rating" ""
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" ""
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 336.55 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c5e210ac-7480-439a-b9de-c397591190c4")
-		)
-		(pin "1"
-			(uuid "34d55b34-0f15-4e05-98a5-4c038e6d1463")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "C72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 262.89 203.2 90)
 		(unit 1)
@@ -43065,84 +42609,6 @@
 			(project "FindMyCharger"
 				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 308.61 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8df0424c-5af3-4fb8-8120-d2e3c082ca1c")
-		(property "Reference" "#PWR048"
-			(at 308.61 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 308.61 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "568e86c2-ac42-4bf5-98b0-8244a4f552e4")
-		)
-		(instances
-			(project "FindMyCharger"
-				(path "/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
