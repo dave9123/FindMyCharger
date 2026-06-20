@@ -246,6 +246,86 @@
   "erc": {
     "erc_exclusions": [
       [
+        "footprint_link_issues|1270000|876300|cfd08241-6204-4870-8d37-c4f513e14fe4|00000000-0000-0000-0000-000000000000|||",
+        "debug pad"
+      ],
+      [
+        "footprint_link_issues|1270000|952500|cfbcb128-1237-41f5-afb5-9de81860abeb|00000000-0000-0000-0000-000000000000|||",
+        "debug pad"
+      ],
+      [
+        "footprint_link_issues|304800|393700|27eddde2-8ce8-47cd-9f8b-0f273791307e|00000000-0000-0000-0000-000000000000|||",
+        "matched component footprint"
+      ],
+      [
+        "pin_not_connected|1638300|2743200|08c8cc72-f052-4e9f-afa5-d1606ac44256|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|1689100|2743200|f0e83fe2-45d4-492d-9d6a-db674fab6e56|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|1790700|2743200|21d3b1d0-82fe-4a8b-a5c6-18f8c591aa84|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|1841500|2743200|9db50413-ca50-44c4-83d2-bf79e7d0f821|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|2006600|723900|7baa982e-cfbc-43da-92d8-2b44817d11c9|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "internal fet control"
+      ],
+      [
+        "pin_not_connected|2057400|723900|7d17abe4-6ee1-4532-9a6b-9690f0aaf254|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|2159000|723900|0f20d710-842a-4db5-a837-6306da1d8293|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|2209800|723900|e9ddb9fa-bac0-49cb-a590-93c52045b5c7|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|4025900|2260600|9945be1e-427e-43d4-b7ec-ff53f5855c28|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|4025900|2311400|2a4a9793-359d-4d4e-8072-636e3b52e449|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|4025900|2413000|86182759-6155-4d0c-ba32-07fc630f9a48|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|4025900|2463800|b29f9841-4006-4eba-810e-43bd563743ea|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|5829300|2730500|d402e3d5-8f98-4f65-a659-1ca9145d7809|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|5880100|2730500|6678524d-cc01-4f0d-a189-14358e63926f|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|5981700|2730500|d91275ff-cb38-4a07-a121-d8c801ed1e98|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_connected|6032500|2730500|e0422a87-dae5-4072-963e-ea8c94f87d0c|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "not internally connected"
+      ],
+      [
+        "pin_not_driven|1308100|3009900|a312204e-7b58-4cfa-b05f-a43cb9f98290|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "testpad"
+      ],
+      [
         "power_pin_not_driven|1028700|1765300|ba352de5-e16d-484e-99b6-ed3d2baeda62|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
         "from circuit"
       ],
@@ -260,6 +340,10 @@
       [
         "power_pin_not_driven|1231900|5219700|bae8cbbb-9b07-47b9-8fd1-cef6283c0057|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
         "resistor divider, powered from REGN (LDO 6V)"
+      ],
+      [
+        "power_pin_not_driven|1435100|266700|aeb4636a-b00e-4f77-8f8a-e2312dc74a45|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "powered through cap"
       ],
       [
         "power_pin_not_driven|1435100|393700|3f78cb97-06aa-4455-86ff-c7b4d465d9d0|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
@@ -302,12 +386,32 @@
         "powered through circuit"
       ],
       [
+        "power_pin_not_driven|2425700|2933700|98214b23-2451-45f8-90f6-ed179cde5681|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "coloumb counting"
+      ],
+      [
+        "power_pin_not_driven|3086100|2908300|10028dc7-d207-4029-a90e-ba75732c18ca|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "secondary power input supply from pack+ line"
+      ],
+      [
         "power_pin_not_driven|3886200|2032000|98214b23-2451-45f8-90f6-ed179cde5681|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
         "gnd"
       ],
       [
+        "power_pin_not_driven|4495800|2349500|157522dc-4ab3-4a43-81b9-50e7079e079e|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "debug pad"
+      ],
+      [
+        "power_pin_not_driven|4546600|1092200|bae8cbbb-9b07-47b9-8fd1-cef6283c0057|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "powered from LDO REGN 6V"
+      ],
+      [
         "power_pin_not_driven|4546600|2006600|10028dc7-d207-4029-a90e-ba75732c18ca|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
         "powered trhough circuit"
+      ],
+      [
+        "power_pin_not_driven|5207000|965200|861a0f3a-b316-4e0f-ae70-ec51a2e635a7|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "switching, chg line above"
       ],
       [
         "power_pin_not_driven|5829300|419100|bfcaa09f-811e-4c80-a162-febf026102ec|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
@@ -316,6 +420,10 @@
       [
         "power_pin_not_driven|5829300|584200|d628ed3b-9ce8-4853-9a26-9079c23dc84e|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
         "testpoint"
+      ],
+      [
+        "power_pin_not_driven|7416800|3022600|d628ed3b-9ce8-4853-9a26-9079c23dc84e|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
+        "debug pad"
       ],
       [
         "power_pin_not_driven|889000|3111500|d88c836b-84fd-46a5-a22c-cdba8fc87736|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
@@ -600,7 +708,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -722,7 +830,7 @@
         "uuid": "263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa"
       }
     ],
-    "used_designators": "Q10",
+    "used_designators": "Q1-10,D1-11,L1-6,AE1,#PWR1-73,C1-88,FB1,H1-16,J1-3,R1-65,SW1-3,TH1,U1-6,X1",
     "variants": []
   },
   "sheets": [
