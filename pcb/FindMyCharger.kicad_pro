@@ -258,6 +258,10 @@
         "matched component footprint"
       ],
       [
+        "footprint_link_issues|3975100|1968500|2ad259ca-997f-4eb8-9abe-d0a8e9dbefab|00000000-0000-0000-0000-000000000000|||",
+        "matched with component footprint"
+      ],
+      [
         "pin_not_connected|1638300|2743200|08c8cc72-f052-4e9f-afa5-d1606ac44256|00000000-0000-0000-0000-000000000000|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|/263c00ee-f9a5-4919-b1d1-0dbcc4b9e7aa|",
         "not internally connected"
       ],
