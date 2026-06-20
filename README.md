@@ -32,6 +32,16 @@ Macless Haystack is included in this repository as a submodule under [firmware/m
 ![](assets/Carnac_SQgwQdrhuD.jpg)
 
 
+### Schematics
+
+![](./assets/kicad_htt1OVVjaL.jpg)
+
+
+### PCB
+
+![](/assets/kicad_jSncbUGwjG.jpg)
+
+
 ## I want one!!
 
 You'll need to:
@@ -49,9 +59,9 @@ You'll need to:
 
 ## Todo
 
-[ ] Include battery level transmission
-[ ] Smaller footprint
-[ ] Ultra Wide Band (UWB) for precise finding
-[ ] Support PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)
-[ ] Support multiple controls (press, press & hold) on button
-[ ] Integrate both Macless Haystack and [Google FindMy](https://github.com/leonboe1/GoogleFindMyTools)) into one
+- Include battery level transmission
+- Smaller footprint
+- Ultra Wide Band (UWB) for precise finding
+- Support PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)
+- Support multiple controls (press, press & hold) on button
+- Integrate both Macless Haystack and [Google FindMy](https://github.com/leonboe1/GoogleFindMyTools)) into one
