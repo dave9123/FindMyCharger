@@ -1,3 +1,6 @@
 [submodule "macless-haystack"]
 	path = macless-haystack
 	url = https://github.com/dchristl/macless-haystack
+[submodule "firmware/macless-haystack"]
+	path = firmware/macless-haystack
+	url = https://github.com/dchristl/macless-haystack
