@@ -22,4 +22,5 @@
 	(lib (name "C7420374-H5VU25U") (type "KiCad") (uri "${KIPRJMOD}/libraries/C7420374-H5VU25U.kicad_sym") (options "") (descr ""))
 	(lib (name "C5339435-XR0640-4R7M") (type "KiCad") (uri "${KIPRJMOD}/libraries/C5339435-XR0640-4R7M.kicad_sym") (options "") (descr ""))
 	(lib (name "C54300927-QNM30N20AJ") (type "KiCad") (uri "${KIPRJMOD}/libraries/C54300927-QNM30N20AJ.kicad_sym") (options "") (descr ""))
+	(lib (name "C53433530-ZC015P2G") (type "KiCad") (uri "${KIPRJMOD}/libraries/C53433530-ZC015P2G.kicad_sym") (options "") (descr ""))
 )

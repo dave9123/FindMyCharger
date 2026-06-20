@@ -26573,7 +26573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:QNM30N20AJ-PDFN-8L_L3.3-W3.3-P0.65-BL_XINFEIHONG_FH1404G6"
 			(at 303.53 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -26606,7 +26606,7 @@
 				)
 			)
 		)
-		(property "MPN" "2N7002K"
+		(property "MPN" "QNM30N20AJ"
 			(at 308.61 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -26672,7 +26672,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22379475"
+		(property "LCSC Part" "C54300927"
 			(at 308.61 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -26970,7 +26970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:QNM30N20AJ-PDFN-8L_L3.3-W3.3-P0.65-BL_XINFEIHONG_FH1404G6"
 			(at 276.86 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -27003,7 +27003,7 @@
 				)
 			)
 		)
-		(property "MPN" "Si7116DN"
+		(property "MPN" "QNM30N20AJ"
 			(at 279.4 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -27061,6 +27061,16 @@
 		(property "Type" ""
 			(at 279.4 154.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54300927"
+			(at 124.46 434.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35827,7 +35837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:QNM30N20AJ-PDFN-8L_L3.3-W3.3-P0.65-BL_XINFEIHONG_FH1404G6"
 			(at 615.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -35860,7 +35870,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "QNM30N20AJ"
 			(at 613.41 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -35918,6 +35928,16 @@
 		(property "Type" ""
 			(at 613.41 52.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54300927"
+			(at 665.48 665.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43045,7 +43065,7 @@
 				)
 			)
 		)
-		(property "MPN" "FDN358P"
+		(property "MPN" ""
 			(at 255.27 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -45597,7 +45617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:QNM30N20AJ-PDFN-8L_L3.3-W3.3-P0.65-BL_XINFEIHONG_FH1404G6"
 			(at 248.92 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -45630,7 +45650,7 @@
 				)
 			)
 		)
-		(property "MPN" "Si7116DN"
+		(property "MPN" "QNM30N20AJ"
 			(at 246.38 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -45686,6 +45706,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 246.38 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54300927"
 			(at 246.38 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -50344,7 +50375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:QNM30N20AJ-PDFN-8L_L3.3-W3.3-P0.65-BL_XINFEIHONG_FH1404G6"
 			(at 528.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -50377,7 +50408,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "QNM30N20AJ"
 			(at 530.86 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -50433,6 +50464,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 530.86 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54300927"
 			(at 530.86 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -54557,7 +54599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:QNM30N20AJ-PDFN-8L_L3.3-W3.3-P0.65-BL_XINFEIHONG_FH1404G6"
 			(at 546.1 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -54590,7 +54632,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "QNM30N20AJ"
 			(at 541.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -54614,6 +54656,17 @@
 		)
 		(property "Voltage" "30V"
 			(at 331.47 -412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54300927"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58655,7 +58708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:QNM30N20AJ-PDFN-8L_L3.3-W3.3-P0.65-BL_XINFEIHONG_FH1404G6"
 			(at 598.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -58688,7 +58741,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "QNM30N20AJ"
 			(at 603.25 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -58746,6 +58799,16 @@
 		(property "Type" ""
 			(at 603.25 54.61 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54300927"
+			(at 1206.5 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
