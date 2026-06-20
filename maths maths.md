@@ -76,15 +76,20 @@ fast mode plus (max)
  -> max = 120ns*10^-9 / (0.8473 * 550pF*10^-12) = 257.50244091
 ```
 ## calc bq25713
-### mosfet --- count me
-duty cycle -> D = Vout/Vin
-= 16.8V/20V = 0.84
+### mosfet
+```
+duty cycle (buck) -> D = Vout/Vin
+= 16.8V/20V = **0.84**
 = 12V/20V = 0.6
-= 16.8V/5V = 3.36
-= 12V/5V = 2.4
-Ptop = D
 
-iripple is 4.195A, derating 50% -> 6.2925A ~ 6.3A
+duty cycle (boost) -> D = 1 - Vin/Vout
+= 1 - 5V/16.8V = 0.70
+= 1 - 5V/12V = 0.42
+
+Ptop = 0.84 * 3.2A^2 * Rds(on) * 1/2 * 21V * (ton + toff) * 800kHz*10^3
+
+Pbottom = (1-0.42) * 3.2A^2 * Rds(on) = 5.939 * Rds(on)
+```
 
 ### inductor - 10.2.2.2
 ```
@@ -92,11 +97,11 @@ D = duty cycle
 
 
 Dbuck = Vout/Vin
-= (16.8/20) = 0.84
+= (12/20) = 0.6
 
 Iripple_buck = Vin * D * (1 - D) / (fs * L)
-= 20V * 0.84 * (1-0.84) / (800kHz*(10^3) * 2.2uH*(10^-6))
-= 1.53A (peak buck)
+= 20V * 0.6 * (1-0.6) / (800kHz*(10^3) * 2.2uH*(10^-6))
+= 2.73A (peak buck)
 
 
 Dboost = 1 - (Vin/Vbat)
@@ -108,8 +113,8 @@ Iripple_boost = (VIN * Dboost) / (fs * L)
 
 
 Isat >= Ichg + 1/2*Iripple
-  >= 3A + 1/2*2.02A
-  >= 4.01A
+  >= (60W/12V) + 1/2*2.73A
+  >= 6.37A
 ```
 inductor ripple range 20 – 40% as trade-off between size and efficiency
 
