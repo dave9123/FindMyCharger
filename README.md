@@ -2,7 +2,7 @@
 
 ![](./assets/FindMyCharger.jpg)
 
-[Bill of Material](./pcb/jlcpcb/production_files/BOM-FindMyCharger.csv)
+[Bill of Material](./v1/pcb/jlcpcb/production_files/BOM-FindMyCharger.csv)
 
 A smart powerbank with locating capabilities through Apple FindMy network
 
@@ -47,8 +47,8 @@ Macless Haystack is included in this repository as a submodule under [firmware/m
 ## I want one!!
 
 You'll need to:
-1. Order the PCB (or get PCBA assembly), please check [docs/calculations.md](./docs/calculations.md) for components requirements and [pcb/gerber_to_order](./pcb/gerber_to_order/) for gerber
-2. Print bottom, button, and upper which can be found at [cad](./cad)
+1. Order the PCB (or get PCBA assembly), please check [docs/calculations.md](./docs/calculations.md) for components requirements and [pcb/gerber_to_order](./v1/pcb/gerber_to_order/) for gerber
+2. Print bottom, button, and upper which can be found at [cad](./v1/cad)
 3. Get additional components/parts, list [here](#additional-components) and solder them
 4. Place components and glue casing
 
