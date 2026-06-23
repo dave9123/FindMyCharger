@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "C2874127-E104-BT5005A") (type "KiCad") (uri "${KIPRJMOD}/libraries/C2874127-E104-BT5005A.kicad_sym") (options "") (descr ""))
+	(lib (name "C46550234-IP5353_I2C_AABC") (type "KiCad") (uri "${KIPRJMOD}/libraries/C46550234-IP5353_I2C_AABC.kicad_sym") (options "") (descr ""))
+)
