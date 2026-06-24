@@ -1,0 +1,248 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator "Easy ECAD Downloader")
+  (symbol "IP5353_I2C_AABC"
+    (in_bom yes)
+    (on_board yes)
+    (property
+    "Reference"
+    "U"
+    (id 0)
+    (at 0 50.80 0)
+    (effects (font (size 1.27 1.27) ) )
+  )
+    (property
+    "Value"
+    "IP5353_I2C_AABC"
+    (id 1)
+    (at 0 -49.53 0)
+    (effects (font (size 1.27 1.27) ) )
+  )
+    (property
+    "Footprint"
+    "QFN-32_L5.0-W5.0-P0.50-TL-EP3.5"
+    (id 2)
+    (at 0 -52.07 0)
+    (effects (font (size 1.27 1.27) ) hide)
+  )
+    (property
+    "LCSC Part"
+    "C46550234"
+    (id 5)
+    (at 0 -54.61 0)
+    (effects (font (size 1.27 1.27) ) hide)
+  )
+    (symbol "IP5353_I2C_AABC_0_1"
+          (rectangle
+            (start -11.43 43.18)
+            (end 11.43 -41.91)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (circle
+            (center -10.16 41.91)
+            (radius 0.38)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type none))
+          )
+          (pin unspecified line
+            (at 0.00 45.72 270)
+            (length 2.54)
+            (name "GND" (effects (font (size 1.27 1.27))))
+            (number "33" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 38.10 0)
+            (length 2.54)
+            (name "VBUS" (effects (font (size 1.27 1.27))))
+            (number "28" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 40.64 0)
+            (length 2.54)
+            (name "VBUS" (effects (font (size 1.27 1.27))))
+            (number "27" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 35.56 0)
+            (length 2.54)
+            (name "DPC" (effects (font (size 1.27 1.27))))
+            (number "19" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 33.02 0)
+            (length 2.54)
+            (name "DMC" (effects (font (size 1.27 1.27))))
+            (number "20" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 30.48 0)
+            (length 2.54)
+            (name "CC2" (effects (font (size 1.27 1.27))))
+            (number "21" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 27.94 0)
+            (length 2.54)
+            (name "CC1" (effects (font (size 1.27 1.27))))
+            (number "22" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 15.24 0)
+            (length 2.54)
+            (name "VOUT2" (effects (font (size 1.27 1.27))))
+            (number "12" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 17.78 0)
+            (length 2.54)
+            (name "VOUT2" (effects (font (size 1.27 1.27))))
+            (number "13" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 12.70 0)
+            (length 2.54)
+            (name "DPA2" (effects (font (size 1.27 1.27))))
+            (number "23" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 10.16 0)
+            (length 2.54)
+            (name "DMA2" (effects (font (size 1.27 1.27))))
+            (number "24" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -5.08 0)
+            (length 2.54)
+            (name "VOUT1" (effects (font (size 1.27 1.27))))
+            (number "29" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -2.54 0)
+            (length 2.54)
+            (name "VOUT1" (effects (font (size 1.27 1.27))))
+            (number "30" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -7.62 0)
+            (length 2.54)
+            (name "DPA1" (effects (font (size 1.27 1.27))))
+            (number "17" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -10.16 0)
+            (length 2.54)
+            (name "DMA1" (effects (font (size 1.27 1.27))))
+            (number "18" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -21.59 0)
+            (length 2.54)
+            (name "VIN" (effects (font (size 1.27 1.27))))
+            (number "9" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -24.13 0)
+            (length 2.54)
+            (name "DPB/DAT" (effects (font (size 1.27 1.27))))
+            (number "25" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -26.67 0)
+            (length 2.54)
+            (name "DMB/CL" (effects (font (size 1.27 1.27))))
+            (number "26" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -29.21 0)
+            (length 2.54)
+            (name "VING" (effects (font (size 1.27 1.27))))
+            (number "10" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -31.75 0)
+            (length 2.54)
+            (name "VSYS" (effects (font (size 1.27 1.27))))
+            (number "11" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -13.97 -34.29 0)
+            (length 2.54)
+            (name "VSYS" (effects (font (size 1.27 1.27))))
+            (number "31" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 13.97 35.56 180)
+            (length 2.54)
+            (name "KEY" (effects (font (size 1.27 1.27))))
+            (number "15" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 13.97 24.13 180)
+            (length 2.54)
+            (name "HLED" (effects (font (size 1.27 1.27))))
+            (number "8" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 13.97 -12.70 180)
+            (length 2.54)
+            (name "LED3" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 13.97 -17.78 180)
+            (length 2.54)
+            (name "LED2" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 13.97 -22.86 180)
+            (length 2.54)
+            (name "LED1" (effects (font (size 1.27 1.27))))
+            (number "32" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 13.97 -33.02 180)
+            (length 2.54)
+            (name "NTC" (effects (font (size 1.27 1.27))))
+            (number "16" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -5.08 -44.45 90)
+            (length 2.54)
+            (name "BST" (effects (font (size 1.27 1.27))))
+            (number "7" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -8.89 -44.45 90)
+            (length 2.54)
+            (name "BAT" (effects (font (size 1.27 1.27))))
+            (number "14" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 8.89 -44.45 90)
+            (length 2.54)
+            (name "LX" (effects (font (size 1.27 1.27))))
+            (number "3" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 6.35 -44.45 90)
+            (length 2.54)
+            (name "LX" (effects (font (size 1.27 1.27))))
+            (number "4" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 3.81 -44.45 90)
+            (length 2.54)
+            (name "LX" (effects (font (size 1.27 1.27))))
+            (number "5" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 1.27 -44.45 90)
+            (length 2.54)
+            (name "LX" (effects (font (size 1.27 1.27))))
+            (number "6" (effects (font (size 1.27 1.27))))
+          )
+    )
+  )
+)
