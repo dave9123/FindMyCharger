@@ -4,4 +4,5 @@
 	(lib (name "C46550234-IP5353_I2C_AABC") (type "KiCad") (uri "${KIPRJMOD}/libraries/C46550234-IP5353_I2C_AABC.kicad_sym") (options "") (descr ""))
 	(lib (name "C14289-HT7533-1_C14289") (type "KiCad") (uri "${KIPRJMOD}/libraries/C14289-HT7533-1_C14289.kicad_sym") (options "") (descr ""))
 	(lib (name "C393939-TYPE-C16PIN") (type "KiCad") (uri "${KIPRJMOD}/libraries/C393939-TYPE-C16PIN.kicad_sym") (options "") (descr ""))
+	(lib (name "C125032-SKHLLDA010") (type "KiCad") (uri "${KIPRJMOD}/libraries/C125032-SKHLLDA010.kicad_sym") (options "") (descr ""))
 )
