@@ -1054,7 +1054,7 @@
 			(uuid "3eafb638-f013-4211-a401-4e7023c724fb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/QFN-32_L5.0-W5.0-H1.0-P0.50-TL-EP3.5.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/QFN-32_L5.0-W5.0-H1.0-P0.50-TL-EP3.5.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2074,7 +2074,7 @@
 			(uuid "bec16fe9-dd46-4bd4-ad8d-94f3f10cc57d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KEY-TH_4P-L7.3-W4.5-H4.3-LS7.0-P5.0.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/KEY-TH_4P-L7.3-W4.5-H4.3-LS7.0-P5.0.wrl"
 			(offset
 				(xyz 0 -0.435 -1.378)
 			)
@@ -3639,7 +3639,7 @@
 			(uuid "b77158b1-fd12-4e66-91ff-cdec1733a197")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/IND-SMD_L6.0-W6.0_CHILISIN_HPPC06030.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/IND-SMD_L6.0-W6.0_CHILISIN_HPPC06030.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4776,7 +4776,7 @@
 			(uuid "cf2a6752-eb7e-43dc-a8bb-d83ac3a70f54")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/USB-C-SMD_TYPE-C16PIN.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/USB-C-SMD_TYPE-C16PIN.wrl"
 			(offset
 				(xyz 0 -0.419 -0.394)
 			)
@@ -6026,7 +6026,7 @@
 			(uuid "f487899b-fe2c-4ddd-8036-046455fef802")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BULETM-SMD_E104-BT5005A.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/BULETM-SMD_E104-BT5005A.wrl"
 			(offset
 				(xyz 0 0.518 0)
 			)
@@ -6492,7 +6492,7 @@
 			(uuid "ac4b702b-f252-41cd-904c-76cbe1e83de3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
 			(offset
 				(xyz -0.118 0 0)
 			)

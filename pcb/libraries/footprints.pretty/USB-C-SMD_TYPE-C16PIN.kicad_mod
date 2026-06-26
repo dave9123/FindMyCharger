@@ -262,7 +262,7 @@
 		(uuid "0a52c543-0ef4-4bc9-81e6-a2cca1d892e2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/USB-C-SMD_TYPE-C16PIN.wrl"
+	(model "${KIPRJMOD}/libraries/3dmodels/USB-C-SMD_TYPE-C16PIN.wrl"
 		(offset
 			(xyz 0 -0.419 -0.394)
 		)

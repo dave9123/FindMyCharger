@@ -24,7 +24,7 @@
 	(fp_circle (center 3.50 -1.27) (end 3.80 -1.27) (layer F.Fab) (width 0.60))
 	(fp_circle (center -3.50 -1.27) (end -3.20 -1.27) (layer F.Fab) (width 0.60))
 	(fp_circle (center -4.50 4.96) (end -4.47 4.96) (layer F.Fab) (width 0.06))
-	(model "${KIPRJMOD}/KEY-TH_4P-L7.3-W4.5-H4.3-LS7.0-P5.0.wrl"
+	(model "${KIPRJMOD}/libraries/3dmodels/KEY-TH_4P-L7.3-W4.5-H4.3-LS7.0-P5.0.wrl"
 		(offset (xyz 0.000 -0.435 -1.378))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
