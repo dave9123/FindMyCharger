@@ -1,0 +1,2152 @@
+{
+  "metaData": {
+    "deviceName": "tps25762cq1",
+    "partNumberId": 2,
+    "warning": "ANY MODIFICATION TO THIS FILE IS NOT RECOMMENDED. IF MODIFIED, ANY DEPENDENT WRITES BASED ON MODIFIED VALUES WILL NOT HAPPEN WHILE LOADING TO PRESERVE USER MODIFIED VALUES. STILL LOAD FEATURE WILL LOAD ALL VALUES AS IT IS GIVEN HERE",
+    "timeStamp": "2026-03-26T13:57:39.383Z",
+    "version": "8.03"
+  },
+  "guiControls": [
+    {
+      "name": "usbA",
+      "controls": [
+        {
+          "name": "customId",
+          "value": "0000000000000000",
+          "description": "These 8 bytes are allocated for customer use."
+        },
+        {
+          "name": "highIlimDelay",
+          "value": false,
+          "description": "High Current Limit Mode Configuration."
+        },
+        {
+          "name": "pps",
+          "value": true,
+          "description": "When this bit is enabled, the PD controller calcul"
+        },
+        {
+          "name": "vBusUvp",
+          "value": 12,
+          "description": "VBUS UVP Trip point for Fixed PDO contracts."
+        },
+        {
+          "name": "ppsVBusUvp",
+          "value": 1,
+          "description": "VBUS UVP Trip point for APDO contracts."
+        },
+        {
+          "name": "disablePD",
+          "value": false,
+          "description": "Assert this bit to disable USB PD."
+        },
+        {
+          "name": "debugAccVBUSenable",
+          "value": false,
+          "description": "Debug Accessory enable."
+        },
+        {
+          "name": "initRp180uAPUEN",
+          "value": true,
+          "description": "180uA pull-up enable."
+        },
+        {
+          "name": "vbus5v_voltageboost",
+          "value": 0,
+          "description": "VBUS voltage boost for 5V contract(50mV per LSB)."
+        },
+        {
+          "name": "powerThresSource",
+          "value": 7.5,
+          "description": "Power threshold setting for GPIO output event."
+        },
+        {
+          "name": "vbus_apdoOffset",
+          "value": 0,
+          "description": "VBUS UVP Trip point offset for APDO contracts."
+        },
+        {
+          "name": "vbusValidPPSstatus",
+          "value": 5.5,
+          "description": "VBUS PPS_STATUS reported voltage threshold."
+        },
+        {
+          "name": "swhiccup",
+          "value": true,
+          "description": "SW controlled HICCUP Enable."
+        },
+        {
+          "name": "dcpSampleWaitTimer",
+          "value": 0.015,
+          "description": "DCP Sample Wait Timer."
+        },
+        {
+          "name": "tDegBcDone",
+          "value": 1.25,
+          "description": "DCP DP Deglitch."
+        },
+        {
+          "name": "hscpFcpPingRxTimeout",
+          "value": 2,
+          "description": "Ping RX timer(250ms per LSB)."
+        },
+        {
+          "name": "tDegDmLow",
+          "value": 0.0025,
+          "description": "DM low deglitch timer(500us per LSB)."
+        },
+        {
+          "name": "numValidPDOs",
+          "value": 6,
+          "description": "Number of valid PDOs in this register."
+        },
+        {
+          "name": "txSourcePDO1",
+          "value": 134320428,
+          "description": "Bank0 First Source Capabilities PDO contents."
+        },
+        {
+          "name": "txSourcePDO2",
+          "value": 184620,
+          "description": "Bank0 Second Source Capabilities PDO contents."
+        },
+        {
+          "name": "txSourcePDO3",
+          "value": 307500,
+          "description": "Bank0 Third Source Capabilities PDO contents."
+        },
+        {
+          "name": "txSourcePDO4",
+          "value": 409900,
+          "description": "Bank0 Fourth Source Capabilities PDO contents."
+        },
+        {
+          "name": "txSourcePDO5",
+          "value": 3376423228,
+          "description": "Bank0 Fifth Source Capabilities PDO contents."
+        },
+        {
+          "name": "txSourcePDO6",
+          "value": 3382976833,
+          "description": "Bank0 Sixth Source Capabilities PDO contents."
+        },
+        {
+          "name": "txSourcePDO7",
+          "value": 0,
+          "description": "Bank0 Seventh Source Capabilities PDO contents."
+        },
+        {
+          "name": "maxPdpRangeNum",
+          "value": 7,
+          "description": "Max Number of PDP Range."
+        },
+        {
+          "name": "maxVPdpRange1",
+          "value": 5,
+          "description": "Max VBUS Voltage for PDP Range1(50mV per LSB)."
+        },
+        {
+          "name": "maxWPdpRange1",
+          "value": 15,
+          "description": "Max PDP Power Range1."
+        },
+        {
+          "name": "maxVPdpRange2",
+          "value": 9,
+          "description": "Max PDP Voltage Range2."
+        },
+        {
+          "name": "maxWPdpRange2",
+          "value": 27,
+          "description": "Max Power PDP Range 2."
+        },
+        {
+          "name": "maxVPdpRange3",
+          "value": 11,
+          "description": "Max Voltage PDP Range 3."
+        },
+        {
+          "name": "maxWPdpRange3",
+          "value": 33,
+          "description": "Max Power PDP Range 3."
+        },
+        {
+          "name": "maxVPdpRange4",
+          "value": 15,
+          "description": "Max Voltage PDP Range 4."
+        },
+        {
+          "name": "maxWPdpRange4",
+          "value": 45,
+          "description": "Max Power PDP Range 4."
+        },
+        {
+          "name": "maxVPdpRange5",
+          "value": 16,
+          "description": "Max Voltage PDP Range 5."
+        },
+        {
+          "name": "maxWPdpRange5",
+          "value": 48,
+          "description": "Max Power PDP Range 5."
+        },
+        {
+          "name": "maxVPdpRange6",
+          "value": 20,
+          "description": "Max Voltage PDP Range 6."
+        },
+        {
+          "name": "maxWPdpRange6",
+          "value": 60,
+          "description": "Max Power PDP Range 6."
+        },
+        {
+          "name": "maxVPdpRange7",
+          "value": 21,
+          "description": "Max Voltage PDP Range 7."
+        },
+        {
+          "name": "maxWPdpRange7",
+          "value": 65,
+          "description": "Max Power PDP Range 7."
+        },
+        {
+          "name": "maxPower",
+          "value": "65.00",
+          "description": "Max VBUS Power for this port(250mW per LSB)."
+        },
+        {
+          "name": "minPower",
+          "value": 15,
+          "description": "Min VBUS Power for this port(250mW per LSB)."
+        },
+        {
+          "name": "typeCCurrent",
+          "value": 2,
+          "description": "Type-C Current advertisement."
+        },
+        {
+          "name": "autoStatusEnable",
+          "value": false,
+          "description": "When this bit is enabled, the PD controller calcul"
+        },
+        {
+          "name": "bc1_2",
+          "value": true,
+          "description": "BC1.2 DCP Charging En."
+        },
+        {
+          "name": "chargingMode1_2v",
+          "value": false,
+          "description": "1.2V Charging Enable."
+        },
+        {
+          "name": "chargingMode2_7v",
+          "value": false,
+          "description": "2.7V Charging Enable."
+        },
+        {
+          "name": "hvdcp",
+          "value": false,
+          "description": "SCP GenX Enable."
+        },
+        {
+          "name": "vconnEn",
+          "value": true,
+          "description": "Enable PP_CABLE1."
+        },
+        {
+          "name": "vconnCurrentLim",
+          "value": "0",
+          "description": "Current limit configuration for PP_CABLEx."
+        },
+        {
+          "name": "apdoIlimOvershoot",
+          "value": 0,
+          "description": "APDO Source overshoot margin."
+        },
+        {
+          "name": "avgIlimOvershoot",
+          "value": 1,
+          "description": "DCDC Average Current Limit overshoot margin to be "
+        },
+        {
+          "name": "tempReport",
+          "value": false,
+          "description": "Temp info auto update enable in PD messages."
+        },
+        {
+          "name": "autoAlert",
+          "value": false,
+          "description": "When this bit is enabled, the PD controller port automatically initiates Alert messaging.  "
+        },
+        {
+          "name": "autoIdReq",
+          "value": false,
+          "description": "Configure identity discovery for SOP."
+        },
+        {
+          "name": "exitDeglitch",
+          "value": 0,
+          "description": "Higher current limit mode exit deglitch time."
+        },
+        {
+          "name": "entryDeglitch",
+          "value": 0,
+          "description": "Higher current limit mode entry deglitch time."
+        },
+        {
+          "name": "nominalIlimOvershoot",
+          "value": 1,
+          "description": "ILIM_LO Overshoot."
+        },
+        {
+          "name": "vbusTripPoint",
+          "value": 160,
+          "description": "High Current Limit mode trip point(10% per LSB)."
+        },
+        {
+          "name": "productTypeVdoReg0",
+          "value": 1073741824,
+          "description": ""
+        },
+        {
+          "name": "txId",
+          "value": false,
+          "description": "Number of valid VDO's in this register."
+        },
+        {
+          "name": "productTypeVdoReg1",
+          "value": 1073741824,
+          "description": ""
+        },
+        {
+          "name": "productTypeVdoReg2",
+          "value": 1073741824,
+          "description": ""
+        },
+        {
+          "name": "productType",
+          "value": 0,
+          "description": "This is as defined in the USB PD specification."
+        },
+        {
+          "name": "usbCommAsDevice",
+          "value": false,
+          "description": "Assert if USB communications capable as a device."
+        },
+        {
+          "name": "usbCommAsHost",
+          "value": false,
+          "description": "Assert if USB communications capable as a host."
+        },
+        {
+          "name": "usbCommCapable",
+          "value": false,
+          "description": "USB communications capable."
+        },
+        {
+          "name": "usb3Rate",
+          "value": 0,
+          "description": "USB3 configuration."
+        },
+        {
+          "name": "i2cTempSensor1Adr",
+          "value": "00",
+          "description": "I2C Temp Sensor address."
+        },
+        {
+          "name": "i2cTempSensor2Adr",
+          "value": "00",
+          "description": "See description for I2C Temp Sensor1."
+        },
+        {
+          "name": "i2cTempSensor3Adr",
+          "value": "00",
+          "description": "See description for I2C Temp Sensor1."
+        },
+        {
+          "name": "i2cTempSensor4Adr",
+          "value": "00",
+          "description": "See description for I2C Temp Sensor1."
+        },
+        {
+          "name": "i2cTempSensor5Adr",
+          "value": "00",
+          "description": "See description for I2C Temp Sensor1."
+        },
+        {
+          "name": "vendorID",
+          "value": "451",
+          "description": "This is as defined in the USB PD specification."
+        },
+        {
+          "name": "xID",
+          "value": "00",
+          "description": "This contains the 32-bit XID assigned by USB-IF."
+        },
+        {
+          "name": "productID",
+          "value": "00",
+          "description": "Product ID."
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "controls": [
+        {
+          "name": "supportStatusMsg",
+          "value": false,
+          "description": "Enable Status message."
+        },
+        {
+          "name": "supportManufactureInfoMsg",
+          "value": false,
+          "description": "Support Manufacturing Info message."
+        },
+        {
+          "name": "manufacturerString",
+          "value": "",
+          "description": "Manufacturer String as defined in USB PD."
+        },
+        {
+          "name": "ppsSupportStatusMsg",
+          "value": true,
+          "description": "If this bit is asserted the PD controller will res"
+        }
+      ]
+    },
+    {
+      "name": "i2c",
+      "controls": [
+        {
+          "name": "vth1",
+          "value": 1,
+          "description": "Pull-up voltage for I2C1m."
+        },
+        {
+          "name": "vth2",
+          "value": 1,
+          "description": "Pull-up voltage for I2C2s."
+        },
+        {
+          "name": "slaveAddr",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "timePeriod",
+          "value": 39,
+          "description": "For internal/GUI use only."
+        },
+        {
+          "name": "extDCDCPollingInterval",
+          "value": 200,
+          "description": "External DCDC Polling Interval(2ms LSB)."
+        },
+        {
+          "name": "extendedPhaseEnable",
+          "value": 3,
+          "description": "Enable for thermal  phases."
+        },
+        {
+          "name": "i2cTempSensorEn",
+          "value": false,
+          "description": "I2C Temp Sensor Enable/Disable."
+        },
+        {
+          "name": "i2cTemp1thF",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase1 falling threshold."
+        },
+        {
+          "name": "i2cTemp1thR",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase1 rising threshold."
+        },
+        {
+          "name": "i2cTemp2thF",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase2 falling threshold."
+        },
+        {
+          "name": "i2cTemp2thR",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase 2 rising threshold."
+        },
+        {
+          "name": "i2cTemp3thF",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase3 falling threshold."
+        },
+        {
+          "name": "i2cTemp3thR",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase3 rising threshold."
+        },
+        {
+          "name": "i2cTemp4thF",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase4 falling threshold."
+        },
+        {
+          "name": "i2cTemp4thR",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase4 rising threshold."
+        },
+        {
+          "name": "i2cTemp5thF",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase5 falling threshold."
+        },
+        {
+          "name": "i2cTemp5thR",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase 5 rising threshold."
+        },
+        {
+          "name": "i2cTemp6thF",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase6 falling threshold."
+        },
+        {
+          "name": "i2cTemp6thR",
+          "value": 0,
+          "description": "I2C temp sensor Thermal Phase6 rising threshold."
+        }
+      ]
+    },
+    {
+      "name": "internalDCDC",
+      "controls": [
+        {
+          "name": "peakIlim",
+          "value": 2,
+          "description": "Boost peak ILIM configuration."
+        },
+        {
+          "name": "buckPeakIlim",
+          "value": 6,
+          "description": "Buck peak ILIM configuration."
+        },
+        {
+          "name": "ditherEn",
+          "value": true,
+          "description": "Switching frequency diterh enable."
+        },
+        {
+          "name": "ditherFreq",
+          "value": 0,
+          "description": "Switching freq range configuration for DCDC."
+        },
+        {
+          "name": "phaseShift",
+          "value": 3,
+          "description": "Phase shift configuration on SYNC output CLK."
+        },
+        {
+          "name": "freqSel",
+          "value": 1,
+          "description": "Sets switching frequency of DCDC converter."
+        },
+        {
+          "name": "syncIOconfig",
+          "value": 0,
+          "description": "SYNC PIN configuration."
+        },
+        {
+          "name": "cableComp",
+          "value": false,
+          "description": "Cable Compensation is enabled"
+        },
+        {
+          "name": "allowCableCompOnlyFor5V",
+          "value": false,
+          "description": "Enable compensation for all VBUS or only 5V."
+        },
+        {
+          "name": "cableCompRange",
+          "value": 0,
+          "description": "Cable compensation configuration."
+        },
+        {
+          "name": "dcdc1LoopComp",
+          "value": 19,
+          "description": ""
+        },
+        {
+          "name": "dcdc1ModeDet",
+          "value": 0,
+          "description": "DCDC1 Mode Detect signal."
+        },
+        {
+          "name": "dcdc1BlankConfig1",
+          "value": 2,
+          "description": "DCDC1 Blank Config 1."
+        },
+        {
+          "name": "dcdc1BlankConfig2",
+          "value": 2,
+          "description": "DCDC1 Blank Config 2."
+        },
+        {
+          "name": "dcdc1BlankConfig3",
+          "value": 2,
+          "description": "DCDC1 Blank Config 3."
+        },
+        {
+          "name": "dcdc1DeadTimeCfg",
+          "value": 0,
+          "description": "Dead time exit control adjustiment."
+        },
+        {
+          "name": "dcdcConfigReg",
+          "value": "7308AA3332062DC860",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "gpioExtender",
+      "controls": [
+        {
+          "name": "numGpioExtender",
+          "value": 0,
+          "description": "Number of GPIO extender."
+        },
+        {
+          "name": "ext1NumGpio",
+          "value": 0,
+          "description": "Number of GPIOs for extender1."
+        },
+        {
+          "name": "ext2NumGpio",
+          "value": 0,
+          "description": "Number of GPIOs for extender2."
+        },
+        {
+          "name": "ext3NumGpio",
+          "value": 0,
+          "description": "Number of GPIOs for extender3."
+        },
+        {
+          "name": "ext4NumGpio",
+          "value": 0,
+          "description": "Number of GPIOs for extender4."
+        },
+        {
+          "name": "ext1Address",
+          "value": "00",
+          "description": "GPIO Extender1 address."
+        },
+        {
+          "name": "ext2Address",
+          "value": "00",
+          "description": "See description for GPIO Extender 1."
+        },
+        {
+          "name": "ext3Address",
+          "value": "00",
+          "description": "See description for GPIO Extender 1."
+        },
+        {
+          "name": "ext4Address",
+          "value": "00",
+          "description": "See description for GPIO Extender 1."
+        }
+      ]
+    },
+    {
+      "name": "extendedSourceCap",
+      "controls": [
+        {
+          "name": "supportSouceCapExtMsg",
+          "value": false,
+          "description": "Enable Source Capabilities Extended."
+        },
+        {
+          "name": "voltageRegulation",
+          "value": 0,
+          "description": "Voltage regulation as defined by the USB PD."
+        },
+        {
+          "name": "holdUpTime",
+          "value": 0,
+          "description": "Hold up time as defined by the USB PD."
+        },
+        {
+          "name": "compliance",
+          "value": 0,
+          "description": "Touch current as defined by the USB PD specification."
+        },
+        {
+          "name": "touchCurrent",
+          "value": 0,
+          "description": "Peak Current 1 as defined by the USB PD."
+        },
+        {
+          "name": "peakCurrent1",
+          "value": 0,
+          "description": "Peak Current 2 as defined by the USB PD."
+        },
+        {
+          "name": "peakCurrent2",
+          "value": 0,
+          "description": "Peak Current 3 as defined by the USB PD."
+        },
+        {
+          "name": "peakCurrent3",
+          "value": 0,
+          "description": "Touch temperature as defined by the USB PD specification."
+        },
+        {
+          "name": "touchTemp",
+          "value": 0,
+          "description": "Touch temperature as defined by the USB PD."
+        },
+        {
+          "name": "sourceInputs",
+          "value": 0,
+          "description": "Source inputs as defined by the USB PD."
+        },
+        {
+          "name": "sourcePDP",
+          "value": 0,
+          "description": "Source's PDP rating as defined by the USB PD. "
+        }
+      ]
+    },
+    {
+      "name": "systemConfig",
+      "controls": [
+        {
+          "name": "totalUSBPower",
+          "value": 65,
+          "description": "Total VBUS system power."
+        },
+        {
+          "name": "spmRole",
+          "value": true,
+          "description": "Determines SPM role."
+        },
+        {
+          "name": "spmPowerPolicy",
+          "value": 0,
+          "description": "SPM Port Priority Policy."
+        },
+        {
+          "name": "pwrfoldbackerrrecoveryen",
+          "value": false,
+          "description": "Power foldback Error Recovery enable."
+        },
+        {
+          "name": "vinPollingInterval",
+          "value": 250,
+          "description": "VIN polling interval."
+        },
+        {
+          "name": "range2To3Deglitch",
+          "value": 3,
+          "description": "Engine On deglitch timer."
+        },
+        {
+          "name": "range3To2Deglitch",
+          "value": 3,
+          "description": "Engine Off deglitch timer."
+        },
+        {
+          "name": "range2To1Deglitch",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "range2To1DeglitchResolution",
+          "value": 0,
+          "description": "EngOnDeglitch Resolution."
+        },
+        {
+          "name": "range1To2GracePeriodTimer",
+          "value": 15,
+          "description": "Timeout value after engine off condition entry."
+        },
+        {
+          "name": "range3To2GracePeriodTimer",
+          "value": 15,
+          "description": "Timeout value after engine off condition entry."
+        },
+        {
+          "name": "gracePeriodDisableRange1To2",
+          "value": false,
+          "description": "Grace period disable for engine on transition."
+        },
+        {
+          "name": "gracePeriodDisableRange3To2",
+          "value": false,
+          "description": "Grace period disable for engine off transition."
+        },
+        {
+          "name": "range2EntryLevel",
+          "value": 8.96,
+          "description": "VIN threshold to exit no power."
+        },
+        {
+          "name": "range3ExitLevel",
+          "value": 11.76,
+          "description": "VIN_th to exit full to low power."
+        },
+        {
+          "name": "range3EntryLevel",
+          "value": 12,
+          "description": "VIN threshold to enter full power."
+        },
+        {
+          "name": "range2To3DeglitchResolution",
+          "value": 0,
+          "description": "EngOnDeglitch Resolution."
+        },
+        {
+          "name": "range3To2DeglitchResolution",
+          "value": 0,
+          "description": "EngOnDeglitch Resolution."
+        },
+        {
+          "name": "range2PowerLevel",
+          "value": "39.102",
+          "description": "Max power to be offered in engine off condition."
+        },
+        {
+          "name": "NTC1MaxW",
+          "value": "39.0",
+          "description": "Thermal Phase1 max power."
+        },
+        {
+          "name": "NTC2MaxW",
+          "value": "19.5",
+          "description": "Thermal Phase2 max power."
+        },
+        {
+          "name": "NTC3MaxW",
+          "value": "3.3",
+          "description": "Thermal Phase3 max power."
+        },
+        {
+          "name": "NTC4MaxW",
+          "value": 0,
+          "description": "Thermal Phase4 max power."
+        },
+        {
+          "name": "NTC5MaxW",
+          "value": 0,
+          "description": "Thermal Phase5 max power."
+        },
+        {
+          "name": "NTC6MaxW",
+          "value": 0,
+          "description": "Thermal Phase6 max power."
+        },
+        {
+          "name": "NTC1VthF",
+          "value": "0.392",
+          "description": "Thermal Phase1 Vth Falling."
+        },
+        {
+          "name": "NTC1VthR",
+          "value": "0.574",
+          "description": "Thermal Phase1 Vth Rising."
+        },
+        {
+          "name": "NTC2VthF",
+          "value": "0.686",
+          "description": "Thermal Phase2 Vth Falling."
+        },
+        {
+          "name": "NTC2VthR",
+          "value": "0.938",
+          "description": "Thermal Phase2 Vth Rising."
+        },
+        {
+          "name": "NTC3VthF",
+          "value": "1.078",
+          "description": "Thermal Phase3 Vth Falling."
+        },
+        {
+          "name": "NTC3VthR",
+          "value": "1.386",
+          "description": "Thermal Phase3 Vth Rising."
+        },
+        {
+          "name": "NTC4VthF",
+          "value": "0.000",
+          "description": "Thermal Phase4 Vth Falling."
+        },
+        {
+          "name": "NTC4VthR",
+          "value": "0.000",
+          "description": "Thermal Phase4 Vth Rising."
+        },
+        {
+          "name": "NTC5VthF",
+          "value": "0.000",
+          "description": "Thermal Phase5 Vth Falling."
+        },
+        {
+          "name": "NTC5VthR",
+          "value": "0.000",
+          "description": "Thermal Phase5 Vth Rising."
+        },
+        {
+          "name": "NTC6VthF",
+          "value": "0.000",
+          "description": "Thermal Phase6 Vth Falling."
+        },
+        {
+          "name": "NTC6VthR",
+          "value": "0.000",
+          "description": "Thermal Phase6 Vth Rising."
+        },
+        {
+          "name": "thermalFbEnable",
+          "value": true,
+          "description": "NTC Thermistor Enable/Disable."
+        },
+        {
+          "name": "range1EntryLevel",
+          "value": 8.56,
+          "description": "VIN threshold to enter no power."
+        },
+        {
+          "name": "uartTraceEnable",
+          "value": false,
+          "description": ""
+        },
+        {
+          "name": "uartGpio",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "uartDivider",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "customConfig",
+      "controls": [
+        {
+          "name": "SPMPollingInterval",
+          "value": 250,
+          "description": "SPM Polling Interval."
+        }
+      ]
+    },
+    {
+      "name": "__uiProperties",
+      "controls": [
+        {
+          "name": "deviceMetaData",
+          "value": {
+            "deviceName": "tps25762cq1"
+          },
+          "description": ""
+        },
+        {
+          "name": "usbAPdo",
+          "value": 4,
+          "description": ""
+        },
+        {
+          "name": "usbAapdoVal",
+          "value": 21,
+          "description": ""
+        },
+        {
+          "name": "numOfApdos",
+          "value": {
+            "usbA": 2
+          },
+          "description": ""
+        },
+        {
+          "name": "pdoConfigState",
+          "value": {
+            "usbA": "0"
+          },
+          "description": ""
+        },
+        {
+          "name": "pdosList",
+          "value": {
+            "usbA": []
+          },
+          "description": ""
+        },
+        {
+          "name": "apdosList",
+          "value": {
+            "usbA": []
+          },
+          "description": ""
+        },
+        {
+          "name": "customApdos",
+          "value": {
+            "usbA": []
+          },
+          "description": ""
+        },
+        {
+          "name": "cstmPdoPower",
+          "value": {
+            "usbA": 0
+          },
+          "description": ""
+        },
+        {
+          "name": "vbusMax",
+          "value": 21,
+          "description": ""
+        },
+        {
+          "name": "pdp_selection_value",
+          "value": {
+            "selection1": {
+              "pdpCount": 5,
+              "pdpV": {
+                "c1": 3.3,
+                "c2": 5,
+                "c3": 9,
+                "c4": 15,
+                "c5": 20,
+                "c6": 0,
+                "c7": 0
+              },
+              "minV": {
+                "c1": 3,
+                "c2": 5,
+                "c3": 9,
+                "c4": 15,
+                "c5": 20,
+                "c6": 0,
+                "c7": 0
+              },
+              "maxV": {
+                "c1": 4.9,
+                "c2": 8.9,
+                "c3": 14.9,
+                "c4": 19.9,
+                "c5": 21,
+                "c6": 0,
+                "c7": 0
+              },
+              "maxP": {
+                "c1": 16.5,
+                "c2": 25,
+                "c3": 45,
+                "c4": 45,
+                "c5": 60,
+                "c6": 0,
+                "c7": 0
+              }
+            },
+            "selection2a": {
+              "pdpCount": 6,
+              "pdpV": {
+                "c1": 5,
+                "c2": 5.9,
+                "c3": 9,
+                "c4": 11,
+                "c5": 15,
+                "c6": 16,
+                "c7": 0
+              },
+              "minV": {
+                "c1": 5,
+                "c2": 5.9,
+                "c3": 9,
+                "c4": 11,
+                "c5": 15,
+                "c6": 16,
+                "c7": 0
+              },
+              "maxV": {
+                "c1": 5.8,
+                "c2": 8.9,
+                "c3": 10.9,
+                "c4": 14.9,
+                "c5": 15.9,
+                "c6": 21,
+                "c7": 0
+              },
+              "maxP": {
+                "c1": 25,
+                "c2": 29.5,
+                "c3": 45,
+                "c4": 55,
+                "c5": 45,
+                "c6": 48,
+                "c7": 0
+              }
+            },
+            "selection2b": {
+              "pdpCount": 7,
+              "pdpV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 11,
+                "c4": 15,
+                "c5": 16,
+                "c6": 20,
+                "c7": 21
+              },
+              "minV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 11,
+                "c4": 15,
+                "c5": 16,
+                "c6": 20,
+                "c7": 21
+              },
+              "maxV": {
+                "c1": 5.8,
+                "c2": 10.9,
+                "c3": 14.9,
+                "c4": 15.9,
+                "c5": 19.9,
+                "c6": 20.9,
+                "c7": 21
+              },
+              "maxP": {
+                "c1": 25,
+                "c2": 45,
+                "c3": 55,
+                "c4": 45,
+                "c5": 48,
+                "c6": 60,
+                "c7": 65
+              }
+            },
+            "selection3a": {
+              "pdpCount": 6,
+              "pdpV": {
+                "c1": 5,
+                "c2": 5.9,
+                "c3": 9,
+                "c4": 11,
+                "c5": 15,
+                "c6": 16,
+                "c7": 0
+              },
+              "minV": {
+                "c1": 5,
+                "c2": 5.9,
+                "c3": 9,
+                "c4": 11,
+                "c5": 15,
+                "c6": 16,
+                "c7": 0
+              },
+              "maxV": {
+                "c1": 5.8,
+                "c2": 8.9,
+                "c3": 10.9,
+                "c4": 14.9,
+                "c5": 15.9,
+                "c6": 21,
+                "c7": 0
+              },
+              "maxP": {
+                "c1": 15,
+                "c2": 17.7,
+                "c3": 27,
+                "c4": 33,
+                "c5": 45,
+                "c6": 48,
+                "c7": 0
+              }
+            },
+            "selection3b": {
+              "pdpCount": 7,
+              "pdpV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 11,
+                "c4": 15,
+                "c5": 16,
+                "c6": 20,
+                "c7": 21
+              },
+              "minV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 11,
+                "c4": 15,
+                "c5": 16,
+                "c6": 20,
+                "c7": 21
+              },
+              "maxV": {
+                "c1": 8.9,
+                "c2": 10.9,
+                "c3": 14.9,
+                "c4": 15.9,
+                "c5": 19.9,
+                "c6": 20.9,
+                "c7": 21
+              },
+              "maxP": {
+                "c1": 15,
+                "c2": 27,
+                "c3": 33,
+                "c4": 45,
+                "c5": 48,
+                "c6": 60,
+                "c7": 65
+              }
+            },
+            "selection4": {
+              "pdpCount": 4,
+              "pdpV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 15,
+                "c4": 20,
+                "c5": 0,
+                "c6": 0,
+                "c7": 0
+              },
+              "minV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 15,
+                "c4": 20,
+                "c5": 0,
+                "c6": 0,
+                "c7": 0
+              },
+              "maxV": {
+                "c1": 8.9,
+                "c2": 14.9,
+                "c3": 19.9,
+                "c4": 21,
+                "c5": 0,
+                "c6": 0,
+                "c7": 0
+              },
+              "maxP": {
+                "c1": 15,
+                "c2": 27,
+                "c3": 45,
+                "c4": 60,
+                "c5": 0,
+                "c6": 0,
+                "c7": 0
+              }
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "simplePdpCfg",
+          "value": {
+            "usbA": {
+              "pdpCount": 7,
+              "pdpV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 11,
+                "c4": 15,
+                "c5": 16,
+                "c6": 20,
+                "c7": 21
+              },
+              "minV": {
+                "c1": 5,
+                "c2": 9,
+                "c3": 11,
+                "c4": 15,
+                "c5": 16,
+                "c6": 20,
+                "c7": 21
+              },
+              "maxV": {
+                "c1": 8.9,
+                "c2": 10.9,
+                "c3": 14.9,
+                "c4": 15.9,
+                "c5": 19.9,
+                "c6": 20.9,
+                "c7": 21
+              },
+              "maxP": {
+                "c1": 15,
+                "c2": 27,
+                "c3": 33,
+                "c4": 45,
+                "c5": 48,
+                "c6": 60,
+                "c7": 65
+              }
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "pdpSelection",
+          "value": {
+            "usbA": "3b"
+          },
+          "description": ""
+        },
+        {
+          "name": "pdpCountMax",
+          "value": {
+            "usbA": 7
+          },
+          "description": ""
+        },
+        {
+          "name": "pdpConfigState",
+          "value": {
+            "usbA": "0"
+          },
+          "description": ""
+        },
+        {
+          "name": "initialExecOfPDP",
+          "value": {
+            "usbA": {
+              "c1": false,
+              "c2": false,
+              "c3": false,
+              "c4": false,
+              "c5": false,
+              "c6": false,
+              "c7": false
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "usbAfcMaster",
+          "value": true,
+          "description": ""
+        },
+        {
+          "name": "thermalFoldbackPreset",
+          "value": "0",
+          "description": ""
+        },
+        {
+          "name": "totalUsbPWrLimit",
+          "value": 15,
+          "description": ""
+        },
+        {
+          "name": "spmPowerPolicyHelper",
+          "value": {
+            "text": "assuredMaxInitPower",
+            "options": {
+              "assuredMaxInitPower": 0,
+              "assuredMinInitPower": 5
+            },
+            "isAssuredSelected": true
+          },
+          "description": ""
+        },
+        {
+          "name": "customConfigGpio",
+          "value": {
+            "selectedChannel": 0,
+            "gpioModeTextConstant": "GPIO",
+            "selectedGpioDescriptionInfo": "No event associated with this GPIO.",
+            "channel0": {
+              "selectedMode": "DISABLED",
+              "gpioType": "1",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 0,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel1": {
+              "selectedMode": "DISABLED",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 0,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel2": {
+              "selectedMode": "DISABLED",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 0,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel3": {
+              "selectedMode": "DISABLED",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 0,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel4": {
+              "selectedMode": "NC",
+              "gpioType": "",
+              "gpioEventName": "",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 0,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel5": {
+              "selectedMode": "NTC",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 3,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel6": {
+              "selectedMode": "DISABLED",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 0,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel7": {
+              "selectedMode": "PA_DM",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 3,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel8": {
+              "selectedMode": "PA_DP",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 2,
+              "data": 0,
+              "intEn": 0
+            },
+            "channel9": {
+              "selectedMode": "DISABLED",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "eventPol": 0,
+              "oe": 0,
+              "od": 0,
+              "pden": 0,
+              "puen": 0,
+              "muxcfg": 0,
+              "data": 0,
+              "intEn": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "customGpioExt",
+          "value": {
+            "hideGPIOtype": false,
+            "navFromSimpleConfig": false,
+            "currentSelectedExtender": "0",
+            "selectedExtender1GPIO": 0,
+            "selectedExtender2GPIO": 0,
+            "gpioModeTextConstant": "GPIO",
+            "default": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel0": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel1": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel2": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel3": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel4": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel5": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel6": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel7": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel8": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel9": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel10": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel11": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel12": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel13": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel14": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel15": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel16": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel17": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel18": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel19": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel20": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel21": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel22": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel23": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel24": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel25": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel26": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel27": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel28": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel29": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel30": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            },
+            "channel31": {
+              "selectedMode": "GPIO",
+              "gpioType": "",
+              "gpioEventName": "NullEvent",
+              "eventIndex": 0,
+              "direction": 0,
+              "polarity": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "apdoHelper",
+          "value": {
+            "noOfApdos": {
+              "usbA": 2
+            },
+            "maxNoOfApdos": {
+              "usbA": 3
+            },
+            "usbA": [
+              {
+                "apdoV": 5.9,
+                "fixedPdoV": 5,
+                "ppsPwrLtd": true,
+                "apdoI": 0,
+                "apdoMaxI": 0,
+                "apdoMaxICap": 3,
+                "hideApdoClass": "display-none",
+                "apdoPwr": 27
+              },
+              {
+                "apdoV": 11,
+                "fixedPdoV": 9,
+                "ppsPwrLtd": true,
+                "apdoI": 3,
+                "apdoMaxI": 3,
+                "apdoMaxICap": 3,
+                "hideApdoClass": "display-none",
+                "apdoPwr": 33
+              },
+              {
+                "apdoV": 16,
+                "fixedPdoV": 15,
+                "ppsPwrLtd": true,
+                "apdoI": 3,
+                "apdoMaxI": 3,
+                "apdoMaxICap": 3,
+                "hideApdoClass": "",
+                "apdoPwr": 48
+              },
+              {
+                "apdoV": 21,
+                "fixedPdoV": 20,
+                "ppsPwrLtd": true,
+                "apdoI": 3.25,
+                "apdoMaxI": 3.25,
+                "apdoMaxICap": 3,
+                "hideApdoClass": "",
+                "apdoPwr": 65
+              }
+            ]
+          },
+          "description": ""
+        },
+        {
+          "name": "pdoHelper",
+          "value": {
+            "usbA": [
+              {
+                "pdoV": 5,
+                "pdoI": 3,
+                "pdoMaxICap": 5,
+                "pdoOption": 1,
+                "hidePdoClass": "",
+                "pdoPwr": 15
+              },
+              {
+                "pdoV": 9,
+                "pdoI": 3,
+                "pdoMaxICap": 5,
+                "pdoOption": 2,
+                "hidePdoClass": "",
+                "pdoPwr": 27
+              },
+              {
+                "pdoV": 15,
+                "pdoI": 3,
+                "pdoMaxICap": 3,
+                "pdoOption": 3,
+                "hidePdoClass": "",
+                "pdoPwr": 45
+              },
+              {
+                "pdoV": 20,
+                "pdoI": 3,
+                "pdoMaxICap": 3,
+                "pdoOption": 4,
+                "hidePdoClass": "",
+                "pdoPwr": 60
+              }
+            ]
+          },
+          "description": ""
+        },
+        {
+          "name": "valueFor450DcdcFq",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "EngOnMinVthSwitchEn",
+          "value": false,
+          "description": ""
+        },
+        {
+          "name": "i2cRegisterCard",
+          "value": {
+            "temp": 0
+          },
+          "description": ""
+        },
+        {
+          "name": "i2cTempControls",
+          "value": {
+            "i2cTempSensorEn": false,
+            "prevTempSensorCount": 0,
+            "i2cTempSensorCount": 0,
+            "i2cTempSensor1Adr": "00",
+            "i2cTempSensor2Adr": "00",
+            "i2cTempSensor3Adr": "00",
+            "i2cTempSensor4Adr": "00",
+            "i2cTempSensor5Adr": "00",
+            "i2cTempSensorThresholds": {
+              "address": "00",
+              "phase1thR": 0,
+              "phase1thF": 0,
+              "phase2thR": 0,
+              "phase2thF": 0,
+              "phase3thR": 0,
+              "phase3thF": 0,
+              "phase4thR": 0,
+              "phase4thF": 0,
+              "phase5thR": 0,
+              "phase5thF": 0,
+              "phase6thR": 0,
+              "phase6thF": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "usbFcMasterEnCls",
+          "value": {
+            "usbA": ""
+          },
+          "description": ""
+        },
+        {
+          "name": "globalPowerLimited",
+          "value": {
+            "usbA": true
+          },
+          "description": ""
+        },
+        {
+          "name": "customPdpConfig",
+          "value": {
+            "numOfPdps": {
+              "usbA": 1
+            },
+            "usbA": [
+              {
+                "pdp": 1,
+                "power": 0,
+                "voltage": 0
+              },
+              {
+                "pdp": 2,
+                "power": 0,
+                "voltage": 0
+              },
+              {
+                "pdp": 3,
+                "power": 0,
+                "voltage": 0
+              },
+              {
+                "pdp": 4,
+                "power": 0,
+                "voltage": 0
+              },
+              {
+                "pdp": 5,
+                "power": 0,
+                "voltage": 0
+              },
+              {
+                "pdp": 6,
+                "power": 0,
+                "voltage": 0
+              },
+              {
+                "pdp": 7,
+                "power": 0,
+                "voltage": 0
+              }
+            ]
+          },
+          "description": ""
+        },
+        {
+          "name": "maxPdpPwr",
+          "value": {
+            "usbA": 65
+          },
+          "description": ""
+        },
+        {
+          "name": "isAllPowerLimitedSet",
+          "value": {
+            "usbA": true
+          },
+          "description": ""
+        },
+        {
+          "name": "inductance",
+          "value": 4.7,
+          "description": ""
+        },
+        {
+          "name": "phasePwrLimit",
+          "value": 65,
+          "description": ""
+        },
+        {
+          "name": "ldoSelection",
+          "value": "1",
+          "description": ""
+        },
+        {
+          "name": "vconnMaxCurCls",
+          "value": "poi-none",
+          "description": ""
+        },
+        {
+          "name": "engineOnOffControls",
+          "value": {
+            "range1EntryLevel": {
+              "max": 8.88
+            },
+            "range2EntryLevel": {
+              "min": 8.64,
+              "max": 11.68
+            },
+            "range3ExitLevel": {
+              "min": 9.04,
+              "max": 11.92
+            },
+            "range3EntryLevel": {
+              "min": 11.84
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "autoCalculatePowerLevel2",
+          "value": true,
+          "description": ""
+        },
+        {
+          "name": "autoCalculatePowerLevel3",
+          "value": true,
+          "description": ""
+        },
+        {
+          "name": "vdoControls",
+          "value": {
+            "hostCapability": {
+              "usbA": {
+                "0": 0,
+                "1": 0,
+                "2": 0
+              },
+              "usbB": {
+                "0": 0,
+                "1": 0,
+                "2": 0
+              }
+            },
+            "connectorType": {
+              "usbA": {
+                "0": 0,
+                "1": 0,
+                "2": 0
+              },
+              "usbB": {
+                "0": 0,
+                "1": 0,
+                "2": 0
+              }
+            },
+            "portNumber": {
+              "usbA": {
+                "0": 0,
+                "1": 0,
+                "2": 0
+              },
+              "usbB": {
+                "0": 0,
+                "1": 0,
+                "2": 0
+              }
+            },
+            "dfpVdoVersion": {
+              "usbA": {
+                "0": 2,
+                "1": 2,
+                "2": 2
+              },
+              "usbB": {
+                "0": 2,
+                "1": 2,
+                "2": 2
+              }
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "deviceName",
+          "value": "TPS25762CQ1",
+          "description": ""
+        },
+        {
+          "name": "previousEngOnGraceTimer",
+          "value": 15,
+          "description": ""
+        },
+        {
+          "name": "previousEngOffGraceTimer",
+          "value": 15,
+          "description": ""
+        },
+        {
+          "name": "customId",
+          "value": false,
+          "description": ""
+        },
+        {
+          "name": "customIdFields",
+          "value": {
+            "usbA": {
+              "field1": "0000",
+              "field2": "0000",
+              "field3": "0000",
+              "field4": "0000"
+            }
+          },
+          "description": ""
+        },
+        {
+          "name": "maxPwrEngOffLSBStepSize",
+          "value": "0.508",
+          "description": ""
+        },
+        {
+          "name": "typeCCurrentIndex",
+          "description": ""
+        },
+        {
+          "name": "hybridMode",
+          "value": false,
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

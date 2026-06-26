@@ -1,69 +1,88 @@
 # FindMyCharger
 
-![](./assets/FindMyCharger.jpg)
+![FindMyCharger Zine](./assets/zine.jpg)
 
-[Bill of Material](./v1/pcb/jlcpcb/production_files/BOM-FindMyCharger.csv)
+[View Magazine](./zine.pdf) - [View BOM](./BOM.md)
 
-A smart powerbank with locating capabilities through Apple FindMy network
-
-- Low power at 10mA BLE transmission at +8dBm
-- Charging input/output up to 60W
-- 5 LED battery indicator
+FindMyCharger is a smart powerbank with finding capabilities so you don't have to worry where did you place your powerbank!
 
 
-## Why did I make this?
+## Why?
 
-There were 2 consecutive bicycle robbery that happened near where I live which got me curious, where do they place them at? With this, no SIM card nor GPS needed (which saves energy and mobile credits)!
+Forgetting can be part of aging (or ekhem ekhem sleep depreviation) which then causes people to lose their stuff. Also, there might be a chance that someone would steal your bag.
+
+
+## How it Works
+
+IP5353 handles powerbank-like controls for charging and charging other devices, E104-BT5005A (based on nRF52805) transmits BLE packets which can be used with [Apple's FindMy](https://github.com/dchristl/macless-haystack) and/or [Google's Find Hub](https://github.com/leonboe1/GoogleFindMyTools).
+
+
+## Build Instructions
+
+You can either:
+- PCBA
+- Manual Solder 
+
+
+Afterwards, you'll need:
+
+1. Everything from [BOM](./BOM.md) (pick PCBA/detailed depending on your usecase)
+2. SWD Debugging Interface
+3. 4x Jumper Wires
+4. 2x Wire
+
+(additional if manual solder)
+4. Soldering Iron
+5. Solder
+
+
+Steps:
+1. Print the PCB from [pcb/jlcpcb/production_files/GERBER-FindMyCharger.zip](./pcb/jlcpcb/production_files/GERBER-FindMyCharger.zip)
+2. Solder the components based on [BOM](./BOM.md) or PCBA with [JLCPCB CPL](./pcb/jlcpcb/production_files/CPL-FindMyCharger.csv) and [JLCPCB BOM](./pcb/jlcpcb/production_files/BOM-FindMyCharger.csv)
+3. 3D print the casing in [CAD folder](./cad/components/)
+4. Put everything together
+5. Solder battery with wire to BT1 with wires
+6. Build and flash the [firmware](#firmware)
+7. Screw everything together, and that's it!
 
 
 ## Firmware
 
-I'm using [Macless Haystack](https://github.com/dchristl/macless-haystack), a framework for custom FindMy network without having to own a mac
+The firmware for FindMyCharger is using [Macless Haystack](https://github.com/dchristl/macless-haystack), a framework for custom FindMy network without having to own a Mac.
 
-Macless Haystack is included in this repository as a submodule under [firmware/macless-haystack](./firmware/macless-haystack/)
+Macless Haystack is included in this repository as a submodule under [firmware/macless-haystack](../firmware/macless-haystack/)
 
+You'll need to clone this repository with submodules:
 
-## Screenshots
+```
+git clone --recurse-submodules https://github.com/dave9123/FindMyCharger
+```
 
-### Casing
+The guide on setting Macless Haystack can be found [here](./firmware/macless-haystack/firmware/nrf5x)!
 
-*18650 battery model from https://grabcad.com/library/cell-18650-1
+## Casing
 
-![](assets/Carnac_c9qacP4fki.jpg)
-![](assets/Carnac_Dg5se0wgRw.jpg)
-![](assets/Carnac_SQgwQdrhuD.jpg)
+![](./assets/render.jpg)
 
+## Schematics
 
-### Schematics
+![](./assets/schematics.jpg)
 
-![](./assets/kicad_htt1OVVjaL.jpg)
-
-
-### PCB
-
-![](/assets/kicad_jSncbUGwjG.jpg)
+[View PDF](./assets/schematics.pdf)
 
 
-## I want one!!
+## PCB
 
-You'll need to:
-1. Order the PCB (or get PCBA assembly), please check [docs/calculations.md](./docs/calculations.md) for components requirements and [pcb/gerber_to_order](./v1/pcb/gerber_to_order/) for gerber
-2. Print bottom, button, and upper which can be found at [cad](./v1/cad)
-3. Get additional components/parts, list [here](#additional-components) and solder them
-4. Place components and glue casing
+![](./assets/kicad_jSncbUGwjG.jpg)
+
+[View PDF](./assets/pcb.pdf)
 
 
-## Addiitonal components
+## Credits
 
-- 2x Tactile Button 6mm
-- 4x Li-on 18650 battery
-- Nickel strip (for better conductivity)
+Software used:
+- [KiCad](https://kicad.org/)
+- [Autodesk Fusion](https://www.autodesk.com/education/edu-software/fusion)
 
-## Todo
-
-- Include battery level transmission
-- Smaller footprint
-- Ultra Wide Band (UWB) for precise finding
-- Support PD2.0 / PD3.1 / PPS, QC2/3/4/5, FCP / SCP / SFCP, AFC, MTK PE, Apple / BC1.2, UFCS (new universal Chinese standard)
-- Support multiple controls (press, press & hold) on button
-- Integrate both Macless Haystack and [Google FindMy](https://github.com/leonboe1/GoogleFindMyTools)) into one
+- 18650 Battery 3D model: https://grabcad.com/library/cell-18650-1
+- Macless Haystack: https://github.com/dchristl/macless-haystack

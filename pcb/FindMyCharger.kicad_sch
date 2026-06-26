@@ -6962,6 +6962,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C45783"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8908b8c6-77a3-4764-b617-d38b3c5a7a94")
 		)
@@ -9815,6 +9826,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 93.98 157.48 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9822,10 +9834,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a57f1133-32a4-4176-b7ba-79d53a38433b")
 		(property "Reference" "C16"
-			(at 97.79 156.2099 0)
+			(at 90.17 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9836,7 +9847,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 97.79 158.7499 0)
+			(at 90.17 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9847,7 +9858,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 94.9452 161.29 0)
+			(at 93.0148 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10842,6 +10853,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 138.43 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,6 +11913,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 127 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
