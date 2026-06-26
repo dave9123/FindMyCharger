@@ -29,7 +29,6 @@ Afterwards, you'll need:
 1. Everything from [BOM](./BOM.md) (pick PCBA/detailed depending on your usecase)
 2. SWD Debugging Interface
 3. 4x Jumper Wires
-4. 2x Wire
 
 (additional if manual solder)
 4. Soldering Iron
