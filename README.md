@@ -2,7 +2,7 @@
 
 <p align="center">
 	<img width="420" height="595" src="./assets/zine.jpg" />
-	<br><a href="./zine.pdf">View Magazine</a> - <a href="./BOM.pdf">View BOM</a>
+	<br><a href="./zine.pdf">View Magazine</a> - <a href="#bom">View BOM</a>
 </p>
 
 FindMyCharger is a smart powerbank with finding capabilities so you don't have to worry where did you place your powerbank!
