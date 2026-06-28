@@ -154,11 +154,10 @@ The holes on the side is for the cable to passthrough either the GND or positive
 
 ## Schematics
 
-Detailed components used can be found in the [BOM section](#bom)
+Detailed components list used can be found in the [BOM section](#bom)
 
 ![](./assets/schematics.jpg)
 [View PDF](./assets/schematics.pdf)
-
 
 ## PCB
 
@@ -167,6 +166,22 @@ Detailed components used can be found in the [BOM section](#bom)
 | ![PCB Layout Design](./assets/pcb-design.jpg) | ![Rendered PCB](./assets/pcb-render.jpg) |
 
 [View PDF](./assets/pcb.pdf)
+
+Footprints used:
+1. Battery Solder Pad - `Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm`
+2. Capacitor 100nF - `Capacitor_SMD:C_0402_1005Metric`
+3. Capacitor 2.2uF - `Capacitor_SMD:C_0603_1608Metric`
+4. Capacitor 22uF - `Capacitor_SMD:C_0805_2012Metric`
+5. LED `LED_SMD:LED_0603_1608Metric`
+6. USB C Receptacle - `footprints:USB-C-SMD_TYPE-C16PIN` (imported from EasyEDA, included under `pcb/libraries/footprints.pretty)
+7. Inductor 2.2uH - `footprints:IND-SMD_L6.0-W6.0_CHILISIN_HPPC06030` (imported from EasyEDA, included under `pcb/libraries/footprints.pretty`)
+8. Resistor 10kΩ - `Resistor_SMD:R_0402_1005Metric`
+9. Resistor 100Ω - `Resistor_SMD:R_0402_1005Metric`
+10. 90deg Tactile Button - `footprints:KEY-TH_SKHLLDA010` (imported from EasyEDA, included under `pcb/libraries/footprints.pretty`)
+11. Test Points - `TestPoint:TestPoint_Pad_D2.5mm`
+12. IP5353 (charging) - `footprints:QFN-32_L5.0-W5.0-P0.50-TL-EP3.5` (imported from EasyEDA, included under `pcb/libraries/footprints.pretty`)
+13. E104-BT5005A (BLE) - `footprints:BULETM-SMD_E104-BT5005A` (imported from EasyEDA, included under `pcb/libraries/footprints.pretty`)
+14. 3.3V Voltage Regulator - `footprints:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR` (imported from EasyEDA, included under `pcb/libraries/footprints.pretty`)
 
 ## BOM
 
@@ -181,7 +196,6 @@ Detailed components used can be found in the [BOM section](#bom)
 | Wire                | 2        | Rp4.000<br>~$0.22  | https://www.tokopedia.com/cncstorebandung/kabel-tunggal-mini-wire-single-core-tinned-cu-permeter-hitam-merah-hijau-kuning-putih-0-6mm-hitam-27149 |
 |                     |          |                    |                                                                                                                                                   |
 | Total               |          | $48.4              |                                                                                                                                                   |
-
 
 ### Detailed
 
