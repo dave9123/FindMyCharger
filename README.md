@@ -9,7 +9,7 @@ FindMyCharger is a smart powerbank with finding capabilities so you don't have t
 
 ## Why?
 
-Forgetting can be part of aging (or ekhem ekhem sleep depreviation) which then causes people to lose their stuff. Also, there might be a chance that someone would steal your bag.
+I've been forgetting things a lot, also it can be part of aging (or ekhem ekhem sleep depreviation) which then causes people to lose their stuff. I don't hope for it, but there might be a chance that someone would steal your bag, and this just gives you a piece of mind!
 
 ## How it Works
 
