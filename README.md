@@ -86,12 +86,15 @@ Macless Haystack is included in this repository as a submodule under [firmware/m
 ![Click on the chain with rectangles logo (nRF Connect extension)](./assets/open-nrfconnect.jpg)
 
 3. Click on "Install SDK" and pick the latest version
-4. 
 ![Selecting "nRF Connect SDK" on SDK installation with nRF Connect for VS Code extension](./assets/nrfconnect-install-sdk.jpg)
+
 ![Picking the SDK version on nRF Connect](./assets/nrfconnect-pick-sdk.jpg)
-5. Click on "Install Toolchain" and pick the latest version
+4. Click on "Install Toolchain" and pick the latest version
+
 ![Clicking on "Install Toolchain" and picking the latest version](./assets/nrfconnect-install-toolchain.jpg)
-6. Wait for it to finish installing
+
+5. Wait for it to finish installing
+
 ![Installing progress notification](./assets/nrfconnect-installing.jpg)
 
 ### Clone repository along with submodules
