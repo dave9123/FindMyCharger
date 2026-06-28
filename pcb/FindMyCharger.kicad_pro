@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|95595000|84100000|1d50822b-81b5-469e-9f5a-b6f0da73399f|39ed1e08-06aa-4824-a2c5-cbc87eb26f82",
+          "0201 is supported, https://jlcpcb.com/help/article/minimum-spacing-for-smd-components"
+        ],
+        [
+          "hole_clearance|79785000|81100000|0f774c2a-fdfd-450b-b4b2-8299ee95c065|34cc96c6-56ed-470f-ab47-7d1daaa22fd6",
+          "using easyeda footprint from https://jlcpcb.com/partdetail/SHOUHAN-TYPEC16PIN/C393939"
+        ],
+        [
+          "hole_clearance|79785000|86900000|c200d539-4433-494a-a09d-c6b5e08c4854|be214994-1d0a-4c2a-8bd0-10d791837cf4",
+          "using easyeda footprint from https://jlcpcb.com/partdetail/SHOUHAN-TYPEC16PIN/C393939"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -143,7 +156,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
@@ -199,7 +212,8 @@
         0.2,
         0.25,
         0.3,
-        0.4
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
