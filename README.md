@@ -28,7 +28,9 @@ Afterwards, you'll need:
 2. SWD Debugging Interface
 3. 4x Jumper Wires
 
+
 (additional if manual solder)
+
 4. Soldering Iron
 5. Solder
 
@@ -53,7 +55,7 @@ Steps:
 | ![Casing with Bottom Holder Dock](./assets/casing-with-bottom-dock.jpg) | ![Casing with PCB on the dock](./assets/casing-with-pcb.jpg) |
 | :---------------------------------------------------------------------: | :----------------------------------------------------------: |
 
-8. Build and flash the [firmware](#firmware)
+8. Build and flash the [firmware](#firmware) by connecting a SWD debugger to (SW)DIO, (SW)CLK, and GND
 9. Place the top and screw it with M2x6
 
 | ![Casing with PCB on the dock](./assets/casing-with-pcb.jpg) | ![Casing with Top](./assets/casing-enclosed-no-screw.jpg) |
