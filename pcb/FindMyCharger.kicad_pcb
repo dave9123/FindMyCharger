@@ -9988,17 +9988,6 @@
 		)
 	)
 	(gr_rect
-		(start 72.75 111.5)
-		(end 137.75 129.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "a8d08011-a740-449b-8c37-a4cd040b6ffe")
-	)
-	(gr_rect
 		(start 72.75 78)
 		(end 122.75 96)
 		(stroke

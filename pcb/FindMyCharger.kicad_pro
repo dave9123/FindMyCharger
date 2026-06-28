@@ -60,20 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|95595000|84100000|1d50822b-81b5-469e-9f5a-b6f0da73399f|39ed1e08-06aa-4824-a2c5-cbc87eb26f82",
-          "0201 is supported, https://jlcpcb.com/help/article/minimum-spacing-for-smd-components"
-        ],
-        [
-          "hole_clearance|79785000|81100000|0f774c2a-fdfd-450b-b4b2-8299ee95c065|34cc96c6-56ed-470f-ab47-7d1daaa22fd6",
-          "using easyeda footprint from https://jlcpcb.com/partdetail/SHOUHAN-TYPEC16PIN/C393939"
-        ],
-        [
-          "hole_clearance|79785000|86900000|c200d539-4433-494a-a09d-c6b5e08c4854|be214994-1d0a-4c2a-8bd0-10d791837cf4",
-          "using easyeda footprint from https://jlcpcb.com/partdetail/SHOUHAN-TYPEC16PIN/C393939"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
