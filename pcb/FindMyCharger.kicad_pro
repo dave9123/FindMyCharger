@@ -520,12 +520,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2032,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1537,
         "name": "USB2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1537,
         "tuning_profile": ""
       }
     ],
@@ -537,11 +537,11 @@
     "netclass_patterns": [
       {
         "netclass": "USB2",
-        "pattern": "D+"
+        "pattern": "/D+"
       },
       {
         "netclass": "USB2",
-        "pattern": "D-"
+        "pattern": "/D-"
       }
     ]
   },

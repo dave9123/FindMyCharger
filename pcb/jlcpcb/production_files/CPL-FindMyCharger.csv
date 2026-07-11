@@ -1,5 +1,4 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-BT1,Battery,SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm,120.75,-81.95,90.0,top
 C1,100nF,C_0402_1005Metric,81.75,-81.25,90.0,top
 C10,22uF,C_0805_2012Metric,94.5,-82.65,90.0,top
 C11,100nF,C_0402_1005Metric,97.0,-84.25,0.0,top
